@@ -1,0 +1,235 @@
+color = { 198 188 114 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "SRB_conservative"
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "SRB_liberal"
+	start_date = 1820.1.1
+	end_date = 1936.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "SRB_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "SRB_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "SRB_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "SRB_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "SRB_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "SRB_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+	ironclad = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+	manowar = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+	cruiser = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+	frigate = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+	monitor = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		Arokona Agencja
+		Budziszyn
+		Cimusclus
+		Dervanus Dragomira Deputacja
+		Hanna
+		Janszojcach
+		Karentia
+		Lusatia
+		Milsko Miliduoch Maik Misnia
+		"Prisibislavus Dux" Polabia Porevit Porenut "Prusas de Vindomis"
+		Rugievit Rethra
+		"Sankt Barralus" "Sankt Gausbertus" Svantevit Smok
+		Tjarnaglofi
+		Vistulus
+	}
+}

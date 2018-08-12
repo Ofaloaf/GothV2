@@ -1,0 +1,263 @@
+#Bosnia Region (864000)
+#under the rule of Ottoman Empire in 1836
+#Sarajevo (148000/37000 POPS)
+783 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 650
+	}
+
+	bureaucrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 275
+	}
+
+	officers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 225
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 400
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 6225
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 375
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 28075
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 775
+	}
+}
+#Bihac (100000/25000 POPS)
+784 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 22800
+	}
+}
+#Banja Luka (116000/29000 POPS)
+785 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1450
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+	
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 26450
+	}
+}
+#Tuzla (168000/42000 POPS)
+786 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 700
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 425
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 2100
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 450
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 38925
+	}
+}
+#Foca (92000/23000 POPS)
+787 = {
+	aristocrats = {
+		culture = thracian
+		religion = orthodox
+		size = 400
+	}
+	
+	clergymen = {
+		culture = thracian
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 700
+	}
+	
+	soldiers = {
+		culture = thracian
+		religion = orthodox
+		size = 200
+	}
+	
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 12525
+	}
+	
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 75
+	}
+
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 450
+	}
+	
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 9500
+	}
+}
+#Mostar (104000/26000 POPS)
+788 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 450
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 350
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1300
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 23775
+	}
+}
+#Livno (136000/34000 POPS)
+789 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 350
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1700
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+	
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 31475
+	}
+}

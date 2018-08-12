@@ -1,0 +1,5 @@
+owner = GJT
+controller = GJT
+add_core = GJT
+trade_goods = fish
+life_rating = 32

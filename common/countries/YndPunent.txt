@@ -1,0 +1,220 @@
+# Britannia
+
+color = { 188 78 118 }
+graphical_culture = BritishGC
+
+
+party = {
+	name = "YPN_conservative"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = jingoism
+}
+
+party = {
+	name = "YPN_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "YPN_socialist"
+	start_date = 1849.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "YPN_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "YPN_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "YPN_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "YPN_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "YPN_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+
+	battleship = {
+		Brigantia
+		Cantia Camulodunum Cornubia Corion Cumbria Cambria Caledonia
+		Dumnonia
+		Hibernia
+		Icenia
+		Loegria Lindum
+		Rheged
+		Tamesis
+	}
+	cruiser = {
+		Ambasciadur Aministradur Arff Awenyreir Addorngem
+		Buddegheir Blanc Belgarum
+		Creg Calýn
+		Dubris 
+		Keirddal
+		Lliferadiwn Londinium Llew
+		Mustuil Millein
+		Rheif Rhur Rhebidd
+		Ssegredeir Seruindad Suges
+		Volisios
+	}
+	dreadnought = {
+		Annarfinal Addedomaros Agricola
+		Boudicca
+		Castrecolun "Constantinus Magnus" Claudius Caesar
+		"Ill Bethisad"
+		"Conanus Meriadocus"
+		"Kewdad Kemr"
+		Llefiathan
+		Milid Mys
+		Rheoleir Regulbium
+	}
+	monitor = {
+		Angurthuis Androgeus Albanus
+		Briw
+		Câr
+		Dunum Dubnovellaunus
+		Llub Linnuis
+		Malffer "Maxima Caesariensis"
+		Ortus
+		Rhediwnfent Regina
+		Theodosius
+		Victoria Valentia "Volusius Salutius"
+	}
+	ironclad = {
+		Amhossibl Angelig Angwoddef Arient Atlenhidd Astolat Anderidos Ariconium Antonia
+		Branodunum
+		Canell Cerefoin Clar Corw Ceint Crudduiltad Clausentum Calleva Combretovium Canonium
+		Dubricius Ddifan Durolitum
+		Elia
+		Gariannonum
+		Illuseir 
+		Leucomagus Lerion
+		Monyfent Mysculus Mutuatonis Mandubradunum Marcus
+		Onna Orthona
+		Palladius Patricius 
+		Ripa Regnent
+		Sulloniacis
+		Theodora Tenvantius 
+		Urianus
+		Vortimerus Vortiporius Vindomis Vectis Verulamium
+	}
+	clipper_transport = { 
+	}
+	steam_transport = { 
+	}
+	commerce_raider = {
+		Archgallo Allectus Asclepidotus Abrig Addew Afegeddeir Alforad Angongheirdd Arbennir Arein Aydant Antona
+		Baltig Berdimm Benliigad Bengwenid Braw Bris Bryn
+		Caritas Canyd Captein Cornpib Contreir Crefedd Corinium
+		Disilius "D'Addew"
+		Gerausius
+		Kernewig
+		Lleil Llîn Llondin Llug Llugrediw Llyn
+		Maldith Marth Marchages Melltediwn Merchyr Ministr Muisnir Muineir Mustardd
+		Rivaldus Rivallo Redechius Rudaucus
+		Salfun Sabad Seneg Sileint Siamuis Swister Sythil Syffleig
+		Theonus
+		Venonis
+	}
+	manowar = {
+		Admirediwn
+		Brutus Buidd
+		Caruisif Costidydiwn Cryg
+		"Ill Llodd" "Lucius Imperator" 
+		Misyrgherddius "Magnus Maximus" Maneg
+		Segruid
+	}
+	frigate = {
+		Artorius Abostol Aenell Aleluia Almenig Anysper Arf Arfadyr Athen Awstralia Awyr
+		Basileg Bricot
+		Clotenus Cedaucus Coscient Cullell
+		Guiderius
+		Lluithdur
+		Mageddein Mangrof Marthyr Marchsollteir Meddfor Meidd Messia Mirefel Monag Monseniwr Moral
+		Riothamus Rodericus Rhos Rhis Ratae
+		"Venta Icenorum"
+	}
+}

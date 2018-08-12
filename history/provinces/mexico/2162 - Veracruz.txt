@@ -1,0 +1,11 @@
+owner = ANC
+controller = ANC
+add_core = ANC
+trade_goods = grain
+life_rating = 35
+naval_base = 1
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}

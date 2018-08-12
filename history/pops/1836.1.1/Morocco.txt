@@ -1,0 +1,1476 @@
+#Maghrib Region (724000)
+#under the rule of Morocco in 1836
+#Fez (184000/46000 POPS)
+1680 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 525
+	}
+
+	bureaucrats = {
+		culture = mauri
+		religion = orthodox
+		size = 125
+	}
+
+	officers = {
+		culture = mauri
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 7000
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 29400
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 125
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 1750
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 5000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1225
+	}
+}
+#Wazzan (168000/42000 POPS)
+1681 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 525
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 1450
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 33725
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 4600
+	}
+}
+#Meknes (76000/19000 POPS)
+1682 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 500
+	}
+	
+	officers = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 250
+	}
+	
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 10000
+	}
+	
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 4300
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 3500
+	}
+	
+	craftsmen = {
+		culture = mauri
+		religion = orthodox
+		size = 4400
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 93350
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 1150
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 23000
+	}
+}
+#Taza (80000/20000 POPS)
+1683 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 12175
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 5525
+	}
+}
+#Wujda (28000/7000 POPS)
+1684 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 1800
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 4650
+	}
+}
+#Rabat (112000/28000 POPS)
+1685 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 325
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 4150
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 52200
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 225
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 1700
+	}
+
+	clergymen = {
+		culture = berber
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = berber
+		religion = jewish
+		size = 120
+	}
+}
+#Safi (76000/19000 POPS)
+2563 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 650
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 14975
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 225
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 1700
+	}
+}
+#Rif Region (272000)
+#under the rule of Morocco in 1836
+#Tangier (92000/23000 POPS)
+1686 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	officers = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 1950
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1900
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 28375
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 3575
+	}
+}
+#Tetouan (68000/17000 POPS)
+1687 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 1550
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 22250
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 7300
+	}
+}
+#Ajdir (112000/28000 POPS)
+1688 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 875
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 450
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 18725
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 5500
+	}
+}
+#Ceuta & Melilla (12000)
+#Ruled by Spain in 1836
+#Melilla (12000/3000 POPS, inc Ceuta)
+1689 = {
+	bureaucrats = {
+		culture = mauri
+		religion = orthodox
+		size = 15
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 255
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 800
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 300
+	}
+
+}
+#Sus-Al Draa Region (436000)
+#under the rule of Morocco in 1836
+#Marrakesh (204000/51000 POPS)
+1690 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 625
+	}
+
+	bureaucrats = {
+		culture = mauri
+		religion = orthodox
+		size = 75
+	}
+
+	officers = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 325
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 1625
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 28750
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 350
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 900
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 16400
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 10
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 490
+	}
+}
+#Casablanca (60000/15000 POPS)
+1691 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 225
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 650
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 10875
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 1800
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 120
+	}
+}
+#Huribka (36000/9000 POPS)
+1692 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 2700
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 5500
+	}
+}
+#Sawira (36000/9000 POPS)
+1693 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 5475
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 2700
+	}
+}
+#Agadir (60000/15000 POPS)
+1694 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 225
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 600
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 10100
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 2700
+	}
+}
+#Sidi Ifni (4000/1000 POPS)
+1695 = {
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 10
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 15
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 900
+	}
+}
+#Tarfaya (36000/9000 POPS)
+1696 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 2650
+	}
+
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 15
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 900
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 4575
+	}
+}
+#Tafilalet Region (160000)
+#under the rule of Morocco in 1836
+#Figuig (40000/10000 POPS)
+1697 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 15
+	}
+
+	bureaucrats = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	officers = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 15
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 845
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 450
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 8200
+	}
+}
+#Rashidia (44000/11000 POPS)
+1698 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 75
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1325
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 475
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 8650
+	}
+}
+#Warzazat (76000/19000 POPS)
+1699 = {
+	aristocrats = {
+		culture = mauri
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = mauri
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = mauri
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = mauri
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = mauri
+		religion = orthodox
+		size = 5025
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 75
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1325
+	}
+
+	aristocrats = {
+		culture = berber
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = berber
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = berber
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = berber
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = berber
+		religion = orthodox
+		size = 11025
+	}
+
+}

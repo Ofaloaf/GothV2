@@ -1,0 +1,5 @@
+owner = TER
+controller = TER
+add_core = TER
+trade_goods = fish
+life_rating = 30

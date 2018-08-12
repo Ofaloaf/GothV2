@@ -1,0 +1,6 @@
+owner = GJT
+controller = GJT
+add_core = GJT
+add_core = GWD
+trade_goods = cotton
+life_rating = 32

@@ -1,0 +1,6 @@
+owner = THR
+controller = THR
+add_core = ANT
+add_core = THR
+trade_goods = wool
+life_rating = 35

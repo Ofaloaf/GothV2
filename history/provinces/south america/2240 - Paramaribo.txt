@@ -1,0 +1,7 @@
+owner = AVL
+controller = AVL
+add_core = AVL
+add_core = GUI
+trade_goods = grain
+life_rating = 30
+colonial = 2

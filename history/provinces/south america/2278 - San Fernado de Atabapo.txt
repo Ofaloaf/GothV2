@@ -1,0 +1,7 @@
+owner = AVL
+controller = AVL
+add_core = AVL
+add_core = GUI
+add_core = NVL
+trade_goods = wool
+life_rating = 25

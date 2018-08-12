@@ -1,0 +1,6 @@
+owner = GWD
+controller = GWD
+add_core = ORI
+add_core = GWD
+trade_goods = tobacco
+life_rating = 32

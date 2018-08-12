@@ -1,0 +1,6 @@
+owner = GJT
+controller = GJT
+add_core = GJT
+add_core = MYS
+trade_goods = wool
+life_rating = 32

@@ -1,0 +1,66 @@
+#Relations
+
+army = {
+	name = "Armada de3 Sardenha"
+	location = 724
+	regiment = {
+		name= "1. Infantariá"
+		type = infantry
+		home = 766
+	}
+
+	regiment = {
+		name= "2. Infantariá"
+		type = infantry
+		home = 765
+	}
+
+	regiment = {
+		name= "3. Infantariá"
+		type = infantry
+		home = 473
+	}
+
+}
+
+
+navy = {
+	name = "Fluta de Sardenha"
+	location = 765
+	ship = {
+		name= "Caralis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nora"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sulcis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Olbia"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+}
+

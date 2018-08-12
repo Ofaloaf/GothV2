@@ -1,0 +1,5 @@
+owner = BSP
+controller = BSP
+add_core = BSP
+trade_goods = wool
+life_rating = 30

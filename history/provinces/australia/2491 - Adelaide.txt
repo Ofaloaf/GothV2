@@ -1,0 +1,6 @@
+owner = NOR
+controller = SLT
+add_core = SLT
+trade_goods = wool
+life_rating = 30
+colonial = 2

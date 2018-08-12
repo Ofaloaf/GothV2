@@ -1,0 +1,93 @@
+RUT = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+army = {
+	name = "1. Armeja"
+	location = 703
+	
+	regiment = {
+		name = "1. Brygada"
+		type = infantry
+		home = 712
+	}
+	regiment = {
+		name = "2. Brygada"
+		type = infantry
+		home = 691
+	}
+	regiment = {
+		name = "3. Brygada"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "1. Kaweleria"
+		type = draggon
+		home = 691
+	}
+	regiment = {
+		name = "1. Artyleria"
+		type = artillery
+		home = 693
+	}
+}
+
+army = {
+	name = "2. Armeja"
+	location = 703
+	
+	regiment = {
+		name = "4. Brygada"
+		type = infantry
+		home = 703
+	}
+	regiment = {
+		name = "5. Brygada"
+		type = infantry
+		home = 635
+	}
+	regiment = {
+		name = "6. Brygada"
+		type = infantry
+		home = 637
+	}
+	regiment = {
+		name = "2. Kaweleria"
+		type = infantry
+		home = 713
+	}
+	regiment = {
+		name = "2. Artyleria"
+		type = artillery
+		home = 714
+	}
+}
+
+army = {
+	name = "3. Armeja"
+	location = 602
+	
+	regiment = {
+		name = "7. Brygada"
+		type = infantry
+		home = 629
+	}
+	regiment = {
+		name = "8. Brygada"
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "9. Brygada"
+		type = infantry
+		home = 626
+	}
+	regiment = {
+		name = "3. Artyleria"
+		type = artillery
+		home = 602
+	}
+}

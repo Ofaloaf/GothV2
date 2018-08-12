@@ -1,0 +1,6 @@
+owner = GTH
+controller = GTH
+add_core = GTH
+add_core = FLA
+trade_goods = fish
+life_rating = 35

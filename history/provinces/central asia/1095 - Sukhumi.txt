@@ -1,0 +1,6 @@
+owner = IBR
+controller = IBR
+add_core = IBR
+add_core = GEO
+trade_goods = grain
+life_rating = 35

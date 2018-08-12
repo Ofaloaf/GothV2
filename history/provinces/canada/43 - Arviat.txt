@@ -1,0 +1,5 @@
+owner = PEQ
+controller = PEQ
+add_core = PEQ
+trade_goods = fish
+life_rating = 25

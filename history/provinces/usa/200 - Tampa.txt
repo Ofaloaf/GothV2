@@ -1,0 +1,1 @@
+owner = VCTcontroller = VCTadd_core = VCTtrade_goods = fruitlife_rating = 25is_slave = yesnaval_base = 1

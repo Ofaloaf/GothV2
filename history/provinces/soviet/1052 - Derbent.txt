@@ -1,0 +1,6 @@
+owner = IBR
+controller = IBR
+add_core = ALN
+add_core = IBR
+trade_goods = fruit
+life_rating = 35

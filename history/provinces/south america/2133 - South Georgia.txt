@@ -1,0 +1,5 @@
+owner = BSP
+controller = BSP
+trade_goods = fish
+life_rating = 30
+colonial = 2

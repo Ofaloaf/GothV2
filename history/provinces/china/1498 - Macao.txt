@@ -1,0 +1,6 @@
+owner = YUE
+controller = YUE
+add_core = YUE
+add_core = CHI
+trade_goods = tea
+life_rating = 32

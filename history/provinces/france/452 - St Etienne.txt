@@ -1,0 +1,5 @@
+owner = GTH
+controller = GTH
+add_core = GTH
+trade_goods = sulphur
+life_rating = 31

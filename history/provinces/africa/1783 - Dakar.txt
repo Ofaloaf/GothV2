@@ -1,0 +1,7 @@
+owner = MAL
+controller = MAL
+add_core = FLO
+add_core = MAL
+trade_goods = grain
+life_rating = 35
+naval_base = 1

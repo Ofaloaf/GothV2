@@ -1,0 +1,8 @@
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = PAN
+add_core = LAD
+add_core = KAS
+trade_goods = wool
+life_rating = 35

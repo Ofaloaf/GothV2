@@ -1,0 +1,5 @@
+owner = GAL
+controller = GAL
+trade_goods = cattle
+life_rating = 35
+colonial = 2

@@ -1,0 +1,5 @@
+owner = MIS
+controller = MIS
+add_core = MIS
+trade_goods = sulphur
+life_rating = 35

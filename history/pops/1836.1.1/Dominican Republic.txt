@@ -1,0 +1,127 @@
+#Hispanola Region (124000) #see Haiti.txt for balance of region
+#Ruled by Haiti 1836
+#Santo Domingo (68000/17000 POPS) #now part of Dominican Republic
+2214 = {
+	aristocrats = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 300
+	}
+
+	clergymen = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 125
+	}
+
+	artisans = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 350
+	}
+
+	soldiers = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 75
+	}
+
+	farmers = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 6150
+	}
+
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 500
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 100
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 1350
+	}
+	
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 8000
+	}
+}
+#La Vega (56000/15000 POPS) #now part of Dominican Republic
+2216 = {
+	aristocrats = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 250
+	}
+
+	clergymen = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 100
+	}
+
+	artisans = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 400
+	}
+
+	soldiers = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 75
+	}
+
+	farmers = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 7175
+	}
+
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 300
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 75
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 975
+	}
+	
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 4600
+	}
+
+}

@@ -1,0 +1,7 @@
+owner = THR
+controller = THR
+add_core = THR
+add_core = PNN
+add_core = ILY
+trade_goods = grain
+life_rating = 35

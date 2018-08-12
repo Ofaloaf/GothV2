@@ -1,0 +1,6 @@
+owner = LRM
+controller = LRM
+add_core = LRM
+add_core = PRV
+trade_goods = grain
+life_rating = 34

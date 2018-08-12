@@ -1,0 +1,217 @@
+color = { 6 150 198 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "PCN_conservative"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "PCN_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "PCN_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "PCN_reactionary"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "PCN_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "PCN_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "PCN_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "PCN_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	battleship = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	cruiser = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	dreadnought = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	ironclad = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	monitor = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	commerce_raider = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	manowar = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	frigate = {
+		Arandis "Ad Rubras"
+		Balsa Baesuris
+		Cilpes Cuneus
+		"Flumen Anas"
+		"Iulia Myrtilis"
+		Kortikata
+		Mirobriga "Metallum Vipascense"
+		Ossonoba
+		Preziosa "Pax Iulia" "Portus Hannibalis" "Patulus Portus"
+		Sacrum Sines Serpa
+	}
+	clipper_transport = {
+	}
+	steam_transport = { 
+	}
+}

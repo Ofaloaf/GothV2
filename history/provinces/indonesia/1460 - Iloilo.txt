@@ -1,0 +1,7 @@
+owner = GTH
+controller = GTH
+add_core = SBY
+trade_goods = fish
+fort = 1
+life_rating = 30
+colonial = 2

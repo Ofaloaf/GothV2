@@ -1,0 +1,6 @@
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = JAI
+trade_goods = timber
+life_rating = 32

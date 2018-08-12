@@ -1,0 +1,5 @@
+owner = FRK
+controller = FRK
+add_core = FRK
+trade_goods = wool
+life_rating = 35

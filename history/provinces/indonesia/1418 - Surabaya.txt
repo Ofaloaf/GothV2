@@ -1,0 +1,6 @@
+owner = MAJ
+controller = MAJ
+add_core = MAJ
+add_core = JAV
+trade_goods = sulphur
+life_rating = 30

@@ -1,0 +1,6 @@
+owner = GTH
+controller = GTH
+add_core = GTH
+trade_goods = grain
+life_rating = 35
+naval_base = 1

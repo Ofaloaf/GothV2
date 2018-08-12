@@ -1,0 +1,232 @@
+leader = {
+	name = "Daniele dël Giss"
+	date = 1836.1.1
+	type = land
+	personality = cautious
+	background = war_college
+}
+
+leader = {
+	name = "Reoderigh dl'Aquila"
+	date = 1809.1.1
+	type = land
+	personality = bigoted
+	background = aristocrat
+	prestige = 0.3
+}
+
+
+army = {
+	name = "Armada de Campania"
+	location = 754
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 755
+	}
+
+	regiment = {
+		name= "Neapolitan Infantry"
+		type = artillery
+		home = 2567
+	}
+
+	regiment = {
+		name= "1. Cuirassiers"
+		type = cuirassier
+		home = 754
+	}
+
+	regiment = {
+		name= "2. Cuirassiers"
+		type = cuirassier
+		home = 753
+	}
+
+	regiment = {
+		name= "3. Cuirassiers"
+		type = cuirassier
+		home = 756
+	}
+}
+
+army = {
+	name = "Armada de Roma"
+	
+	location = 749
+	regiment = {
+		name= "7. Infantry"
+		type = infantry
+		home = 749
+	}
+
+	regiment = {
+		name= "8. Infantry"
+		type = infantry
+		home = 750
+	}
+
+	regiment = {
+		name= "Roman Artillery"
+		type = artillery
+		home = 751
+	}
+}
+
+army = {
+	name = "Royal Guard of Romania"
+	location = 723
+	regiment = {
+		name= "1. Royal Guard"
+		type = guard
+		home = 762
+	}
+
+	regiment = {
+		name= "2. Royal Guard"
+		type = guard
+		home = 764
+	}
+
+	regiment = {
+		name= "3. Royal Guard"
+		type = guard
+		home = 759
+	}
+
+	regiment = {
+		name= "4. Infantry"
+		type = infantry
+		home = 760
+	}
+
+	regiment = {
+		name= "5. Infantry"
+		type = infantry
+		home = 761
+	}
+
+	regiment = {
+		name= "6. Infantry"
+		type = infantry
+		home = 758
+	}
+
+	regiment = {
+		name= "Royal Artillery"
+		type = artillery
+		home = 763
+	}
+
+}
+
+army = {
+	name = "Army of Mutina"
+
+	location = 739
+	regiment = {
+		name= "9. Infantry"
+		type = infantry
+		home = 739
+	}
+
+	regiment = {
+		name= "10. Infantry"
+		type = infantry
+		home = 740
+	}
+}
+
+navy = {
+	name = "Fluta de Suburbicaria"
+	location = 754
+	ship = {
+		name= "Italia"
+		type = manowar
+	}
+	ship = {
+		name= "Romania"
+		type = manowar
+	}
+	ship = {
+		name= "Cisalpina"
+		type = manowar
+	}
+	ship = {
+		name= "Syracusa"
+		type = manowar
+	}
+	
+	ship = {
+		name= "Sicilia"
+		type = frigate
+	}
+	ship = {
+		name= "Montferrat"
+		type = frigate
+	}
+	ship = {
+		name= "Bruttium"
+		type = frigate
+	}
+	ship = {
+		name= "Sibrium"
+		type = frigate
+	}
+	ship = {
+		name= "Samnium"
+		type = frigate
+	}
+	ship = {
+		name= "Sondri"
+		type = frigate
+	}
+	ship = {
+		name= "Latium"
+		type = frigate
+	}
+	ship = {
+		name= "Decio"
+		type = frigate
+	}
+	ship = {
+		name= "Insubria"
+		type = frigate
+	}
+	ship = {
+		name= "Viteli"
+		type = frigate
+	}
+	ship = {
+		name= "Venetia"
+		type = frigate
+	}
+	ship = {
+		name= "Durriae"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sétim Sever"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Florensa"
+		type = clipper_transport
+	}
+
+}
+

@@ -1,0 +1,6 @@
+owner = FRK
+controller = FRK
+add_core = FRK
+trade_goods = fish
+life_rating = 40
+naval_base = 1

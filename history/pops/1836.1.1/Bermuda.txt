@@ -1,0 +1,71 @@
+#Bermuda Region - 9000  
+#Ruled by Britain 1836
+#Bermuda (9000/2250 POPS)
+203 = {
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 15
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 25
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 305
+	}
+	
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 805
+	}
+
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 5
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 25
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 150
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 25
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 780
+	}
+
+}

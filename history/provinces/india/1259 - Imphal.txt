@@ -1,0 +1,6 @@
+owner = PEG
+controller = PEG
+add_core = PEG
+trade_goods = tea
+life_rating = 32
+

@@ -1,0 +1,188 @@
+#color = { 57 160 101 }
+#color = { 180 158 127 }
+color = { 119 159 114 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "BSP_conservative"
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "BSP_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "BSP_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "BSP_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "BSP_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "BSP_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = jingoism
+}
+
+party = {
+	name = "BSP_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	battleship = {
+		Africa Atlas
+		"Bona Spes"
+		Caput
+		Dominus
+		Hanno
+		Promontorium
+	}
+	cruiser = {
+		Aggressor
+		Captor
+		Expaventor Exprimitor Exodus
+		Genesis
+		Imicus
+		Miles
+		Nepota
+		Provocator Protector Praedator
+		Venator
+	}
+	dreadnought = {
+		Africa Atlas
+		"Bona Spes"
+		Caput
+		Dominus
+		Hanno
+		Promontorium
+	}
+	ironclad = {
+		Aggressor
+		Captor
+		Expaventor Exprimitor Exodus
+		Genesis
+		Imicus
+		Miles
+		Nepota
+		Provocator Protector Praedator
+		Venator
+	}
+	monitor = {
+		Aggressor
+		Captor
+		Expaventor Exprimitor Exodus
+		Genesis
+		Imicus
+		Miles
+		Nepota
+		Provocator Protector Praedator
+		Venator
+	}
+	commerce_raider = {
+		Aggressor
+		Captor
+		Expaventor Exprimitor Exodus
+		Genesis
+		Imicus
+		Miles
+		Nepota
+		Provocator Protector Praedator
+		Venator
+	}
+	manowar = {
+		Africa Atlas
+		"Bona Spes"
+		Caput
+		Dominus
+		Hanno
+		Promontorium
+	}
+	frigate = {
+		Aggressor
+		Captor
+		Expaventor Exprimitor Exodus
+		Genesis
+		Imicus
+		Miles
+		Nepota
+		Provocator Protector Praedator
+		Venator
+	}
+	clipper_transport = { 
+	}
+	steam_transport = { 
+	}
+}

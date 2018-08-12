@@ -1,0 +1,6 @@
+owner = GTH
+controller = GTH
+add_core = GTH
+add_core = PRV
+trade_goods = silk
+life_rating = 32

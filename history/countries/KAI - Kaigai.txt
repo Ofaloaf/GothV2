@@ -1,0 +1,49 @@
+capital = 86 # Sacramento/Tanimura
+primary_culture = kaigaihito
+religion = shinto
+government = prussian_constitutionalism
+plurality = 0.0
+nationalvalue = nv_liberty
+literacy = 0.30
+
+ruling_party = KAI_conservative
+upper_house = {
+	fascist = 0
+	liberal = 17
+	conservative = 35
+	reactionary = 48
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = gerrymandering
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+# Technologies
+admin_reform = yes_admin_reform
+land_reform = yes_land_reform
+foreign_weapons = yes_foreign_weapons
+finance_reform = yes_finance_reform
+
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+clipper_design = 1

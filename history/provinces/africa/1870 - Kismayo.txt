@@ -1,0 +1,6 @@
+owner = ETH
+controller = MBA
+add_core = MBA
+add_core = ETH
+trade_goods = cattle
+life_rating = 15

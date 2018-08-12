@@ -1,0 +1,5 @@
+owner = GBI
+controller = GBI
+add_core = GBI
+trade_goods = sulphur
+life_rating = 35

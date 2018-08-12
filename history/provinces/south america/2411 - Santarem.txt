@@ -1,0 +1,5 @@
+owner = AVL
+controller = AVL
+add_core = AVL
+trade_goods = grain
+life_rating = 25

@@ -1,0 +1,87 @@
+#Sphere of Influence
+
+army = {
+	name = "Imperial Guards"
+	location = 889
+	regiment = {
+		name= "1. Scholae"
+		type = guard
+		home = 889
+	}
+
+	regiment = {
+		name= "2. Scholae"
+		type = guard
+		home = 889
+	}
+}
+
+army = {
+	name = "Army of Mesopotamia"
+	location = 926
+
+	regiment = {
+		name= "1. Piyade Tümeni"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name= "2. Piyade Tümeni"
+		type = infantry
+		home = 923
+	}
+
+	regiment = {
+		name= "3. Piyade Tümeni"
+		type = infantry
+		home = 923
+	}
+
+	regiment = {
+		name= "4. Piyade Tümeni"
+		type = infantry
+		home = 923
+	}
+
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 925
+	}
+}
+	
+army = {
+	name = "Army of Persia"
+	location = 1121
+	regiment = {
+		name= "1. Cataphracts"
+		type = cuirassier
+		home = 1117
+	}
+
+	regiment = {
+		name= "2. Cataphracts"
+		type = cuirassier
+		home = 1121
+	}
+
+	regiment = {
+		name= "3. Cataphracts"
+		type = cuirassier
+		home = 1108
+	}
+
+	regiment = {
+		name= "9. Piyade Tümeni"
+		type = infantry
+		home = 1108
+	}
+
+	regiment = {
+		name= "10. Piyade Tümeni"
+		type = infantry
+		home = 1112
+	}
+}
+

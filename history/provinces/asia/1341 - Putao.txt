@@ -1,0 +1,5 @@
+owner = MNY
+controller = MNY
+add_core = MNY
+trade_goods = timber
+life_rating = 35

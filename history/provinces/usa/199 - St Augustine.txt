@@ -1,0 +1,6 @@
+owner = VCT
+controller = VCT
+add_core = VCT
+trade_goods = cotton
+life_rating = 35
+is_slave = yes

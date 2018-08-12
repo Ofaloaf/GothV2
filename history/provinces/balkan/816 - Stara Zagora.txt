@@ -1,0 +1,5 @@
+owner = THR
+controller = THR
+add_core = THR
+trade_goods = tobacco
+life_rating = 35

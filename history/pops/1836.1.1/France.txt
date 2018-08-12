@@ -1,0 +1,3477 @@
+#Picardy Region (2388000)
+#Lille (620000/155000 POPS)
+399 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 850
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	labourers = {
+		culture = gautes
+		religion = conciliarist
+		size = 110000
+	}
+}
+#Dunkirk (396000/99000 POPS)
+400 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1050
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 73350
+	}
+
+	artisans = {
+		culture = flemish
+		religion = conciliarist
+		size = 2500
+	}
+
+	soldiers = {
+		culture = flemish
+		religion = conciliarist
+		size = 300
+	}
+
+	farmers = {
+		culture = flemish
+		religion = conciliarist
+		size = 15000
+	}
+}
+#Arras (428000/107000 POPS)
+401 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 850
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1125
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5750
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1150
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 98125
+	}
+}
+#Amiens (552000/138000 POPS)
+402 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1250
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1375
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 122875
+	}
+}
+#Beauvais (392000/98000 POPS)
+2570 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 90250
+	}
+
+}
+#Ardennes Region (1116000)
+#Laon (528000/132000 POPS)
+403 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1050
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1325
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 120525
+	}
+}
+#Cambrai (280000/70000 POPS)
+404 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 57200
+	}
+}
+#Charleville (308000/77000 POPS)
+405 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3750
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 71050
+	}
+
+}
+#Champagne Region (856000)
+#Troyes (252000/63000 POPS)
+406 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3750
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 55700
+	}
+}
+#Chaumont (256000/64000 POPS)
+407 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3250
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 58550
+	}
+}
+#Chalons (348000/87000 POPS)
+408 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 850
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4050
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 71500
+	}
+
+}
+#Alsace Region (976000 POPS)
+#Strasbourg (552000/138000 POPS)
+409 = {
+	aristocrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 300
+	}
+
+	officers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 60
+	}
+
+	bureaucrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 250
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = conciliarist
+		size = 375
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = conciliarist
+		size = 2500
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 350
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 39165
+	}
+
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 400
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 60
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 200
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 400
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 400
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 23040
+	}
+
+	aristocrats = {
+		culture = gautes
+		religion = orthodox
+		size = 250
+	}
+
+	officers = {
+		culture = gautes
+		religion = orthodox
+		size = 80
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = gautes
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = orthodox
+		size = 275
+	}
+
+	farmers = {
+		culture = gautes
+		religion = orthodox
+		size = 20495
+	}
+}
+#Mulhausen (424000/106000 POPS)
+410 = {
+	aristocrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 300
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = conciliarist
+		size = 300
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 300
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 43600
+	}
+
+	aristocrats = {
+		culture = gothonian
+		religion = reformed
+		size = 350
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = reformed
+		size = 375
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = reformed
+		size = 3000
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = reformed
+		size = 400
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = reformed
+		size = 21350
+	}
+
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 250
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 300
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 350
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 23200
+	}
+
+}
+#Lorraine Region (1584000)
+#Nancy (432000/108000 POPS)
+411 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 400
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 875
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8700
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 925
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 84100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = gautes
+		religion = orthodox
+		size = 975
+	}
+}
+#Metz (420000/105000 POPS)
+412 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 975
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 950
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 92675
+	}
+}
+#Verdun (320000/80000 POPS)
+413 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 675
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3525
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 775
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 73025
+	}
+
+	labourers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+}
+#Epinal (412000/103000 POPS)
+414 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1150
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4975
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1125
+	}
+
+	labourers = {
+		culture = gautes
+		religion = conciliarist
+		size = 94950
+	}
+
+}
+#Normandy Region (2670000)
+#Rouen (716000/179000 POPS)
+415 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1600
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1650
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 133350
+	}
+}
+#Evreux (424000/106000 POPS)
+416 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1050
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1050
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5250
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 94550
+	}
+}
+#Alencon (442000/110500 POPS)
+417 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 101600
+	}
+}
+#Caen (1088000/272000 POPS)
+418 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1550
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 2750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 2750
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 110350
+	}
+
+}
+#Brittany Region (2616000)
+#Brest (552000/138000 POPS)
+420 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1350
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1550
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1350
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 115600
+	}
+}
+#St Brieuc (604000/151000 POPS)
+421 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1125
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 7500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 99300
+	}
+}
+#Vannes (436000/109000 POPS)
+422 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5400
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 100500
+	}
+}
+#Nantes (476000/119000 POPS)
+423 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1250
+	}
+
+	labourers = {
+		culture = gautes
+		religion = conciliarist
+		size = 95450
+	}
+}
+#Rennes (548000/137000 POPS)
+424 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1350
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 9000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 123850
+	}
+
+}
+#Ile De France Region (2132000)
+#Paris (1520000/380000 POPS)
+425 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 3000
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	capitalists = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clerks = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	craftsmen = {
+		culture = gautes
+		religion = conciliarist
+		size = 27500
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8400
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 87200
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = orthodox
+		size = 50
+	}
+
+	capitalists = {
+		culture = gautes
+		religion = orthodox
+		size = 250
+	}
+
+	clerks = {
+		culture = gautes
+		religion = orthodox
+		size = 1400
+	}
+
+	craftsmen = {
+		culture = gautes
+		religion = orthodox
+		size = 2500
+	}
+
+	artisans = {
+		culture = gautes
+		religion = orthodox
+		size = 2250
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = orthodox
+		size = 50
+	}
+}
+#Chartres (284000/71000 POPS)
+426 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 725
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4100
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 64475
+	}
+}
+#Melun (328000/82000 POPS)
+427 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4100
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 75300
+	}
+
+}
+#Burgundy Region (1872000)
+#Dijon (384000/96000 POPS)
+428 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 950
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 83650
+	}
+}
+#Auxerre (356000/89000 POPS)
+429 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 82700
+	}
+}
+#Moulins (596000/149000 POPS)
+430 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1475
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 7450
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 137375
+	}
+}
+#Macon (536000/134000 POPS)
+431 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 125800
+	}
+
+}
+#Franche Comte Region (914000)
+#Besancon (600000/150000 POPS)
+432 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	officers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 550
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1450
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = conciliarist
+		size = 8000
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 136850
+	}
+}
+#Lons (314000/78500 POPS)
+433 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 72000
+	}
+
+}
+#Pays de la Loire Region (1948800)
+#Angers (782000/195500 POPS)
+434 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1900
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 7500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	labourers = {
+		culture = gautes
+		religion = conciliarist
+		size = 97000
+	}
+}
+#Laval (358000/89500 POPS)
+435 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 850
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 82450
+	}
+}
+#Le Mans (464000/116000 POPS)
+436 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 106600
+	}
+}
+#La Roche (344000/86000 POPS)
+437 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 850
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	labourers = {
+		culture = gautes
+		religion = conciliarist
+		size = 71450
+	}
+
+}
+#Val de Loire Region (1120000)
+#Orleans (312000/78000 POPS)
+438 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 63050
+	}
+}
+#Bourges (264400/66100 POPS)
+439 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 57950
+	}
+}
+#Blois (243600/60900 POPS)
+440 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 54200
+	}
+}
+#Tours (300000/75000 POPS)
+441 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 64500
+	}
+
+}
+#Poitou Region (1106000)
+#La Rochelle (454000/113500 POPS)
+442 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1025
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1150
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 83625
+	}
+}
+#Poitiers (288000/72000 POPS)
+443 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 725
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 60325
+	}
+}
+#Angouleme (364000/91000 POPS)
+444 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 900
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 63200
+	}
+	
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 300
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 1500
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 14000
+	}
+
+}
+#Limousin Region (1596000)
+#Limoges (288000/72000 POPS)
+445 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 950
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8500
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 46450
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 12000
+	}
+}
+#Chateauroux (520000/130000 POPS)
+446 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1300
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1250
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1350
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 117600
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 3000
+	}
+}
+#Tulle (788000/197000 POPS)
+447 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 2000
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 3000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 1000
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 83600
+	}
+
+}
+#Auvergne Region (1418000)
+#Clermont-Ferrand (728000/182000 POPS)
+448 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 250
+	}
+	
+	officers = {
+		culture = gallic
+		religion = conciliarist
+		size = 200
+	}
+	
+	bureaucrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 500
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 1250
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 7000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 850
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 70200
+	}
+	
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 350
+	}
+	
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+	
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 16000
+	}
+}
+#Aurillac (404000/101000 POPS)
+449 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 1050
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 92050
+	}
+}
+#Cahors (286000/71500 POPS)
+450 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 700
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 725
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 72825
+	}
+
+}
+#Lyonnais-Dauphine Region (2588000)
+#Lyon (824000/206000 POPS)
+451 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 700
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1650
+	}
+
+	capitalists = {
+		culture = gautes
+		religion = conciliarist
+		size = 150
+	}
+
+	clerks = {
+		culture = gautes
+		religion = conciliarist
+		size = 350
+	}
+
+	craftsmen = {
+		culture = gautes
+		religion = conciliarist
+		size = 6500
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 8000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 2100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 130050
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = jewish
+		size = 25
+	}
+
+	clerks = {
+		culture = gautes
+		religion = jewish
+		size = 25
+	}
+
+	craftsmen = {
+		culture = gautes
+		religion = jewish
+		size = 250
+	}
+
+	artisans = {
+		culture = gautes
+		religion = jewish
+		size = 2200
+	}
+}
+#St Etienne (412000/103000 POPS)
+452 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1125
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1150
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 84725
+	}
+}
+#Valence (656000/164000 POPS)
+453 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1650
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1150
+	}
+	
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 71050
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 500
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 2500
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 80050
+	}
+}
+#Grenoble (696000/174000 POPS)
+454 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1700
+	}
+	
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 30000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1750
+	}
+	
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 40000
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 750
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 5500
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 120300
+	}
+
+}
+#Midi Region (1604000)
+#Toulouse (672000/168000 POPS)
+455 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1600
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1700
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1750
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 141800
+	}
+}
+#Montauban (584000/146000 POPS)
+456 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 1400
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 1450
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 5500
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 72150
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 62000
+	}
+}
+#Foix (348000/87000 POPS)
+457 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 850
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 4000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 80350
+	}
+
+}
+#Aquitaine Region (1864000)
+#Bordeaux (632000/128000 POPS)
+458 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1500
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1600
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1600
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 93510
+	}
+}
+#Mont de Marsan (556000/139000 POPS)
+459 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1350
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1375
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 7000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1400
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 130675
+	}
+}
+#Pau (676000/169000 POPS)
+460 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3000
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1250
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 44300
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 250
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 3000
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 40000
+	}
+
+	aristocrats = {
+		culture = basque
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = basque
+		religion = orthodox
+		size = 450
+	}
+
+	artisans = {
+		culture = basque
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = basque
+		religion = orthodox
+		size = 450
+	}
+
+	farmers = {
+		culture = basque
+		religion = orthodox
+		size = 31200
+	}
+
+}
+#Languedoc Region (1668000)
+#Montpellier (724000/181000)
+461 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1800
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1800
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1800
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 158150
+	}
+}
+#Rodez (504000/126000 POPS)
+462 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 1200
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 1250
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1300
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 105750
+	}
+}
+#Narbona (Carcassone) (276000/69000 POPS)
+463 = {
+	aristocrats = {
+		culture = gallic
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = gallic
+		religion = orthodox
+		size = 2325
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = orthodox
+		size = 800
+	}
+
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 52050
+	}
+	
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 450
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 5225
+	}
+	
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1300
+	}
+	
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 18000
+	}
+}
+#Perpignan (164000/41000 POPS)
+464 = {
+	aristocrats = {
+		culture = gallic
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = gallic
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 11375
+	}
+
+	aristocrats = {
+		culture = hispanian
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = hispanian
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = hispanian
+		religion = orthodox
+		size = 1950
+	}
+
+	soldiers = {
+		culture = hispanian
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = hispanian
+		religion = orthodox
+		size = 16000
+	}
+	
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 275
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 2550
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 250
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 8975
+	}
+
+}
+#Savoy Region (486800)
+##Sardinian until 1860
+#Annecy (258400/64600 POPS)
+465 = {
+	aristocrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 600
+	}
+
+	officers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 200
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = conciliarist
+		size = 650
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = conciliarist
+		size = 3250
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 58800
+	}
+}
+#Chambery (228400/57100 POPS)
+466 = {
+	aristocrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 550
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = conciliarist
+		size = 575
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = conciliarist
+		size = 2800
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 52175
+	}
+
+}
+#Provence Region (1268400)
+#Marseilles (384800/96200 POPS)
+467 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 400
+	}
+
+	officers = {
+		culture = gallic
+		religion = conciliarist
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 100
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 900
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 10000
+	}
+	
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 30000
+	}
+	
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+
+	officers = {
+		culture = gautes
+		religion = conciliarist
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 600
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 1100
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 22400
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 30000
+	}
+}
+#Avignon (243600/60900 POPS)
+468 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 150
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 225
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 600
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 35625
+	}
+	
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 500
+	}
+	
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 400
+	}
+	
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 6000
+	}
+	
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 10000
+	}
+}
+#Digne (113200/31000 POPS)
+469 = {	
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 250
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 300
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 1500
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 350
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 28600
+	}
+}
+#Toulon (224000/56000 POPS)
+470 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 500
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 550
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 3000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 1800
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 40850
+	}
+}
+#Frejus (132000/33000 POPS)
+471 = {
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 300
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 350
+	}
+
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 1600
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 350
+	}
+
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 30400
+	}
+}
+#Nice (Sardinian until 1860) (170800/42700 POPS)
+472 = {
+	aristocrats = {
+		culture = gallic
+		religion = orthodox
+		size = 450
+	}
+
+	clergymen = {
+		culture = gallic
+		religion = orthodox
+		size = 425
+	}
+
+	artisans = {
+		culture = gallic
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = gallic
+		religion = orthodox
+		size = 800
+	}
+
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 33825
+	}
+
+}
+#Corsica Region (210000)
+#Corsica (210000/52500 POPS)
+473 = {
+	aristocrats = {
+		culture = sardinian
+		religion = conciliarist
+		size = 550
+	}
+
+	officers = {
+		culture = sardinian
+		religion = conciliarist
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = sardinian
+		religion = conciliarist
+		size = 100
+	}
+
+	clergymen = {
+		culture = sardinian
+		religion = conciliarist
+		size = 500
+	}
+
+	artisans = {
+		culture = sardinian
+		religion = conciliarist
+		size = 2500
+	}
+
+	soldiers = {
+		culture = sardinian
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = sardinian
+		religion = conciliarist
+		size = 47800
+	}
+
+}
+

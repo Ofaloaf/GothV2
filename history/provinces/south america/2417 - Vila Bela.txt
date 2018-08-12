@@ -1,0 +1,6 @@
+owner = PEU
+controller = PEU
+add_core = BRZ
+add_core = PEU
+trade_goods = tobacco
+life_rating = 25

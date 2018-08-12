@@ -1,0 +1,227 @@
+color = { 112 165 197 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "GTY_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "GTY_reactionary"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "GTY_conservative"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "GTY_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = limited_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "GTY_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "GTY_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "GTY_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "GTY_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	cruiser = {
+		"Arbor Felix" "Arae Flaviae" Aquae Agusta Arbona
+		Brigovia Brigansa Bibra
+		Clarenna Cassilhac Cuira Constantia Caleua
+		Dibenga
+		Grinario Guntia
+		Iburinga
+		Lodun
+		Maiança
+		Portus
+		Raschdi
+		Sumelocenna Suïts Segodunum
+		Turic
+		Vindonissa Vitudurum
+		Zuivaltum 
+	}
+	dreadnought = {
+		Augustus Altius
+		Constantia Concordia Citius
+		Decumates Diligentia
+		Fidelis Fortius
+		Gunzo Gothonia
+		Invictia Imperator
+		Justitia
+		Lopodunum
+		Princeps Pax Patria
+		Spes Suaviter Superbia
+		Trinitas
+		Unitas
+		Victoria Veritas	
+	}
+	monitor = {
+		"Arbor Felix" "Arae Flaviae" Aquae Agusta Arbona
+		Brigovia Brigansa Bibra
+		Clarenna Cassilhac Cuira Constantia Caleua
+		Dibenga
+		Grinario Guntia
+		Iburinga
+		Lodun
+		Maiança
+		Portus
+		Raschdi
+		Sumelocenna Suïts Segodunum
+		Turic
+		Vindonissa Vitudurum
+		Zuivaltum 
+	}
+	ironclad = {
+		"Amandus Grec" "Agust Sala" "Audere Est Facere"
+		"Caraules Lero" "Cede Nullius" "Consectatio Excellentiae"
+		"Fidelitate Coniuncti"
+		"Gonçalo Plasyun" "Godesteo Arracartas"
+		"Leuberic Ramondet"
+		"Nicaulas Esquelles" "Nullius In Verba"
+		"Ricard Fisnerola"
+		"Semper Verum" "Semper Vigilans" "Semper Aequus" "Semper Excelsius"
+		"Tiuderic Hethinsunus"
+		"Ubald Jofre"
+		Viator
+	}
+	commerce_raider = {
+		"Amandus Grec" "Agust Sala" "Audere Est Facere"
+		"Caraules Lero" "Cede Nullius" "Consectatio Excellentiae"
+		"Fidelitate Coniuncti"
+		"Gonçalo Plasyun" "Godesteo Arracartas"
+		"Leuberic Ramondet"
+		"Nicaulas Esquelles" "Nullius In Verba"
+		"Ricard Fisnerola"
+		"Semper Verum" "Semper Vigilans" "Semper Aequus" "Semper Excelsius"
+		"Tiuderic Hethinsunus"
+		"Ubald Jofre"
+		Viator
+	}
+	manowar = {
+		Augustus Altius
+		Constantia Concordia Citius
+		Decumates Diligentia
+		Fidelis Fortius
+		Gunzo Gothonia
+		Invictia Imperator
+		Justitia
+		Lopodunum
+		Princeps Pax Patria
+		Spes Suaviter Superbia
+		Trinitas
+		Unitas
+		Victoria Veritas
+	}
+	frigate = {
+		"Arbor Felix" "Arae Flaviae" Aquae Agusta Arbona
+		Brigovia Brigansa Bibra
+		Clarenna Cassilhac Cuira Constantia Caleua
+		Dibenga
+		Grinario Guntia
+		Iburinga
+		Lodun
+		Maiança
+		Portus
+		Raschdi
+		Sumelocenna Suïts Segodunum
+		Turic
+		Vindonissa Vitudurum
+		Zuivaltum
+	}
+	clipper_transport = { 
+			
+	}
+	steam_transport = { 
+			
+	}
+}

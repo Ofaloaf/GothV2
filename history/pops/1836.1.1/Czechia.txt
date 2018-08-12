@@ -1,0 +1,830 @@
+#Bohemia Region (4136000) 
+#under the rule of Austria in 1836  
+#Prague (1572000/393000 POPS)
+625 = {
+	bureaucrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 550 
+	}
+
+	officers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 250 
+	}
+
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 3625
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 8000
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 3750 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 183325
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 3000 
+	}
+
+	bureaucrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 1550 
+	}
+
+	officers = {
+		culture = sorbian
+		religion = orthodox
+		size = 800 
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 275
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 300 
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 10775 
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 75 
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 4850 
+	}
+}
+#Hradec Kralove (528000/132000 POPS)
+626 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 800
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 4250
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1100 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 93950 
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 1200 
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 450
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 2200
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 450  
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 24700 
+	}
+
+	clergymen = {
+		culture = alan
+		religion = orthodox
+		size = 50 
+	}
+
+	artisans = {
+		culture = alan
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = alan
+		religion = orthodox
+		size = 25 
+	}
+
+	farmers = {
+		culture = alan
+		religion = orthodox
+		size = 1925  
+	}
+}
+#Karlsbad (600000/150000 POPS)
+627 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 400 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 250 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 20800 
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 1300 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 6250
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1250 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 103950 
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 50 
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 25 
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 11925  
+	}
+}
+#Aussig (276000/69000 POPS)
+628 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 75 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 100 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 9325
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 650  
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 575
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 2950
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 1100 
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 53825
+	}
+}
+#Pilsen (672000/168000 POPS)
+629 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 900 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1100 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 93100 
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 1600 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 650 
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 3250
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 650 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 38850   
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 50 
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 25 
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 20925  
+	}
+}
+#Budejovice (488000/122000 POPS)
+630 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 500 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 2850
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 550 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 53100 
+	}
+
+	aristocrats = {
+		culture = jasi
+		religion = orthodox
+		size = 1200 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 625 
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 3100
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1100 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 50075 
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 50 
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 25 
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 6925  
+	}
+}
+#Moravia Region (1476000) 
+#under the rule of Austria in 1836  
+#Brno (1040000/260000 POPS)
+631 = {
+	bureaucrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 250 
+	}
+
+	officers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 125 
+	}
+
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1825 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 9350
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1900 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 143550 
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 2500  
+	}
+
+	bureaucrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 450 
+	}
+
+	officers = {
+		culture = sorbian
+		religion = orthodox
+		size = 250 
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 675  
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 6500
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 700  
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 33925 
+	}
+
+	clergymen = {
+		culture = alan
+		religion = orthodox
+		size = 80  
+	}
+
+	artisans = {
+		culture = alan
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = alan
+		religion = orthodox
+		size = 50  
+	}
+
+	farmers = {
+		culture = alan
+		religion = orthodox
+		size = 1370   
+	}
+}
+#Olomouc (436000/109000 POPS)
+632 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 750 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 3800
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 750 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 70700 
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 1050  
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 300  
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 300  
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size =  26850
+	}
+
+	clergymen = {
+		culture = alan
+		religion = orthodox
+		size = 50 
+	}
+
+	artisans = {
+		culture = alan
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = alan
+		religion = orthodox
+		size = 25 
+	}
+
+	farmers = {
+		culture = alan
+		religion = orthodox
+		size = 925  
+	}
+}
+#Silesia Region (220000) #see Poland.txt for balance of region
+#under the rule of Austria in 1836  
+#Troppau (104000/26000 POPS)
+688 = {
+	bureaucrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 40 
+	}
+
+	officers = {
+		culture = sorbian
+		religion = orthodox
+		size = 25 
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 50 
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 450
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 50 
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 5385 
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 250  
+	}
+
+	officers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 50 
+	}
+
+	bureaucrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 140 
+	}
+
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 200  
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1550
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 200  
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 17610   
+	}
+}
+#Tesin (116000/29000 POPS)
+689 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 125 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 700
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 125 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 13050 
+	}
+
+	clergymen = {
+		culture = alan
+		religion = orthodox
+		size = 20  
+	}
+
+	artisans = {
+		culture = alan
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = alan
+		religion = orthodox
+		size = 25  
+	}
+
+	farmers = {
+		culture = alan
+		religion = orthodox
+		size = 955  
+	}
+
+	aristocrats = {
+		culture = sorbian
+		religion = orthodox
+		size = 350  
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = orthodox
+		size = 150 
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = orthodox
+		size = 700
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = orthodox
+		size = 150 
+	}
+
+	farmers = {
+		culture = sorbian
+		religion = orthodox
+		size = 12650 
+	}
+}

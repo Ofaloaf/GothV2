@@ -1,0 +1,308 @@
+leader = {
+	name = "Vlad Galinarion"
+	type = land
+	date="1832.1.1"
+	personality = disciplined
+	background = school_of_firepower
+	prestige = 0.2
+}
+
+leader = {
+	name = "Gavril Razvan"
+	type = land
+	date="1832.1.1"
+	personality = balanced_p
+	background = drillmaster
+	prestige = 0.1
+}
+
+leader = {
+	name = "Januarius Sasul"
+	type = land
+	date="1832.1.1"
+	personality = resourceful
+	background = expert_raider
+	prestige = 0.2
+}
+
+leader = {
+	name = "Moise Barlas"
+	type = sea
+	date="1819.1.1"
+	personality = cautious
+	background = elderly
+}
+
+army = {
+	name = "Armata Egipteana"
+	location = 1745
+	regiment = {
+		name= "1 Cavalerie"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2 Cavalerie"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3 Cavalerie"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "Regimentul 1 Infanterie"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "Regimentul 2 Infanterie"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "Regimentul 3 Infanterie"
+		type = infantry
+		home = 1750
+	}
+
+	regiment = {
+		name= "Regimentul 4 Infanterie"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "Regimentul 5 Infanterie"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "Regimentul 1 Artilerie"
+		type = artillery
+		home = 1747
+	}
+}
+
+army = {
+	name = "Armata Ierusalimului"
+	location = 902
+
+	regiment = {
+		name= "Regimentul 6 Infanterie"
+		type = infantry
+		home = 1746
+	}
+
+	regiment = {
+		name= "Regimentul 7 Infanterie"
+		type = infantry
+		home = 1752
+	}
+
+	regiment = {
+		name= "Regimentul 8 Infanterie"
+		type = infantry
+		home = 1748
+	}
+
+	regiment = {
+		name= "Regimentul 9 Infanterie"
+		type = infantry
+		home = 1749
+	}
+
+	regiment = {
+		name= "Regimentul 10 Infanterie"
+		type = infantry
+		home = 1765
+	}
+
+	regiment = {
+		name= "Regimentul 11 Infanterie"
+		type = infantry
+		home = 917
+	}
+	
+	regiment = {
+		name= "Regimentul 2 Artilerie"
+		type = artillery
+		home = 917
+	}
+	
+	regiment = {
+		name= "Regimentul 3 Artilerie"
+		type = artillery
+		home = 1764
+	}
+	
+	regiment = {
+		name= "Regimentul 4 Artilerie"
+		type = artillery
+		home = 918
+	}
+}
+
+army = {
+	name = "Armata Nubiana"
+	location = 1827
+	regiment = {
+		name= "4 Cavalerie"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "5 Cavalerie"
+		type = cavalry
+		home = 1751
+	}
+
+	regiment = {
+		name= "6 Cavalerie"
+		type = cavalry
+		home = 1762
+	}
+
+	regiment = {
+		name= "1 Auxiliare"
+		type = irregular
+		home = 1827
+	}
+
+	regiment = {
+		name= "2 Auxiliare"
+		type = irregular
+		home = 1827
+	}
+
+	regiment = {
+		name= "3 Auxiliare"
+		type = irregular
+		home = 1828
+	}
+
+	regiment = {
+		name= "4 Auxiliare"
+		type = irregular
+		home = 1829
+	}
+
+	regiment = {
+		name= "5 Auxiliare"
+		type = irregular
+		home = 1830
+	}
+
+	regiment = {
+		name= "6 Auxiliare"
+		type = irregular
+		home = 1831
+	}
+}
+
+navy = {
+	name = "Flota Militara"
+	location = 1753
+	ship = {
+		name= "Philadelphia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Edom"
+		type = manowar
+	}
+
+	ship = {
+		name= "Metatron"
+		type = manowar
+	}
+
+	ship = {
+		name= "Gezira"
+		type = manowar
+	}
+
+	ship = {
+		name= "Timarchus"
+		type = manowar
+	}
+	
+	ship = {
+		name= "Calugarul"
+		type = manowar
+	}
+
+	ship = {
+		name= "Scythopolis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Samaria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Iudea"
+		type = frigate
+	}
+
+	ship = {
+		name= "Palestina"
+		type = frigate
+	}
+
+	ship = {
+		name= "Petra"
+		type = frigate
+	}
+
+	ship = {
+		name= "Decapolis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Archangelus Michael"
+		type = frigate
+	}
+
+	ship = {
+		name= "Diospolis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zeuxis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Templum Veneris"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zadakiel"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Stratonice"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Danielus"
+		type = clipper_transport
+	}
+}

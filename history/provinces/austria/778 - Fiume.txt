@@ -1,0 +1,6 @@
+owner = VER
+controller = VER
+add_core = VER
+add_core = ILY
+trade_goods = fruit
+life_rating = 35

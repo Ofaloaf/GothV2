@@ -1,0 +1,340 @@
+# Agitating for liberty
+country_event = {
+	id = 510000
+	title = "EVTNAME510000"
+	desc = "EVTDESC510000"
+	fire_only_once = yes
+	picture = "Revolution" # TODO
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		NOT = {
+			has_country_flag = ECU_agitating_for_liberty
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		set_country_flag = ECU_agitating_for_liberty
+	}
+	option = {
+		name = "EVTOPTA510000"
+		add_country_modifier = {
+			name = colonial_agitation
+			duration = 9125
+		}
+		GTH = { country_event = { id = 510003 days = 1 } } # TODO
+	}
+}
+
+# The Great Conspiracy: Ultimatum to Gothia
+country_event = {
+	id = 510001
+	title = "EVTNAME510001"
+	desc = "EVTDESC510001"
+	major = yes
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		upper_house = {
+			ideology = liberal
+			value = 0.5
+		}
+		any_state = {
+			is_slave = no
+			average_consciousness = 7
+		}
+	}
+	
+	immediate = { 
+		clr_country_flag = ECU_agitating_for_liberty
+		set_global_flag = great_conspiracy_fired
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510001" # Issue the demands
+		ai_chance = {
+			factor = 100
+		}
+		clr_country_flag = ECU_agitating_for_liberty
+		GTH = { country_event = { id = 510002 days = 1 } }
+		release_vassal = THIS
+		leave_alliance = GTH
+	}
+	
+	option = {
+		name = "EVTOPTB510001" # "Actually, never mind." Deeply upsets pops.
+		ai_chance = {
+			factor = 0
+		}
+		prestige = -15
+		clr_country_flag = ECU_agitating_for_liberty
+		any_pop = {
+			consciousness = -5
+			militancy = 8
+		}
+	}
+}
+
+# 510002 
+# GTH: The Great Conspiracy: Gothia's Response. Go to war with all conspirators (wardec on ECU with force-vassalize cb, & trigger 510004) or accept ultimatum and get a huge hit to prestige, militancy and consciousness.
+country_event = {
+	id = 510002
+	title = "EVTNAME510002"
+	desc = "EVTDESC510002"
+	picture = "fortification"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA510002" # War!
+		war = {
+			target = ECU
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		ECU = { country_event = { id = 510004 days = 0 } }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB510002" # Let the colonials go.
+		prestige = -10
+		any_pop = {
+			consciousness = 3
+			militancy = 7
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# 510003 # GTH: Notification event for Gothia about colonial agitation for independence
+country_event = {
+	id = 510003
+	title = "EVTNAME510003"
+	desc = "EVTDESC510003"
+	picture = "crisis"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA510003" # Concerning.
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 1
+			}
+		}
+	}
+}
+
+# 510004 # ECU: Notification that GTH has declared war. ECU calls in fellow conspirators, triggers EVT 510005 (initial conspirator event TODOs below)
+country_event = {
+	id = 510004
+	title = "EVTNAME510004"
+	desc = "EVTDESC510004"
+	picture = "Cubanrebels"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA510004" # We call on our allies!
+		any_country = { 
+			limit = {
+				has_country_flag = ECU_conspirator
+			}
+			country_event = { id = 510005 days = 0 } 
+		}
+	}
+}
+
+# 510005 # Conspirator event: Declare separate wars against Gothia for max chaos.
+country_event = {
+	id = 510005
+	title = "EVTNAME510005"
+	desc = "EVTDESC510005"
+	picture = "Military_reform"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA510005" # We shall join the struggle for freedom!
+		end_war = ECU
+		create_alliance = ECU
+		war = {
+			target = GTH
+			attacker_goal = {
+				casus_belli = become_independent
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+
+## During the 'Conspiracy', before Ultimatum is issued
+# 510006 # ECU: Approach Peru/PEU about the Conspiracy. Triggers 510012 for the recipient.
+country_event = {
+	id = 510006
+	title = "EVTNAME510006"
+	desc = "EVTDESC510006"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_peu }
+		exists = PEU
+		PEU = { 
+			vassal_of = GTH 
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510006" # Make an offer to Peru.
+		PEU = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_peu
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB510006" # Our struggle is ours alone.
+		set_country_flag = talked_to_peu
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 510007 # ECU: Approach Gothiola/GTO about the Conspiracy. Triggers 510012 for the recipient.
+# 510008 # ECU: Approach Charcas/CHR about the Conspiracy. Triggers 510012 for the recipient.
+# 510009 # ECU: Approach Jucatanha/JCT about the Conspiracy. Triggers 510012 for the recipient.
+# 510010 # ECU: Approach Naua Flandés/NFL about the Conspiracy. Triggers 510012 for the recipient.
+# 510011 # ECU: Approach Figuyeras/FGY about the Conspiracy. Triggers 510012 for the recipient.
+# 510012 # ECU: Approach Victoria/VCT about the Conspiracy. Triggers 510012 for the recipient.
+
+# 510013 # Conspiracy offer. Accept, and get "great_conspirator" country flag, which 510005 will check for when firing, or refuse and get a minor malus of undetermined type.
+country_event = {
+	id = 510013
+	title = "EVTNAME510013"
+	desc = "EVTDESC510013"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = conspiracy_offer
+	}
+	
+	option = {
+		name = "EVTOPTA510013" # We will join the plot.
+		set_country_flag = ECU_conspirator
+		ai_chance = {
+			factor = 8
+		}
+	}
+	option = {
+		name = "EVTOPTB510013" # Our loyalties lay with Gothia!
+		ai_chance = {
+			factor = 2
+		}
+	}
+}
+
+# 510014 # ECU: (Notification) The Conspiracy grows!
+# 510015 # ECU: (Notification) [COUNTRY] rejects offer.
+
+# Adapted from EU4 events raising liberty desire in Colonial Nations
+
+# 510016 # GTH: The Proclamation of Liyun. Tell ECU what it can do with native pops, triggering 510016, or get a prestige hit and +consciousness, but also trigger 510017.
+# 510017 # ECU: The Proclamation of Liyun. Accept GTH dictat, gain native cultures as accepted pop but also get a hit to consciousness and militancy in all non-native pops, or refuse, get +prestige and +consciousness and trigger 510018 for GTH.
+# 510018 # ECU: Gothia gives us a blank check. +relations with GTH, -consciousness, +militancy in native pops but also shrink native pop size.
+# 510019 # GTH: ECU rejects the proclamation! -prestige, +consciousness, -relations with ECU.
+
+# 510020 # ECU: Pamphleteer. Repeatable event like Copperheads. Let the pamphleteer go, and liberals get +consciousness and conservatives get +militancy. Imprison him, and vice versa.
+# 510021 # ECU: Loyalist press torched. Repeatable event. Seek out the perpetrators, and get -militancy for conservatives and +militancy and +consciousness for liberals, or shrug and say these things happen, and get +militancy and +consciousness for conservatives and + consciousness for liberals.
+# 510022 # ECU: Graffiti in the capital. Repeatable event. Paint it over or leave it be.
+
+# 510023 # GTH: Colonist on a speaking tour in Gothia. Arrest him, triggering 510023, and getting +consciousness for liberals, or let him speak, triggering 510024 and getting +consciousness for conservatives.
+# 510024 # ECU: Colonial speaker arrested! +consciousness for all non-slave pops.
+# 510025 # ECU: Colonial intellectual completes speaking tour. small +consciousness for liberals.
+
+# 510026 # ECU: Freedom Fighter or Rebel? Gain a general, triggering 510014 also, or execute the guy for militancy and consciousness.
+# 510027 # GTH: Trouble in Terra Equinoxialis. Relations hit with ECU. Loose sphere points also?
+
+## End of the Great Conspiracy: ECU & allies win war
+# 510028 # ECU: Victory! + Prestige
+# 510029 # ECU + any country with the "great_conspirator" country flag: The future of our country. Choose from democracy, hms_government or presidential_dictatorship.
+
+## End of the Great Conspiracy: GTH wins war
+# 510030 # ECU + any conspirator: defeat! -consciousness & -militancy to all non-slave pops.
+# 510031 # GTH: Victory! + Prestige, -militancy to conservatives (the government has preserved the old order!).
+
+## Short circuit events
+# 510032 # ECU: Unexpected Independence. If ECU is released from Gothia through some means before the Great Conspiracy can fire, so ECU is not a vassal of GTH but also does NOT have the global flag 'great_conspiracy_fired'. This event will set that great_conspiracy_fired flag just to close off that loop.
+# 510033 # Conspirator: Unexpected Independence. If a country has the ECU_conspirator tag but isn't a vassal of Gothia, this event will remove the ECU_conspirator tag and trigger 510033 for ECU
+# 510034 # ECU: Notification of the conspirator from 510032 leaving the conspiracy.

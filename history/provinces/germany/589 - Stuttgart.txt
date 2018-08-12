@@ -1,0 +1,6 @@
+owner = JZY
+controller = JZY
+add_core = GTY
+add_core = JZY
+trade_goods = fruit
+life_rating = 40

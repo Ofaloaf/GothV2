@@ -1,0 +1,6 @@
+owner = VER
+controller = VER
+add_core = VER
+add_core = RNT
+trade_goods = coal
+life_rating = 35

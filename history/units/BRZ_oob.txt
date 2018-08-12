@@ -1,0 +1,83 @@
+army = {
+	name = "Ysserchid di Brazil"
+	location = 2455
+	regiment = {
+		name= "1. Iffandeir"
+		type = infantry
+		home = 2455
+	}
+	regiment = {
+		name= "2. Iffandeir"
+		type = infantry
+		home = 2455
+	}
+	regiment = {
+		name= "3. Iffandeir"
+		type = infantry
+		home = 2441
+	}
+}
+
+army = {
+	name = "Ysserchid d'Ianeir"
+	location = 2447
+	regiment = {
+		name= "4. Iffandeir"
+		type = infantry
+		home = 2447
+	}
+	regiment = {
+		name= "1. Iffandeir"
+		type = artillery
+		home = 2447
+	}
+}
+
+navy = {
+	name = "Eiscair di Brazil"
+	location = 2447
+	ship = {
+		name= "Guiderius"
+		type = manowar
+	}
+	ship = {
+		name= "Arvirargus"
+		type = manowar
+	}
+	ship = {
+		name= "Korbilon"
+		type = manowar
+	}
+	ship = {
+		name= "Bagdemagus"
+		type = frigate
+	}
+	ship = {
+		name= "Gorbonianus"
+		type = frigate
+	}
+	ship = {
+		name= "Illuseir"
+		type = frigate
+	}
+	ship = {
+		name= "Rheithur"
+		type = frigate
+	}
+	ship = {
+		name= "Idvallo"
+		type = frigate
+	}
+	ship = {
+		name= "Gaheris"
+		type = frigate
+	}
+	ship = {
+		name= "Victoria"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Saeth Daniolus"
+		type = clipper_transport
+	}
+}

@@ -1,0 +1,506 @@
+#Tirol Region (556000) #see Italy.txt for balance of Region
+#under the rule of Austria in 1836  
+#Innsbruck (236000/59000 POPS)
+612 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 750 
+	}
+
+	bureaucrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 675 
+	}
+
+	officers = {
+		culture = carantanian
+		religion = orthodox
+		size = 250 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 550
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 2750
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1100 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 53325
+	}
+}
+#Salzburg (136000/34000 POPS)
+613 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 450 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 650 
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 3250
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 28975
+	}
+}
+#Bregenz (132000/33000 POPS)
+614 = {
+	aristocrats = {
+		culture = gothonian
+		religion = conciliarist
+		size = 400 
+	}
+
+	clergymen = {
+		culture = gothonian
+		religion = conciliarist
+		size = 200 
+	}
+
+	artisans = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1000
+	}
+
+	soldiers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 1100 
+	}
+
+	farmers = {
+		culture = gothonian
+		religion = conciliarist
+		size = 21700
+	}
+	
+	clergymen = {
+		culture = swabian
+		religion = conciliarist
+		size = 100 
+	}
+
+	artisans = {
+		culture = swabian
+		religion = conciliarist
+		size = 500
+	}
+	
+	farmers = {
+		culture = swabian
+		religion = conciliarist
+		size = 8000
+	}
+}
+#Lienz (52000/13000 POPS)
+615 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 175 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 600
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 125 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 11975
+	}
+}
+#Carinthia-Styria Region (736000) #see Slovenia.txt for balance of Region
+#under the rule of Austria in 1836  
+#Graz (380000/95000 POPS)
+616 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 1550 
+	}
+
+	bureaucrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 525 
+	}
+
+	officers = {
+		culture = carantanian
+		religion = orthodox
+		size = 275 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 1025 
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 10000
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1050 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 80675 
+	}
+}
+#Judenburg (168000/42000 POPS)
+617 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 700 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 450
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 2250
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 450 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 38150
+	}
+}
+#Klagenfurt (188000/47000 POPS)
+618 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 450 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 500 
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1300 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 42350
+	}
+}
+#Austria Region (2000000) 
+#under the rule of Austria in 1836  
+#Vienna (1084000/271000 POPS)
+619 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 4250 
+	}
+
+	bureaucrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 1400 
+	}
+
+	officers = {
+		culture = carantanian
+		religion = orthodox
+		size = 600 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 2750
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 8500
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 2750 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 201050
+	}
+}
+#Sankt Polten (88000/22000 POPS)
+620 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 375 
+	}
+
+	bureaucrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 600 
+	}
+	
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 1200
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 250 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 19925 
+	}
+}
+#Krems (240000/60000 POPS)
+621 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 925 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 625
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 3100
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 650 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 54700
+	}
+}
+#Linz (588000/147000 POPS)
+622 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 2300 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 3200 
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 7650
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1550 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 133900
+	}
+}
+#Odenburg Region (196000) #see Hungary.txt for balance of region
+#under the rule of Austria in 1836
+#Eisenstadt (196000/49000 POPS)
+624 = {
+	aristocrats = {
+		culture = carantanian
+		religion = orthodox
+		size = 700 
+	}
+
+	clergymen = {
+		culture = carantanian
+		religion = orthodox
+		size = 475
+	}
+
+	artisans = {
+		culture = carantanian
+		religion = orthodox
+		size = 2450
+	}
+
+	soldiers = {
+		culture = carantanian
+		religion = orthodox
+		size = 1100 
+	}
+
+	farmers = {
+		culture = carantanian
+		religion = orthodox
+		size = 41375
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 695
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 4555  
+	}
+}

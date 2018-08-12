@@ -1,0 +1,199 @@
+color = { 113  112  96 }
+graphical_culture = SouthAmericanGC
+
+party = {
+	name = "CUA_conservative"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = anti_military
+}
+
+party = {
+	name = "CUA_liberal"
+	start_date = 1820.1.1
+	end_date = 1935.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = pluralism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "CUA_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "CUA_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "CUA_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "CUA_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "CUA_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "CUA_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	battleship = {
+		Araucania Andea Argentina Ares
+		Chile
+		Patagonia Paraguay
+		Uruguay
+	}
+	cruiser = {
+		Indepentia
+		Minerva
+		Prosdocimus Philologus Philadelphus Philopater
+	}
+	dreadnought = {
+		Athena
+		"Novus Orbis" "Novus Mundus"
+	}
+	ironclad = {
+		Abránquil Andalién Angachilla Angostura Apoquindo Aysén Azopardo Alhué Arrayán
+		Butamalal
+		Cauquenes Colbún Claro Cachapoal Calcurrupe Caramávida Carampangue Caspana Caucau Caunahue Cayucupil Chacoabuco Chaihuín Chalinga Changaral Chapelco Chillán Chimbarongo Chivilingo Choapa Cholchol Chochiguaz Cogotí Colpi Combarbalá Copiapó Cosapilla Culenco Cuncumén Cutipay Camisas Carén Colina Coya
+		Diguillín Dongul Duquenco
+		Elicura Elqui Enco 
+		Futaleufú Fuy
+		Geike Golgol Guaqui Guatulame
+		Henteli Huahum Huasco Hueinahue Huellelhue Huenchullami Huequén Huichahue
+		Illapel Incaguaz
+		Juncal Jorquera
+		Loncomilla Longaví Lontué Lircay Limache Laja Larqui Laraquete Lauca Lebu Leiva Licauqué Lingue Liquiñe Lirquén Liucura Llancahue Llanquihue Llesquehue Lleulleu Llico Lluta Loa Lumaco
+		Mataquito Mahuidanche Maipo Manflas Manso Maullín Mininco Mostazal Mulchén
+		Nacimiento Naguilán Neltume Niblinto Nicodahue Nilahue
+		Prætorium Perquilauquén Purapel Putagán Pocuro Polaico Punitaqui Petrohué Picoiquén Pillanleufú "Pichi Damas" Pingo Puangue Puyehue Pilpilco
+		Quilpué Quepe Queuco Quiapo Quidico Quilacoya Quilimarí Quillen Quino Quilañanco
+		Rahue Ranquil Rapel Rarinco Reigolil Rele Repocura Reñihué
+		Silala "Senacua Sénaqué"
+		Teno Tavolevo Tascaderus Tinguiririca Tirua Toconce Traiguén Trancura Tubul Tucapel Tutuvén
+		Uchusuma
+		"Vaimaca-Pirú Sira" Vichuquén
+		Yelcho Yendegaia Yeso
+		Zamorano
+	}
+	monitor = {
+		Aonikenk Atacameño Aymara Aconcagua Ancoa
+		Centurion Cunco Chono Chiquiyane Chango
+		Diaguita
+		Elqui
+		Huiliche
+		Kawesqar
+		Mapuche Maule
+		Pichune Pehuenche Poya Puelche Promaucae
+		Selknam
+		"Ter Gogyrfan"
+		Yagane
+	}
+	manowar = {
+		Austrolebias
+		Charrua
+		Plattina
+		"Sanctus Iacobus" "Sancta Maria" "Sanctus Andreas" "Sanctus Marcus" "Sanctus Stephanus" "Sanctus Lucas" "Sanctus Matthias" "Sanctus Petrus" "Sanctus Paulus" "Sanctus Leo" "Sancta Romana" "Sanctus Theodorus" "Sanctus Anacletus" "Sanctus Sixtus" "Sanctus Sidonius" "Sanctus Thomas" "Sactus Linus" "Sancta Candida" "Sanctus Crescens" "Sanctus Avilius" "Sanctus Dionysius" "Sanctus Iohannes" "Sanctus Iosephus" "Sanctus Evodius" "Sanctus Iuventius" "Sanctus Michael" "Sanctus Longinus" "Sanctus Maximinus" "Sanctus Parrobus" "Sancta Prisca" "Sanctus Syrus" "Sanctus Tychicus" "Sanctus Urbanus" "Sanctus Innocentius" "Sanctus Caesarius"
+		Victoria
+	}
+	frigate = {
+		Arachán Abdias
+		Bohane
+		Colastiné Calchine Corondá Caracañá Chaná Coxilha Cauqui
+		Damasius
+		Güenoa
+		Itata
+		Larrañaga
+		Muniiz Mocoreta Mbeguá Minuane Maipo
+		Pairindi
+		Queguay Quaraí 
+		Romulus
+		Salsipuedes
+		Timbu Thomasius
+		Yaro Yi
+	}
+	clipper_transport = {
+	}
+	steam_transport = { 
+	}
+	commerce_raider = {
+		Aeolus
+	}
+}

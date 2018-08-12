@@ -1,0 +1,20 @@
+alliance={
+	first="BOL"
+	second="PEU"
+	start_date="1836.1.1"
+	end_date="1936.1.1"
+}
+	
+alliance={
+	first="CHI"
+	second="KOR"
+	start_date="1836.1.1"
+	end_date="1936.1.1"
+}
+
+alliance={
+	first="YUE"
+	second="PEG"
+	start_date="1836.1.1"
+	end_date="1936.1.1"
+}

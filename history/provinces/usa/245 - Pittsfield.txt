@@ -1,0 +1,5 @@
+owner = UDN
+controller = PEQ
+add_core = UDN
+trade_goods = iron
+life_rating = 35

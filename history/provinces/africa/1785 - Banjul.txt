@@ -1,0 +1,6 @@
+owner = MAL
+controller = MAL
+add_core = GMB
+add_core = MAL
+trade_goods = fruit
+life_rating = 30

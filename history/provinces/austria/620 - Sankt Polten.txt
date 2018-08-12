@@ -1,0 +1,6 @@
+owner = THR
+controller = THR
+add_core = RNT
+add_core = THR
+trade_goods = coal
+life_rating = 35

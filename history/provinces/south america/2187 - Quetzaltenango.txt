@@ -1,0 +1,6 @@
+owner = FGY
+controller = FGY
+add_core = FGY
+trade_goods = iron
+life_rating = 30
+

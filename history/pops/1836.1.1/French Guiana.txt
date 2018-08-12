@@ -1,0 +1,133 @@
+#French Guiana (20000)
+#Ruled by France 1836
+#Cayenne (17000/4250 POPS)
+2241 = {
+	aristocrats = {
+		culture = guianuis
+		religion = reformed
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = guianuis
+		religion = reformed
+		size = 10
+	}
+
+	clergymen = {
+		culture = guianuis
+		religion = reformed
+		size = 80
+	}
+
+	artisans = {
+		culture = guianuis
+		religion = reformed
+		size = 500
+	}
+
+	soldiers = {
+		culture = guianuis
+		religion = reformed
+		size = 650
+	}
+
+	farmers = {
+		culture = guianuis
+		religion = reformed
+		size = 1800
+	}
+
+	artisans = {
+		culture = kilombuis
+		religion = reformed
+		size = 150
+	}
+
+	clergymen = {
+		culture = kilombuis
+		religion = reformed
+		size = 25
+	}
+
+	soldiers = {
+		culture = kilombuis
+		religion = reformed
+		size = 50
+	}
+
+	farmers = {
+		culture = kilombuis
+		religion = reformed
+		size = 425
+	}
+
+	slaves = {
+		culture = kilombuis
+		religion = reformed
+		size = 2950
+	}
+
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 2
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 3
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 5
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 230
+	}
+}
+#Maripasoula (3000/750 POPS)
+2246 = {
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 35
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 680
+	}
+
+}

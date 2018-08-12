@@ -1,0 +1,221 @@
+#Uruguay Region (200000)  
+#Under rule of Uruguay 1836
+#Montevideo (112000/28000 POPS)
+2344 = {
+	aristocrats = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 575
+	}
+
+	bureaucrats = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 50
+	}
+
+	officers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 980
+	}
+
+	soldiers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 20095
+	}
+
+	clergymen = {
+		culture = afro_caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribeno
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = afro_caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribeno
+		religion = orthodox
+		size = 3150
+	}
+
+	slaves = {
+		culture = afro_caribeno
+		religion = orthodox
+		size = 1500
+	}
+}
+#Paysandu (36000/9000 POPS)
+2345 = {
+	aristocrats = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 450
+	}
+
+	soldiers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 7275
+	}
+}
+#Tacumba (12000/3000 POPS)
+2346 = {
+	aristocrats = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 1800
+	}
+
+	clergymen = {
+		culture = arientig
+		religion = reformed
+		size = 15
+	}
+
+	artisans = {
+		culture = arientig
+		religion = reformed
+		size = 50
+	}
+
+	soldiers = {
+		culture = arientig
+		religion = reformed
+		size = 10
+	}
+
+	farmers = {
+		culture = arientig
+		religion = reformed
+		size = 925
+	}
+}
+#Melo (40000/10000 POPS)
+2347 = {
+	aristocrats = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = luso_charruan
+		religion = orthodox
+		size = 5450
+	}
+
+	clergymen = {
+		culture = arientig
+		religion = reformed
+		size = 50
+	}
+
+	artisans = {
+		culture = arientig
+		religion = reformed
+		size = 150
+	}
+
+	soldiers = {
+		culture = arientig
+		religion = reformed
+		size = 25
+	}
+
+	farmers = {
+		culture = arientig
+		religion = reformed
+		size = 2775
+	}
+
+}

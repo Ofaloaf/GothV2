@@ -1,0 +1,5 @@
+owner = YPN
+controller = YPN
+add_core = YPN
+trade_goods = fruit
+life_rating = 35

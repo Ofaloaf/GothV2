@@ -1,0 +1,6 @@
+owner = GTH
+controller = GTH
+add_core = SBY
+trade_goods = grain
+life_rating = 30
+colonial = 2

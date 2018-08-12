@@ -1,0 +1,5 @@
+owner = VER
+controller = VER
+add_core = VER
+trade_goods = silk
+life_rating = 35

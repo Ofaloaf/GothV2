@@ -1,0 +1,356 @@
+#Panama Region (128000)
+#Ruled by Colombia 1836
+#Balboa (12000/3000 POPS)
+1723 = {
+	aristocrats = {
+		culture = centremerican
+		religion = conciliarist
+		size = 20
+	}
+
+	clergymen = {
+		culture = centremerican
+		religion = conciliarist
+		size = 25
+	}
+
+	artisans = {
+		culture = centremerican
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 10
+	}
+
+	farmers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 895
+	}
+
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 25
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 1325
+	}
+
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 500
+	}
+}
+
+#Panama City (52000/13000 POPS)
+2204 = {
+	aristocrats = {
+		culture = centremerican
+		religion = conciliarist
+		size = 225
+	}
+
+	bureaucrats = {
+		culture = centremerican
+		religion = conciliarist
+		size = 25
+	}
+
+	officers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 50
+	}
+
+	clergymen = {
+		culture = centremerican
+		religion = conciliarist
+		size = 100
+	}
+
+	artisans = {
+		culture = centremerican
+		religion = conciliarist
+		size = 450
+	}
+
+	soldiers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 100
+	}
+
+	farmers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 8050
+	}
+
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 75
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 200
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 2675
+	}
+
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 1100
+	}
+}
+#David (28000/7000 POPS)
+2205 = {
+	aristocrats = {
+		culture = centremerican
+		religion = conciliarist
+		size = 150
+	}
+
+	clergymen = {
+		culture = centremerican
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = centremerican
+		religion = conciliarist
+		size = 300
+	}
+
+	soldiers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 75
+	}
+
+	farmers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 5375
+	}
+
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 20
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 670
+	}
+
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 250
+	}
+}
+#Penonome (24000/6000 POPS)
+2206 = {
+	aristocrats = {
+		culture = centremerican
+		religion = conciliarist
+		size = 150
+	}
+
+	clergymen = {
+		culture = centremerican
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = centremerican
+		religion = conciliarist
+		size = 250
+	}
+
+	soldiers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 50
+	}
+
+	farmers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 4500
+	}
+
+	clergymen = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 20
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 10
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 670
+	}
+
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 250
+	}
+}
+#Yaviza (12000/3000 POPS)
+2208 = {
+	aristocrats = {
+		culture = centremerican
+		religion = conciliarist
+		size = 20
+	}
+
+	clergymen = {
+		culture = centremerican
+		religion = conciliarist
+		size = 25
+	}
+
+	artisans = {
+		culture = centremerican
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 10
+	}
+
+	farmers = {
+		culture = centremerican
+		religion = conciliarist
+		size = 895
+	}
+
+	aristocrats = {
+		culture = equinoccian
+		religion = conciliarist
+		size = 20
+	}
+
+	clergymen = {
+		culture = equinoccian
+		religion = conciliarist
+		size = 25
+	}
+
+	artisans = {
+		culture = equinoccian
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = equinoccian
+		religion = conciliarist
+		size = 10
+	}
+
+	farmers = {
+		culture = equinoccian
+		religion = conciliarist
+		size = 895
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 900
+	}
+
+}

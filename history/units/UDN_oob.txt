@@ -1,0 +1,49 @@
+army = {
+	name = "Armada del'Union"
+	location = 244
+	regiment = {
+		name= "1. Infanteria"
+		type = infantry
+		home = 247
+	}
+
+	regiment = {
+		name= "2. Infantariá"
+		type = infantry
+		home = 244
+	}
+}
+
+navy = {
+	name = "1. Fluta"
+	location = 248
+	ship = {
+		name= "Union"
+		type = manowar
+	}
+
+	ship = {
+		name= "Lucinda"
+		type = frigate
+	}
+
+	ship = {
+		name= "Maria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Andrieva"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+}

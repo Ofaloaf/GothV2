@@ -1,0 +1,6 @@
+owner = AVL
+controller = AVL
+add_core = AVL
+add_core = NVL
+trade_goods = coffee
+life_rating = 30

@@ -1,0 +1,6 @@
+owner = GWD
+controller = GWD
+add_core = GWD
+add_core = ORI
+trade_goods = grain
+life_rating = 32

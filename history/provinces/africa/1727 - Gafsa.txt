@@ -1,0 +1,5 @@
+owner = BYC
+controller = BYC
+add_core = BYC
+trade_goods = wool
+life_rating = 35

@@ -1,0 +1,6 @@
+owner = GUN
+controller = GUN
+add_core = FLO
+trade_goods = fish
+life_rating = 20
+colonial = 2

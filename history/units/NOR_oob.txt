@@ -1,0 +1,218 @@
+leader = {
+	name = "Njord Torsson"
+	date = 1835.1.1
+	type = land
+	personality = strange
+	background = adventurer
+	prestige = 0.5
+}
+
+leader = {
+	name = "Ansgard Bolt"
+	date = 1807.1.1
+	type = land
+	personality = soldierly
+	background = old_school
+	prestige = 0.3
+}
+
+leader = {
+	name = "Anders Sverresson"
+	date = 1818.1.1
+	type = land
+	personality = unruly
+	background = generals_aide
+	prestige = 0.2
+}
+
+leader = {
+	name = "Nord Bjelke"
+	date = 1834.1.1
+	type = sea
+	personality = disciplined
+	background = adventurer
+	prestige = 0.1
+}
+
+army = {
+	name = "Norsk Hæren"
+	location = 332
+	regiment = {
+		name= "Kongens Garde"
+		type = guard
+		home = 309
+	}
+
+	regiment = {
+		name= "Södermanland Regiment"
+		type = infantry
+		home = 326
+	}
+
+	regiment = {
+		name= "Telemark Regiment"
+		type = infantry
+		home = 314
+	}
+
+	regiment = {
+		name= "Uppland Regiment"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "Nidaros Regiment"
+		type = infantry
+		home = 305
+	}
+
+	regiment = {
+		name= "Kalmar Regiment"
+		type = infantry
+		home = 332
+	}
+
+	regiment = {
+		name= "Uppland Regiment"
+		type = infantry
+		home = 324
+	}
+
+	regiment = {
+		name= "Skåne Regiment"
+		type = infantry
+		home = 334
+	}
+
+	regiment = {
+		name= "Nils Olavs Husarregiment"
+		type = hussar
+		home = 309
+	}
+
+	regiment = {
+		name= "Norrland Dragonregiment"
+		type = dragoon
+		home = 321
+	}
+
+}
+
+navy = {
+	name = "Norwegian Navy"
+	location = 309
+	ship = {
+		name= "Skjertstad"
+		type = manowar
+	}
+
+	ship = {
+		name= "Magnus Berrføtt"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dragmarken"
+		type = manowar
+	}
+
+	ship = {
+		name= "Draupner"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Ørn"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Halfdansnautr"
+		type = frigate
+	}
+
+	ship = {
+		name= "Taurus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Galatea"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Borgland"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Sunnifusuden"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Solve"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Kong Halfdan"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Heilag Olav"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Alvgeir"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Frost"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Bonde"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Vargen"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Dromunden"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+

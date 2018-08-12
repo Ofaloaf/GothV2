@@ -1,0 +1,5 @@
+owner = LRM
+controller = LRM
+add_core = LRM
+trade_goods = cattle
+life_rating = 35

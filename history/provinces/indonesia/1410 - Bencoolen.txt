@@ -1,0 +1,5 @@
+owner = MAJ
+controller = MAJ
+add_core = MAJ
+trade_goods = tobacco
+life_rating = 30

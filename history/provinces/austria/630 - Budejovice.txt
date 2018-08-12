@@ -1,0 +1,7 @@
+owner = JZY
+controller = JZY
+add_core = SRB
+add_core = BOY
+add_core = JZY
+trade_goods = coal
+life_rating = 35

@@ -1,0 +1,5 @@
+owner = RMD
+controller = RMD
+add_core = RMD
+trade_goods = timber
+life_rating = 35

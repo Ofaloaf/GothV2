@@ -1,0 +1,6 @@
+owner = PEQ
+controller = MIS
+add_core = PEQ
+add_core = VDL
+trade_goods = coal
+life_rating = 35

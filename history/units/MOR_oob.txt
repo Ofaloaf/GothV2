@@ -1,0 +1,358 @@
+leader = {
+	name = "Sebustanu Amilcari"
+	date = 1836.1.1
+	type = land
+	personality = competent
+	background = rising_star
+	prestige = 0.1
+}
+
+leader = {
+	name = "Camillu Aderbali"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = powerful_friends
+	prestige = 0.2
+}
+
+leader = {
+	name = "Diocletzianu Sallustiu"
+	date = 1812.1.1
+	type = sea
+	personality = earnest
+	background = old_school
+	prestige = 0.1
+}
+
+army = {
+	name = "Army of the King of Mauretania"
+	location = 1681
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 1680
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 1681
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 1682
+	}
+
+}
+
+army = {
+	name = "Army of the Atlas"
+	location = 1684
+	regiment = {
+		name= "4. Infantry Brigade"
+		type = infantry
+		home = 1683
+	}
+
+	regiment = {
+		name= "5. Infantry Brigade"
+		type = infantry
+		home = 1688
+	}
+
+	regiment = {
+		name= "6. Infantry Brigade"
+		type = infantry
+		home = 1694
+	}
+}
+
+army = {
+	name = "Army of the Interior"
+	location = 1698
+	regiment = {
+		name= "7. Infantry Brigade"
+		type = infantry
+		home = 1690
+	}
+
+	regiment = {
+		name= "8. Infantry Brigade"
+		type = infantry
+		home = 2563
+	}
+
+	regiment = {
+		name= "9. Infantry Brigade"
+		type = infantry
+		home = 1691
+	}
+
+}
+
+army = {
+	name = "Army of Tingitana"
+	location = 1686
+	regiment = {
+		name= "10. Infantry Brigade"
+		type = infantry
+		home = 1686
+	}
+
+	regiment = {
+		name= "11. Infantry Brigade"
+		type = infantry
+		home = 1687
+	}
+
+	regiment = {
+		name= "12. Infantry Brigade"
+		type = infantry
+		home = 1685
+	}
+}
+
+army = {
+	name = "Army of Hispania"
+	location = 487
+	regiment = {
+		name= "13. Infantry Brigade"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "14. Infantry Brigade"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "15. Infantry Brigade"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "16. Infantry Brigade"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "17. Infantry Brigade"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "Hispanian Engineers"
+		type = engineer
+		home = 495
+	}
+
+	regiment = {
+		name= "1. Cuirassiers"
+		type = cuirassier
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Cuirassiers"
+		type = cuirassier
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Cuirassiers"
+		type = cuirassier
+		home = 488
+	}
+}
+
+navy = {
+	name = "Mauretanian Fleet"
+	location = 1686 # Tangier / Tingis
+	
+	ship = {
+		name = "Rosalia"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Sucro"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Micipsa"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Numidicus"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Bocanum"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Jufra"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Sala"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Caesarina"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Saoura"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Rusaddir"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Mulucha"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Tubaqt"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Jugurtha"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Volubilis"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Francesa"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Zama"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Cirta"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Hispanian Fleet"
+	location = 506
+	ship = {
+		name= "Carthago Nova"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tarraconensis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sanctus Paulus"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Turiaso"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Victoriacum"
+		type = frigate
+	}
+
+	ship = {
+		name= "Lucentum"
+		type = frigate
+	}
+
+	ship = {
+		name= "Granata"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Gaiena"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Pyrenaeus"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Corduba"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Gaditana"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Barcino"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Vareia"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gerunda"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Valentia"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Bocchus"
+		type = clipper_transport
+	}
+}

@@ -1,0 +1,10 @@
+owner = SRB
+controller = SRB
+add_core = SRB
+trade_goods = cattle
+life_rating = 35
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}

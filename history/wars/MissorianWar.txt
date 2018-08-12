@@ -1,0 +1,34 @@
+name = "Great Allegheny War"
+
+1835.10.2 = {
+	add_attacker = PEQ
+	add_defender = UDN
+	add_defender = TNV
+	add_defender = MIS
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = acquire_state
+		actor = PEQ
+		receiver = UDN
+		state_province_id = 243
+	}
+	war_goal = {
+		casus_belli = acquire_state
+		actor = MIS
+		receiver = PEQ
+		state_province_id = 228
+	}
+
+}
+
+1836.6.6 = {
+	rem_attacker = PEQ
+	rem_defender = MIS
+	rem_defender = UDN
+	rem_defender = TNV
+}

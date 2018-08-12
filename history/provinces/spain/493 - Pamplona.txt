@@ -1,0 +1,6 @@
+owner = CAG
+controller = CAG
+add_core = SPA
+add_core = CAG
+trade_goods = fruit
+life_rating = 35

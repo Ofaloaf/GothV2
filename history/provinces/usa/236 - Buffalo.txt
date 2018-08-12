@@ -1,0 +1,6 @@
+owner = PEQ
+controller = PEQ
+add_core = PEQ
+add_core = VDL
+trade_goods = timber
+life_rating = 35

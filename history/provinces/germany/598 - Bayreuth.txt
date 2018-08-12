@@ -1,0 +1,5 @@
+owner = FRK
+controller = FRK
+add_core = FRK
+trade_goods = timber
+life_rating = 40

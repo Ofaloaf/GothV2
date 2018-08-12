@@ -1,0 +1,7 @@
+owner = BUL
+controller = BUL
+add_core = BUL
+colonial = 2
+add_core = AFG
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,520 @@
+#Slovakia Region (1588000) 
+#under the rule of Austria in 1836  
+#Bratislava (784000/196000 POPS)
+633 = {
+	bureaucrats = {
+		culture = jasi
+		religion = orthodox
+		size = 125 
+	}
+
+	bureaucrats = {
+		culture = thracian
+		religion = orthodox
+		size = 450
+	}
+	
+	officers = {
+		culture = jasi
+		religion = orthodox
+		size = 75 
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 1200 
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 6200
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 1250 
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 65150
+	}
+
+	aristocrats = {
+		culture = jasi
+		religion = orthodox
+		size = 2250  
+	}
+
+	bureaucrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 300  
+	}
+
+	officers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 200   
+	}
+
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 200  
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 200  
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 55600   
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = reformed
+		size = 125
+	}
+
+	artisans = {
+		culture = jasi
+		religion = reformed
+		size = 1100
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = reformed
+		size = 150  
+	}
+
+	farmers = {
+		culture = jasi
+		religion = reformed
+		size = 14725    
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 175  
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 200 
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 8625  
+	}
+
+	aristocrats = {
+		culture = thracian
+		religion = orthodox
+		size = 1250  
+	}
+
+	bureaucrats = {
+		culture = thracian
+		religion = orthodox
+		size = 275 
+	}
+
+	officers = {
+		culture = thracian
+		religion = orthodox
+		size = 150 
+	}
+
+	clergymen = {
+		culture = thracian
+		religion = orthodox
+		size = 150 
+	}
+
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = thracian
+		religion = orthodox
+		size = 175  
+	}
+
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 13000  
+	}
+}
+#Trencin (228000/57000 POPS)
+634 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 500 
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 2600
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 500 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 49200
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 25  
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1100
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 25 
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 850    
+	}
+
+	aristocrats = {
+		culture = jasi
+		religion = orthodox
+		size = 300  
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 50  
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 50  
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 1650 
+	}
+}
+#Nitra (352000/88000 POPS)
+635 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 650
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 9400
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 2650 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 93300
+	}
+
+	aristocrats = {
+		culture = jasi
+		religion = orthodox
+		size = 1100  
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 2350
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 300 
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 12400 
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = reformed
+		size = 50  
+	}
+
+	artisans = {
+		culture = jasi
+		religion = reformed
+		size = 400
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = reformed
+		size = 75  
+	}
+
+	farmers = {
+		culture = jasi
+		religion = reformed
+		size = 7475    
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 25  
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1100
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 25 
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 850    
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = conciliarist
+		size = 50  
+	}
+
+	artisans = {
+		culture = jasi
+		religion = conciliarist
+		size = 150
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = conciliarist
+		size = 50  
+	}
+
+	farmers = {
+		culture = jasi
+		religion = conciliarist
+		size = 2750  
+	}
+}
+#Banska Bystrica (224000/56000 POPS)
+636 = {
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 525
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 4250
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 525 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 50700
+	}
+}
+#Felvidek Region (860000) #see Hungary.txt and Ukraine.txt for balance of Region
+#under the rule of Austria in 1836  
+#Kosice (712000/178000POPS)
+637 = {
+	aristocrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1400  
+	}
+
+	bureaucrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 825 
+	}
+
+	officers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 600 
+	}
+
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1775
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 9000
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1925
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 101925 
+	}
+}
+#Roznava (148000/37000 POPS)
+638 = {
+	aristocrats = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 750  
+	}
+
+	clergymen = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 300 
+	}
+
+	farmers = {
+		culture = boyustaniy
+		religion = orthodox
+		size = 25300 
+	}
+
+	clergymen = {
+		culture = jasi
+		religion = orthodox
+		size = 100 
+	}
+
+	artisans = {
+		culture = jasi
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = jasi
+		religion = orthodox
+		size = 100  
+	}
+
+	farmers = {
+		culture = jasi
+		religion = orthodox
+		size = 7300    
+	}
+}

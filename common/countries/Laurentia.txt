@@ -1,0 +1,240 @@
+color = { 0 101 189 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "LRT_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "LRT_conservative"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "LRT_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "LRT_reactionary"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "LRT_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "LRT_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "LRT_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "LRT_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	cruiser = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	dreadnought = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	ironclad = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	monitor = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	commerce_raider = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	manowar = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	frigate = {
+		"Aksel Leifsson" "Aksel Eriksson" "Alf Bolt"
+		Biskopsbussen
+		"Christoffer Eriksson"
+		Desideria Dolus
+		"Eilert Sigurdsson"
+		Heimdal
+		"Inge Leifsson"
+		"Kong Nor"
+		Møysalen Molde Mercur
+		Nøk Nordkapp
+		"Oddmund Olavsson" Øibuen
+		Randaberg
+		Sørøy Sauda "Sigurd Egilsson" "Søren Sigurdsson"
+		"Tore Jarl"
+		Willehad
+	}
+	clipper_transport = {
+	}
+	steam_transport = {
+	}
+}

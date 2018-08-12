@@ -1,0 +1,617 @@
+#Halab Region (572000)  #see Turkey.txt for balance of region
+#under the rule of Egypt in 1836
+#Aleppo (316000/79000 POPS) #now part of Syria 
+897 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	bureaucrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 25
+	}
+
+	officers = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 3950
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 300
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 19725
+	}
+
+	aristocrats = {
+		culture = kurdish
+		religion = gnostic
+		size = 175
+	}
+
+	bureaucrats = {
+		culture = kurdish
+		religion = gnostic
+		size = 25
+	}
+
+	officers = {
+		culture = kurdish
+		religion = gnostic
+		size = 100
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = gnostic
+		size = 125
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = gnostic
+		size = 1350
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = gnostic
+		size = 150
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = gnostic
+		size = 11175
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = gnostic
+		size = 600
+	}
+
+	bureaucrats = {
+		culture = mashriqi
+		religion = gnostic
+		size = 350
+	}
+
+	officers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 125
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 550
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 2450
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 350
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 32000
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = armenian
+		religion = gnostic
+		size = 750
+	}
+
+	farmers = {
+		culture = armenian
+		religion = gnostic
+		size = 3175
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1450
+	}
+}
+#Dayr al-Zour (256000/64000 POPS) #now part of Syria  mashriqi-catholic = assyrian
+901 = {
+	aristocrats = {
+		culture = kurdish
+		religion = gnostic
+		size = 150
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = gnostic
+		size = 125
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = gnostic
+		size = 650
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = gnostic
+		size = 175
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = gnostic
+		size = 11300
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 350
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 1800
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 325
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 30975
+	}
+	
+	aristocrats = {
+		culture = turkish
+		religion = gnostic
+		size = 500
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = turkish
+		religion = gnostic
+		size = 100
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = gnostic
+		size = 150
+	}
+
+	farmers = {
+		culture = turkish
+		religion = gnostic
+		size = 5725
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 550
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 10350
+	}
+}
+#Suriye Region (720000)  #see Jordan.txt & Lebanon.txt for balance of region
+#under the rule of Egypt in 1836
+#Damascus (328000/82000 POPS)
+902 = {
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 575
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 10000
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 825
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 45200
+	}
+	
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 900
+	}
+
+	bureaucrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 275
+	}
+
+	officers = {
+		culture = pestemari
+		religion = gnostic
+		size = 225
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 225
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 6000
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 15775
+	}
+	
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1950
+	}
+}
+#Homs (80000/20000 POPS)
+903 = {
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 450
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 200
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 9525
+	}
+	
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 250
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 150
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 550
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 8825
+	}
+}
+#Hama (108000/27000 POPS)
+904 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = gnostic
+		size = 300
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 150
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 800
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 275
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 14475
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 550
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 10350
+	}
+}
+#Latakia (112000/28000 POPS)
+905 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 300
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 200
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 275
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 18225
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 400
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 7525
+	}
+}
+#Suwayda (92000/23000 POPS)
+906 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 225
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 175
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 950
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 250
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 10400
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 200
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 10725
+	}
+}
+#Badiyat al-Sham Region (444000)  #see Jordan.txt, Iraq.txt & Saudi Arabia.txt for balance of region
+#under the "rule" of Egypt in 1836
+#Palmyra (44000/11000 POPS)
+907 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = gnostic
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = mashriqi
+		religion = gnostic
+		size = 15
+	}
+
+	officers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 5
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 50
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 100
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 35
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 1770
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = gnostic
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = gnostic
+		size = 350
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = gnostic
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = gnostic
+		size = 8475
+	}
+
+}

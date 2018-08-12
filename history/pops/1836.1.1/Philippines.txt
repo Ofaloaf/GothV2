@@ -1,0 +1,794 @@
+#Luzon Region (2176000)
+#Ruled by Spain in 1836
+#Manila (780000/195000 POPS)
+1455 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 400
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 250
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 1050
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 100
+	}
+
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 1250
+	}
+
+	bureaucrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 450
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 750
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 10000
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 9000
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 4000
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 136550
+	}
+
+	artisans = {
+		culture = nanfaren
+		religion = conciliarist
+		size = 1200
+	}
+
+	farmers = {
+		culture = nanfaren
+		religion = conciliarist
+		size = 800
+	}
+
+	clergymen = {
+		culture = malay
+		religion = conciliarist
+		size = 75
+	}
+
+	artisans = {
+		culture = malay
+		religion = conciliarist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malay
+		religion = conciliarist
+		size = 200
+	}
+
+	farmers = {
+		culture = malay
+		religion = conciliarist
+		size = 17725
+	}
+}
+#Vigan (608000/152000 POPS)
+1456 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 625
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 7350
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 1500
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 134525
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = conciliarist
+		size = 250
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = conciliarist
+		size = 50
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = conciliarist
+		size = 6650
+	}
+}
+#Legazpi (564000/141000 POPS)
+1457 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 1100
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 625
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 6500
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 1350
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 122525
+	}
+
+	clergymen = {
+		culture = malay
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = malay
+		religion = conciliarist
+		size = 500
+	}
+
+	soldiers = {
+		culture = malay
+		religion = conciliarist
+		size = 100
+	}
+
+	farmers = {
+		culture = malay
+		religion = conciliarist
+		size = 8350
+	}
+}
+#Mindoro (224000/56000 POPS)
+1458 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 400
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 175
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 2100
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 450
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 38875
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = mahayana
+		size = 125
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = mahayana
+		size = 750
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 100
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 11025
+	}
+
+}
+#Visayas Region (1044000 POPS)
+#under rule of Spain 1836
+#Palawan (80000/20000 POPS)
+1459 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 25
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 25
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 200
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 50
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 3700
+	}
+
+	aristocrats = {
+		culture = sibyllines
+		religion = mahayana
+		size = 75
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = mahayana
+		size = 300
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 75
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 5500
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 450
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 9375
+	}
+}
+#Iloilo (312000/78000 POPS)
+1460 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 650
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 350
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 64750
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = mahayana
+		size = 75
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = mahayana
+		size = 500
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 100
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 7325
+	}
+}
+#Tacloban (348000/87000 POPS)
+1461 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 750
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 625
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 4250
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 850
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 80125
+	}
+}
+#Cebu (304000/76000 POPS)
+2565 = {
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 125
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 25
+	}
+
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 675
+	}
+
+	bureaucrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 375
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 450
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 3500
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 64050
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = mahayana
+		size = 500
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 75
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 5375
+	}
+
+}
+#Mindanao Region (496000)
+#Under gautes "Rule" 1836
+#Davao (152000/38000 POPS)
+1463 = {
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 75
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 50
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 25
+	}
+
+	aristocrats = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 100
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 100
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 850
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 1100
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 14800
+	}
+
+	aristocrats = {
+		culture = sibyllines
+		religion = mahayana
+		size = 100
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = mahayana
+		size = 600
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 100
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 11100
+	}
+
+	farmers = {
+		culture = malay
+		religion = conciliarist
+		size = 1100
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 7375
+	}
+}
+#Under rule of Sultans of Sulu in 1836
+#Zamboanga (300000/75000 POPS)
+1462 = {
+	aristocrats = {
+		culture = sibyllines
+		religion = mahayana
+		size = 600
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = mahayana
+		size = 500
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = mahayana
+		size = 2500
+	}
+
+	soldiers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 500
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = mahayana
+		size = 44900
+	}
+
+	clergymen = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 50
+	}
+
+	artisans = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 750
+	}
+
+	farmers = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 12200
+	}
+
+	slaves = {
+		culture = sibyllines
+		religion = conciliarist
+		size = 4000
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 8525
+	}
+}
+#Jolo (44000/11000 POPS)
+1464 = {
+	aristocrats = {
+		culture = malay
+		religion = mahayana
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = malay
+		religion = mahayana
+		size = 75
+	}
+
+	officers = {
+		culture = malay
+		religion = mahayana
+		size = 75
+	}
+
+	clergymen = {
+		culture = malay
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = malay
+		religion = mahayana
+		size = 600
+	}
+
+	soldiers = {
+		culture = malay
+		religion = mahayana
+		size = 225
+	}
+
+	farmers = {
+		culture = malay
+		religion = mahayana
+		size = 9825
+	}
+
+}

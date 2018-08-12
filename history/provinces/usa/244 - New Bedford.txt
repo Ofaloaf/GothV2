@@ -1,0 +1,5 @@
+owner = UDN
+controller = UDN
+add_core = UDN
+trade_goods = grain
+life_rating = 35

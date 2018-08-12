@@ -1,0 +1,6 @@
+owner = TER
+controller = TER
+add_core = SLT
+trade_goods = grain
+life_rating = 20
+colonial = 2

@@ -1,0 +1,16 @@
+owner = AVL
+controller = AVL
+add_core = AVL
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = regular_clothes_factory
+	upgrade = yes
+}

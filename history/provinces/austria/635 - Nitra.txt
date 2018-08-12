@@ -1,0 +1,6 @@
+owner = SRB
+controller = SRB
+add_core = CPT
+add_core = SRB
+trade_goods = grain
+life_rating = 35

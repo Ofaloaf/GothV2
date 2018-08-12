@@ -1,0 +1,6 @@
+owner = ANC
+controller = ANC
+add_core = ANC
+add_core = TEX
+trade_goods = grain
+life_rating = 35

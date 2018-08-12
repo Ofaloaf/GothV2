@@ -1,0 +1,22 @@
+name = "War of the Mandate"
+
+1835.10.2 = {
+	add_attacker = JAP
+	add_defender = CHI
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = make_puppet
+		actor = JAP
+		receiver = CHI
+	}
+}
+
+1836.6.6 = {
+	rem_attacker = JAP
+	rem_defender = CHI
+}

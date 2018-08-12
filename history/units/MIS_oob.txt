@@ -1,0 +1,190 @@
+leader = {
+	name = "Audoacre de Pratis"
+	date = 1807.1.1
+	type = land
+	personality = confident
+	background = elderly
+	prestige = 0.5
+}
+
+leader = {
+	name = "Lucàs Mera"
+	date = 1832.1.1
+	type = land
+	personality = disorderly
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Ibramund de Tarrasso"
+	date = 1828.1.1
+	type = land
+	personality = relentless
+	background = drillmaster
+	prestige = 0.2
+}
+
+leader = {
+	name = "Albertet Velat"
+	date = 1824.1.1
+	type = land
+	personality = cautious
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Marc Comet"
+	date = 1834.1.1
+	type = sea
+	personality = stouthearted
+	background = unfit
+	prestige = 0.1
+}
+
+army = {
+	name = "Armada Raïal"
+	location = 221 # Hagerstown
+	regiment = {
+		name= "1. Enfantariá"
+		type = infantry
+		home = 139
+	}
+
+	regiment = {
+		name= "2. Enfantariá"
+		type = infantry
+		home = 146
+	}
+
+	regiment = {
+		name= "3. Enfantariá"
+		type = infantry
+		home = 163
+	}
+
+	regiment = {
+		name= "4. Enfantariá"
+		type = infantry
+		home = 178
+	}
+
+	regiment = {
+		name= "5. Enfantariá"
+		type = infantry
+		home = 173
+	}
+
+	regiment = {
+		name= "6. Enfantariá"
+		type = infantry
+		home = 163
+	}
+	
+	regiment = {
+		name= "Artilleria Raïal"
+		type = artillery
+		home = 146
+	}
+
+	regiment = {
+		name= "Cavalariá Raïal"
+		type = dragoon
+		home = 146
+	}
+}
+
+army = {
+	name = "Armada del Mississippi"
+	location = 227 # Pittsburgh
+	regiment = {
+		name= "7. Enfantariá"
+		type = infantry
+		home = 211
+	}
+	regiment = {
+		name= "8. Enfantariá"
+		type = infantry
+		home = 166
+	}
+	regiment = {
+		name= "1. Artilleria"
+		type = artillery
+		home = 211
+	}
+	regiment = {
+		name= "1. Cavalariá"
+		type = dragoon
+		home = 166
+	}
+}
+
+army = {
+	name = "Auxilia"
+	location = 146
+	regiment = {
+		name= "1. Auxiliars"
+		type = irregular
+		home = 146
+	}
+
+	regiment = {
+		name= "2. Auxiliars"
+		type = irregular
+		home = 149
+	}
+
+	regiment = {
+		name= "3. Auxiliars"
+		type = irregular
+		home = 149
+	}
+}
+
+navy = {
+	name = "Marina Missoría"
+	location = 139
+	ship = {
+		name= "Athanaricus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mirabellum"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Camilla"
+		type = frigate
+	}
+
+	ship = {
+		name= "Grimoart"
+		type = frigate
+	}
+
+	ship = {
+		name= "Magdalayna"
+		type = frigate
+	}
+
+	ship = {
+		name= "Wella"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "Fina"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Senta Romana"
+		type = clipper_transport
+	}
+}
+

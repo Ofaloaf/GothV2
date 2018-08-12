@@ -1,0 +1,4 @@
+owner = JCT
+controller = JCTadd_core = JCT
+trade_goods = grain
+life_rating = 30

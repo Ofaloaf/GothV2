@@ -1,0 +1,6 @@
+owner = CHK
+controller = CHK
+add_core = CHK
+add_core = SHK
+trade_goods = fish
+life_rating = 20

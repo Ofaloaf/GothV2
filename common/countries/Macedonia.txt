@@ -1,0 +1,297 @@
+color = { 64 30 80 }
+graphical_culture = EuropeanGC
+
+party = {
+	name = "MCD_conservative"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "MCD_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "MCD_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "MCD_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "MCD_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "MCD_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "MCD_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "MCD_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	ironclad = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	manowar = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	cruiser = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena Silni
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	frigate = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton Takovo
+		Vodin Vasilevs
+		Zeus
+	}
+	monitor = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika Nikolina
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	clipper_transport = { 
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	steam_transport = { 
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+	commerce_raider = {
+		Atena Ahaja Arta Amphissa Alkmeon Arkadija Ambrakija Akarnanija Afrpdota
+		Ber "Boris Cypsellus" Beotija
+		Cemren
+		Durachi Denes Doris Demetra Dopma Diokle
+		Eubeja Epir Etolija Elektra Europa
+		Fokida Filomon Filoktet Filomela Fobos Ftiotida Fenik
+		Hlerin Helen Hipomen Hiron Hektor Hekaba
+		Ilinden
+		Kastrinitsi Kozani Kalisto Kentuar
+		Lidoriki Lagadin Leda Lakedemon
+		Metoni Makedonija Medeja Minotaur Megara
+		Narcis "Novo Sonce" Nausikaja Najade Nika 
+		Olimp Omfala Orhomen Otris Odisej Okeanide
+		Preobrazhenie Pindar Pira Pan Pandora Paris Pegaz Pelazg Penelopa Perijer Polidor Posejdon Prijam Prokma Prometej Pacov
+		Solun Servia Ser Sparta Selena Sarpedon Sirena
+		Tesalija Troja Telegon Tindarej Triton
+		Vodin Vasilevs
+		Zeus
+	}
+}

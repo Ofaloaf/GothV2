@@ -1,0 +1,529 @@
+# The Death of Péitre VI
+country_event = {
+	news = yes
+	id = 500000
+
+	news_desc_long = "EVTNAME500000_NEWS_LONG"
+	news_desc_medium = "EVTNAME500000_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500000_NEWS_SHORT"
+	title = "EVTNAME500000"
+	desc = "EVTDESC500000"
+	picture = "funeral"
+	
+	trigger = {
+		tag = GTH
+		NOT = { has_country_flag = death_of_pete_the_sixth }
+		year = 1840
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+	}
+	
+	immediate = {
+		set_country_flag = death_of_pete_the_sixth
+	}
+
+	option = {
+		name = "EVTOPTA500000" # Hail Queen Onecca!
+		# Onecca at the end of EU4 is 31 years old, born in 1805. By 1840 she'll be 35.
+		# Onecca has the 'free thinker' trait.
+		any_pop = {
+			scaled_consciousness = {
+				factor = 1
+				ideology = liberal
+			}
+		}
+	}	
+}
+
+country_event = {
+	news = yes
+	id = 500001
+
+	news_desc_long = "EVTNAME500001_NEWS_LONG"
+	news_desc_medium = "EVTNAME500001_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500001_NEWS_SHORT"
+	title = "EVTNAME500001"
+	desc = "EVTDESC500001"
+	picture = "canalconstruction"
+	
+	trigger = {
+		tag = GTH
+		year = 1836
+		NOT = { is_canal_enabled = 3 }
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA500001"
+		enable_canal = 3
+		money = -1000
+		1723 = { set_province_flag = panama_canal }
+	}	
+}
+
+#The Virgin Queen/Onecca has no heir!
+country_event = {
+	id = 500002
+	title = "EVTNAME500002"
+	desc = "EVTDESC500002"
+	picture = "crown"
+
+	trigger = {
+		tag = GTH
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = death_of_pete_the_sixth
+		NOT = { has_country_flag = queen_onecca }
+		year = 1845	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1848
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1850
+		}
+	}
+
+	option = {
+		name = "EVTOPTA500002" 
+		plurality = 2
+		any_pop = {
+			consciousness = 1
+		}
+		set_country_flag = queen_onecca
+	}
+}
+
+# TODO: The Heir of Queen Onecca. Choose a Romanian heir, a Frankish heir, or a Norwegian heir. Alternatively, Onecca can say that she will tolerate no talk of the government appointing an heir, and so no heir is named.
+country_event = {
+	id = 500003
+	title = "EVTNAME500003"
+	desc = "EVTDESC500003"
+	picture = "crown"
+
+	trigger = {
+		tag = GTH
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		year = 1856	
+		has_country_flag = queen_onecca
+		NOT = {
+			OR = {
+				has_country_flag = GTH_frankish_heir
+				has_country_flag = GTH_romanian_heir
+				has_country_flag = GTH_norwegian_heir
+				has_country_flag = GTH_no_heir
+			}
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1860
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1865
+		}
+	}
+
+	option = {
+		name = "EVTOPTA500003" 
+		set_country_flag = GTH_frankish_heir
+		ai_chance = {
+			factor = 5
+		}
+	}
+	option = {
+		name = "EVTOPTB500003" 
+		set_country_flag = GTH_romanian_heir
+		ai_chance = {
+			factor = 2
+		}
+	}
+	option = {
+		name = "EVTOPTC500003" 
+		set_country_flag = GTH_norwegian_heir
+		ai_chance = {
+			factor = 2
+		}
+	}
+	option = {
+		name = "EVTOPTD500003"
+		set_country_flag = GTH_no_heir
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# The Death of Queen Onecca, Frankish heir. If GTH is any sort of monarchy, it switches to Prussian Constitutionalism.
+country_event = {
+	news = yes
+	id = 500004
+
+	news_desc_long = "EVTNAME500004_NEWS_LONG"
+	news_desc_medium = "EVTNAME500004_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500004_NEWS_SHORT"
+	title = "EVTNAME500004"
+	desc = "EVTDESC500004"
+	picture = "funeral"
+	
+	trigger = {
+		tag = GTH
+		NOT = { has_country_flag = onecca_dead }
+		year = 1870
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = GTH_frankish_heir
+	}
+ 
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1890
+		}
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = onecca_dead
+	}
+
+	option = {
+		name = "EVTOPTA500004"
+		government = prussian_constitutionalism
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						vote_franschise = landed_voting
+						vote_franschise = wealth_weighted_voting
+						vote_franschise = wealth_voting
+					}
+				}
+			}
+			political_reform = wealth_weighted_voting
+		}
+		any_country = {
+			limit = {
+				tag = GTH
+				OR = {
+					political_parties = secret_ballots
+					political_parties = non_secret_ballots
+				}
+			}
+			political_reform = gerrymandering
+		}
+	}	
+}
+
+country_event = {
+	news = yes
+	id = 500005
+
+	news_desc_long = "EVTNAME500005_NEWS_LONG"
+	news_desc_medium = "EVTNAME500005_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500005_NEWS_SHORT"
+	title = "EVTNAME500005"
+	desc = "EVTDESC500005"
+	picture = "funeral"
+	
+	trigger = {
+		tag = GTH
+		NOT = { has_country_flag = onecca_dead }
+		year = 1870
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = GTH_romanian_heir
+	}
+ 
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1890
+		}
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = onecca_dead
+	}
+
+	option = {
+		name = "EVTOPTA500005"
+		government = absolute_monarchy
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					vote_franschise = none_voting
+				}
+			}
+			political_reform = none_voting
+		}
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						political_parties = underground_parties
+						political_parties = harassment
+					}
+				}
+			}
+			political_reform = harassment
+		}
+	}	
+}
+
+# The Death of Queen Onecca, Norwegian heir. If GTH is any sort of monarchy, it switches to HM's government.
+country_event = {
+	news = yes
+	id = 500006
+
+	news_desc_long = "EVTNAME500006_NEWS_LONG"
+	news_desc_medium = "EVTNAME500006_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500006_NEWS_SHORT"
+	title = "EVTNAME500006"
+	desc = "EVTDESC500006"
+	picture = "funeral"
+	
+	trigger = {
+		tag = GTH
+		NOT = { has_country_flag = onecca_dead }
+		year = 1870
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = GTH_norwegian_heir
+	}
+ 
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1890
+		}
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = onecca_dead
+	}
+
+	option = {
+		name = "EVTOPTA500006"
+		government = hms_government
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						vote_franschise = wealth_voting
+						vote_franschise = universal_weighted_voting
+						vote_franschise = universal_voting
+					}
+				}
+			}
+			political_reform = wealth_voting
+		}
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						political_parties = gerrymandering
+						political_parties = non_secret_ballots
+						political_parties = secret_ballots
+					}
+				}
+			}
+			political_reform = gerrymandering
+		}
+	}	
+}
+
+# The Death of Queen Onecca, no heir. CHAOS
+country_event = {
+	news = yes
+	id = 500007
+
+	news_desc_long = "EVTNAME500007_NEWS_LONG"
+	news_desc_medium = "EVTNAME500007_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500007_NEWS_SHORT"
+	title = "EVTNAME500007"
+	desc = "EVTDESC500007"
+	picture = "funeral"
+	
+	trigger = {
+		tag = GTH
+		NOT = { has_country_flag = onecca_dead }
+		year = 1870
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = GTH_no_heir
+	}
+ 
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1890
+		}
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = onecca_dead
+	}
+
+	option = {
+		name = "EVTOPTA500007"
+		prestige = -50
+		any_pop = {
+			militancy = 1
+			consciousness = 2
+		}
+	}	
+	option = {
+		name = "EVTOPTB500007"
+		government = presidential_dictatorship
+		prestige = -5
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					vote_franschise = none_voting
+				}
+			}
+			political_reform = none_voting
+		}
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						political_parties = underground_parties
+						political_parties = harassment
+					}
+				}
+			}
+			political_reform = harassment
+		}
+		any_pop = {
+			limit = { ideology = liberal }
+			militancy = 5
+			consciousness = 1
+		}
+	}
+	option = {
+		name = "EVTOPTC500007"
+		government = democracy
+		prestige = -10
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						vote_franschise = wealth_voting
+						vote_franschise = universal_weighted_voting
+						vote_franschise = universal_voting
+					}
+				}
+			}
+			political_reform = wealth_voting
+		}
+		any_country = {
+			limit = {
+				tag = GTH
+				NOT = {
+					OR = {
+						political_parties = gerrymandering
+						political_parties = non_secret_ballots
+						political_parties = secret_ballots
+					}
+				}
+			}
+			political_reform = gerrymandering
+		}
+		any_pop = {
+			limit = { ideology = reactionary }
+			militancy = 5
+			consciousness = 1
+		}
+	}	
+}

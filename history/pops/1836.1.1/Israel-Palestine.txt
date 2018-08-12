@@ -1,0 +1,461 @@
+#Bayrut Region (52000)  #see Lebanon.txt for balance of region
+#under the rule of Egypt in 1836
+#Acre (52000/13000 POPS) #now part of Israel-Palestine  mashriqi-animist = druze 
+916 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 250
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 200
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 1150
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 600
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 7575
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1875
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 200
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 3750
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 50
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 100
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 1850
+	}
+}
+#Palestine Region (236000)  #see Jordan.txt for balance of region
+#under the rule of Egypt in 1836
+#Jerusalem (68000/17000 POPS)
+917 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 200
+	}
+
+	officers = {
+		culture = pestemari
+		religion = gnostic
+		size = 150
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 7300
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 1200
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 38100
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 825
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 3100
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 875
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 1575
+	}
+	
+	clergymen = {
+		culture = greek
+		religion = gnostic
+		size = 150
+	}
+
+	artisans = {
+		culture = greek
+		religion = gnostic
+		size = 800
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = gnostic
+		size = 200
+	}
+
+	farmers = {
+		culture = greek
+		religion = gnostic
+		size = 1300
+	}
+}
+#Nablus (44000/11000 POPS)
+918 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 1025
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 7625
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 850
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 25
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 100
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 875
+	}
+}
+#Jaffa (48000/12000 POPS)
+919 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 7550
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 600
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 2100
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 1675
+	}
+	
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 875
+	}
+}
+#Gaza (44000/11000 POPS)
+920 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 125
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 1250
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 300
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 14400
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = gnostic
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = gnostic
+		size = 550
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = gnostic
+		size = 3725
+	}
+}
+#Beersheba (36000/9000 POPS)
+921 = {
+	aristocrats = {
+		culture = pestemari
+		religion = gnostic
+		size = 75
+	}
+
+	clergymen = {
+		culture = pestemari
+		religion = gnostic
+		size = 50
+	}
+
+	artisans = {
+		culture = pestemari
+		religion = gnostic
+		size = 350
+	}
+
+	soldiers = {
+		culture = pestemari
+		religion = gnostic
+		size = 100
+	}
+
+	farmers = {
+		culture = pestemari
+		religion = gnostic
+		size = 6425
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = gnostic
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = gnostic
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = gnostic
+		size = 75
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = gnostic
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = gnostic
+		size = 1850
+	}
+
+}

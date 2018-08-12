@@ -1,0 +1,6 @@
+owner = LRM
+controller = LRM
+add_core = LRM
+add_core = SIC
+trade_goods = sulphur
+life_rating = 35

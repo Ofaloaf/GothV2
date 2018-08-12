@@ -1,0 +1,2 @@
+owner = BYZcontroller = BYZadd_core = BYZadd_core = AZBtrade_goods = grain
+life_rating = 35

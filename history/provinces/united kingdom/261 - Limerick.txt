@@ -1,0 +1,6 @@
+owner = IWD
+controller = IWD
+add_core = IWD
+trade_goods = fish
+life_rating = 35
+

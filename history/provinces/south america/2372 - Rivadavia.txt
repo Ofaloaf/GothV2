@@ -1,0 +1,5 @@
+owner = CUA
+controller = CUA
+add_core = CUA
+trade_goods = timber
+life_rating = 30

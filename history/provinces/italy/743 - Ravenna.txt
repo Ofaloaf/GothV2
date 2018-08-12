@@ -1,0 +1,5 @@
+owner = RMD
+controller = RMD
+add_core = RMD
+trade_goods = wool
+life_rating = 35

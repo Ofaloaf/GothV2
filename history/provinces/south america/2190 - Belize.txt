@@ -1,0 +1,5 @@
+owner = FGY
+controller = FGY
+add_core = FGY
+trade_goods = fruit
+life_rating = 30

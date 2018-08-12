@@ -1,0 +1,6 @@
+owner = GUN
+controller = GUN
+add_core = GUN
+trade_goods = coal
+life_rating = 35
+naval_base = 1

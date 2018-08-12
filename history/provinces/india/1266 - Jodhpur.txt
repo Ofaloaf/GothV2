@@ -1,0 +1,6 @@
+owner = SIN
+controller = SIN
+add_core = JOD
+add_core = SIN
+trade_goods = tea
+life_rating = 32

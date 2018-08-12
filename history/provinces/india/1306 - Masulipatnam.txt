@@ -1,0 +1,5 @@
+owner = TNJ
+controller = TNJ
+add_core = TNJ
+trade_goods = grain
+life_rating = 32

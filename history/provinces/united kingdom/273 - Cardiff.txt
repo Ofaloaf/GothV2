@@ -1,0 +1,12 @@
+owner = GBI
+controller = GBI
+add_core = GBI
+trade_goods = coal
+naval_base = 1
+life_rating = 35
+
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}

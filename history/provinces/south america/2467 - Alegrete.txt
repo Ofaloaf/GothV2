@@ -1,0 +1,6 @@
+owner = CUA
+controller = CUA
+add_core = CUA
+add_core = ARG
+trade_goods = cattle
+life_rating = 35

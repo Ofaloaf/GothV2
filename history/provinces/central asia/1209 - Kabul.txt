@@ -1,0 +1,6 @@
+owner = BUL
+controller = BUL
+add_core = AFG
+add_core = SIN
+trade_goods = timber
+life_rating = 35

@@ -1,0 +1,6 @@
+owner = BYC
+controller = BYC
+add_core = BYC
+add_core = NMD
+trade_goods = grain
+life_rating = 35

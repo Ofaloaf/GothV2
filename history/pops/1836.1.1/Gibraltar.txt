@@ -1,0 +1,41 @@
+#Gibraltar : 16000
+#Ruled by Britain 1836
+#Gibraltar (16000/4000 POPS)
+517 = {
+	officers = {
+		culture = hispanian
+		religion = orthodox
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = hispanian
+		religion = orthodox
+		size = 5
+	}
+
+	clergymen = {
+		culture = hispanian
+		religion = orthodox
+		size = 55
+	}
+
+	artisans = {
+		culture = hispanian
+		religion = orthodox
+		size = 2535
+	}
+
+	soldiers = {
+		culture = hispanian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = hispanian
+		religion = orthodox
+		size = 3500
+	}
+
+}

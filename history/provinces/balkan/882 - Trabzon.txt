@@ -1,0 +1,6 @@
+owner = IBR
+controller = IBR
+add_core = IBR
+add_core = ARM
+trade_goods = cattle
+life_rating = 35

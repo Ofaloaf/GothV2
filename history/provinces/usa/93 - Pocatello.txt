@@ -1,0 +1,6 @@
+trade_goods = cattle
+life_rating = 35
+owner = PEQ
+controller = PEQ
+add_core = PEQ
+colonial = 2

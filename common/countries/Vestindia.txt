@@ -1,0 +1,200 @@
+color = { 83 113 149 }
+graphical_culture = Generic
+
+party = {
+	name = "VST_conservative"
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "VST_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+
+party = {
+	name = "VST_reactionary"
+	start_date = 1820.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "VST_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "VST_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "VST_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = jingoism
+}
+
+party = {
+	name = "VST_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = anarchist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "VST_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+unit_names = {
+	battleship = {
+		Æge Angerbroda Aurbroda
+		Bestla
+		Gjalp Greip Glod Gunnlod Grid Gerd
+		Harthgrepa Hel Hljod Hrimgerd Hrod Hyrrokkin
+		Jörd
+		Lauvøy Leikn
+		Modgunn
+		Natt
+		Rind
+		Skade 
+	}
+	cruiser = {
+		Gondul Hild Hløkk Hrist Skjeggjold Skogul Skuld Trud
+	}
+	dreadnought = {
+		Æge
+		Heimdal
+		Kriger Kjempe
+		Modig
+		Tor
+		Uslåelig Ukuelig Ustoppelig
+	}
+	ironclad = {
+		Fryktløs
+		Hevner
+		"Ny Norge"
+		Tordenskjold
+		Uopphørlig
+		Vestindia Valkyrien
+	}
+	monitor = {
+		August
+		Mist
+		Pålitelig
+		Storm
+	}
+	commerce_raider = {
+		"Erik Nansen"
+		"Halla Sverresson"
+		"Ludvig Norheim"
+		"Mats Bolt" "Magnus Eriksson"
+		"Ny Horten"
+		"Olav Torgeirsson"
+		"Per Gynt"
+		"Sigurd Torsson" "Søren Olavsson"
+		"Torhild Leifsson"
+	}
+	manowar = {
+		Borgland Bjørnvik
+		Dominika
+		"Erling Jarl"
+		Gustavia Gråfellen
+		Hugro
+		Jøsenfjord
+		Krossuden Kvitsøy
+		Martinika
+		Rokken Rakne
+		Sættarspillir
+		Tordenskjold Tranen
+		Valslynga
+	}
+	frigate = {
+		Arendal Åse
+		Brott
+		Fjordbuen Finnmarken Fredsbryter
+		Gullbringen
+		Halfdan Heinersuden "Harald Haarfagre" "Haakon Jarl"
+		Kyngesbussen "Kong Haakon"
+		Munkholmen "Magnus Berrføtt" Mars Mira Molde
+		"Ny Horten"
+		Ombofjord Orion
+		Polarlys
+		Rygjarbranden
+		"Sankt Kryss" "Sankt Lucia" Stjerne
+		Tignesvennen
+		Vindafjord Vesteraalen
+	}
+	clipper_transport = { 
+	}
+	steam_transport = { 
+	}
+}

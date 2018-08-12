@@ -1,0 +1,6 @@
+owner = GJT
+controller = GJT
+add_core = GJT
+trade_goods = grain
+life_rating = 32
+naval_base = 1

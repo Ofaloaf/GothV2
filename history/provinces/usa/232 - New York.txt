@@ -1,0 +1,16 @@
+owner = PEQ
+controller = PEQ
+add_core = PEQ
+trade_goods = grain
+life_rating = 50
+fort = 1
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}

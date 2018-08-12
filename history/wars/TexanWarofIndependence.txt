@@ -1,0 +1,54 @@
+name = "Dazhou Subjugation of Yue"
+
+1835.10.2 = {
+	add_attacker = CHI
+	add_defender = YUE
+	add_defender = PEG
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = CHI
+		receiver = YUE
+	}
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = PEG
+		receiver = CHI
+		state_province_id = 1601
+	}
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = YUE
+		receiver = CHI
+		state_province_id = 1499
+	}
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = YUE
+		receiver = CHI
+		state_province_id = 1581
+	}
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = YUE
+		receiver = CHI
+		state_province_id = 1557
+	}
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = YUE
+		receiver = CHI
+		state_province_id = 1578
+	}
+}
+
+1836.6.6 = {
+	rem_attacker = CHI
+	rem_defender = YUE
+	rem_defender = PEG
+}

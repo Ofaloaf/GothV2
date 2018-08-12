@@ -1,0 +1,83 @@
+#Luxembourg (172000)
+#In personal union with Netherlands in 1836
+#Luxembourg (172000/43000 POPS)
+397 = {
+	aristocrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 175
+	}
+
+	bureaucrats = {
+		culture = gautes
+		religion = conciliarist
+		size = 25
+	}
+
+	clergymen = {
+		culture = gautes
+		religion = conciliarist
+		size = 150
+	}
+
+	artisans = {
+		culture = gautes
+		religion = conciliarist
+		size = 750
+	}
+
+	soldiers = {
+		culture = gautes
+		religion = conciliarist
+		size = 2000
+	}
+
+	farmers = {
+		culture = gautes
+		religion = conciliarist
+		size = 12900
+	}
+
+	aristocrats = {
+		culture = gothi
+		religion = conciliarist
+		size = 250
+	}
+
+	officers = {
+		culture = gothi
+		religion = conciliarist
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = gothi
+		religion = conciliarist
+		size = 50
+	}
+
+	clergymen = {
+		culture = gothi
+		religion = conciliarist
+		size = 275
+	}
+
+	artisans = {
+		culture = gothi
+		religion = conciliarist
+		size = 1750
+	}
+
+	soldiers = {
+		culture = gothi
+		religion = conciliarist
+		size = 250
+	}
+
+	farmers = {
+		culture = gothi
+		religion = conciliarist
+		size = 25375
+	}
+
+}

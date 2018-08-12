@@ -1,0 +1,274 @@
+#Albania Region (1096000)
+#under the rule of Ottoman Empire in 1836
+#Tirana (296000/74000 POPS)
+849 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 350
+	}
+
+	officers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+
+	
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 2500
+	}
+	
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 1200
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 200
+	}
+	
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 40250
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 1200
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 800
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 25200
+	}
+}
+#Shkoder (408000/102000 POPS)
+850 = {
+	aristocrats = {
+		culture = dalmatian
+		religion = orthodox
+		size = 2150
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 3800
+	}
+
+	soldiers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 67300
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 1050
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 24725
+	}
+}
+#Durres (120000/30000 POPS)
+851 = {
+	aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 600
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 1200
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 21075
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 5450
+	}
+}
+#Vlore (272000/68000 POPS)
+852 = {
+	aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 1400
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 625
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 3250
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 700
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 56025
+	}
+
+	clergymen = {
+		culture = dalmatian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = dalmatian
+		religion = orthodox
+		size = 300
+	}
+
+	farmers = {
+		culture = dalmatian
+		religion = orthodox
+		size = 5450
+	}
+}
+#Epirus Region (168000) #see Greece.txt for balance of region 
+#under the rule of Ottoman Empire in 1836
+#Gjirokaster (168000/42000 POPS) #now part of Albania   
+853 = {
+	aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 425
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 27525
+	}
+
+	clergymen = {
+		culture = macedonian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = macedonian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = macedonian
+		religion = orthodox
+		size = 8775
+	}
+
+}

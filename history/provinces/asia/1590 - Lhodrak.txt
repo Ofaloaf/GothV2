@@ -1,0 +1,6 @@
+owner = MNY
+controller = MNY
+add_core = TIB
+add_core = MNY
+trade_goods = cattle
+life_rating = 25

@@ -1,0 +1,5 @@
+owner = TGR
+controller = TGR
+add_core = TGR
+trade_goods = cattle
+life_rating = 30

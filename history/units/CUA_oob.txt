@@ -1,0 +1,74 @@
+army = {
+	name = "Army of Charrua"
+	location = 2344
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 2344
+	}
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 2345
+	}
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 2341
+	}
+	regiment = {
+		name= "Charruan Artillery"
+		type = artillery
+		home = 2396
+	}
+}
+
+
+navy = {
+	name = "Charruan Navy"
+	location = 2344
+	ship = {
+		name= "Guar"
+		type = manowar
+	}
+	ship = {
+		name= "Uruguay"
+		type = manowar
+	}
+	ship = {
+		name= "Pehuenmapu"
+		type = manowar
+	}
+	ship = {
+		name= "Huillimapu"
+		type = frigate
+	}
+	ship = {
+		name= "Samayoi"
+		type = frigate
+	}
+	ship = {
+		name= "Bohané"
+		type = frigate
+	}
+	ship = {
+		name= "Yaro"
+		type = frigate
+	}
+	ship = {
+		name= "Tandil"
+		type = frigate
+	}
+	ship = {
+		name= "Chepes"
+		type = frigate
+	}
+	ship = {
+		name= "Tucuman"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Picunmapu"
+		type = clipper_transport
+	}
+}

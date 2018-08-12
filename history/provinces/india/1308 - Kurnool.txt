@@ -1,0 +1,6 @@
+owner = GJT
+controller = GJT
+add_core = GJT
+add_core = TNJ
+trade_goods = tea
+life_rating = 32

@@ -1,0 +1,5 @@
+owner = MBA
+controller = MBA
+add_core = MBA
+trade_goods = coffee
+life_rating = 25

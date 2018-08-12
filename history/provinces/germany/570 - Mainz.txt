@@ -1,0 +1,5 @@
+owner = GTY
+controller = GTY
+add_core = GTY
+trade_goods = sulphur
+life_rating = 40

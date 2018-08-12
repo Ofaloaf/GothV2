@@ -1,0 +1,5 @@
+owner = JCT
+controller = JCT
+add_core = JCT
+trade_goods = coffee
+life_rating = 30

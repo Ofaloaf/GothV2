@@ -1,0 +1,72 @@
+army = {
+	name = "1. Armiya"
+	location = 958
+	regiment = {
+		name= "1. Pikhota"
+		type = infantry
+		home = 958
+	}
+
+	regiment = {
+		name= "2. Pikhota"
+		type = infantry
+		home = 962
+	}
+	
+	regiment = {
+		name= "1. Kavaleriya"
+		type = cavalry
+		home = 963
+	}
+
+	regiment = {
+		name= "1. Artyleriya"
+		type = artillery
+		home = 958
+	}
+}
+
+army = {
+	name = "2. Armiya"
+	location = 937
+	regiment = {
+		name= "3. Pikhota"
+		type = infantry
+		home = 937
+	}
+	regiment = {
+		name= "4. Pikhota"
+		type = infantry
+		home = 940
+	}
+	regiment = {
+		name= "5. Pikhota"
+		type = infantry
+		home = 957
+	}
+	regiment = {
+		name= "6. Pikhota"
+		type = infantry
+		home = 711
+	}
+}
+
+army = {
+	name = "Husari"
+	location = 980
+	regiment = {
+		name= "1. Husari"
+		type = hussar
+		home = 980
+	}
+	regiment = {
+		name= "2. Husari"
+		type = hussar
+		home = 1047
+	}
+	regiment = {
+		name= "3. Husari"
+		type = hussar
+		home = 979
+	}
+}

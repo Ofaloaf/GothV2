@@ -1,0 +1,183 @@
+#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Skopje (424000/106000 POPS) 
+806 = {
+	aristocrats = {
+		culture = thracian
+		religion = orthodox
+		size = 2450
+	}
+
+	clergymen = {
+		culture = thracian
+		religion = orthodox
+		size = 425
+	}
+
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = thracian
+		religion = orthodox
+		size = 3000
+	}
+
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 30825
+	}
+
+	clergymen = {
+		culture = macedonian
+		religion = orthodox
+		size = 525
+	}
+
+	artisans = {
+		culture = macedonian
+		religion = orthodox
+		size = 3300
+	}
+
+	farmers = {
+		culture = macedonian
+		religion = orthodox
+		size = 36475
+	}
+	
+	farmers = {
+		culture = macedonian
+		religion = orthodox
+		size = 26000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 700
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 275
+	}
+}
+#Monastir Region (268000) #see Greece.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Bitola (268000/67000 POPS) 
+807 = {
+	clergymen = {
+		culture = bulgarian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = macedonian
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = macedonian
+		religion = orthodox
+		size = 40775
+	}
+	
+	farmers = {
+		culture = macedonian
+		religion = orthodox
+		size = 10000
+	}
+
+	aristocrats = {
+		culture = thracian
+		religion = orthodox
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = thracian
+		religion = orthodox
+		size = 225
+	}
+
+	officers = {
+		culture = thracian
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = thracian
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 1550
+	}
+
+	soldiers = {
+		culture = thracian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 1975
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 12275
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 975
+	}
+
+}

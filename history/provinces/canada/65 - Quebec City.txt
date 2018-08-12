@@ -1,0 +1,7 @@
+owner = PEQ
+controller = PEQ
+add_core = PEQ
+add_core = CAN
+trade_goods = grain
+naval_base = 1
+life_rating = 35

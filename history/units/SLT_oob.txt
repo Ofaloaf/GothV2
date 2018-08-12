@@ -1,0 +1,28 @@
+army = {
+	name = "Army of Selatan"
+	location = 2491
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 2484
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 2484
+	}
+
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 2468
+	}
+
+	regiment = {
+		name= "Selatan Infantry"
+		type = artillery
+		home = 2468
+	}
+
+}

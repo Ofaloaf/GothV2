@@ -1,0 +1,5 @@
+owner = GTH
+controller = GTH
+add_core = SBY
+trade_goods = tropical_wood
+life_rating = 30

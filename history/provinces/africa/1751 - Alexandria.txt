@@ -1,0 +1,7 @@
+owner = KOJ
+controller = KOJ
+add_core = EGY
+add_core = KOJ
+trade_goods = cotton
+life_rating = 35
+naval_base = 1

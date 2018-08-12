@@ -1,0 +1,7 @@
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = SHI
+trade_goods = tea
+life_rating = 32
+colonial = 2

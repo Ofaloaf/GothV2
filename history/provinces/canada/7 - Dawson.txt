@@ -1,0 +1,5 @@
+owner = BVT
+controller = BVT
+add_core = BVT
+trade_goods = fish
+life_rating = 30

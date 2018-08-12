@@ -1,0 +1,7 @@
+owner = KOJ
+controller = KOJ
+add_core = HDJ
+add_core = ARA
+add_core = KOJ
+trade_goods = wool
+life_rating = 35

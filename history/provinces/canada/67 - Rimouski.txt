@@ -1,0 +1,6 @@
+owner = UDN
+controller = UDN
+add_core = UDN
+add_core = CAN
+trade_goods = grain
+life_rating = 35

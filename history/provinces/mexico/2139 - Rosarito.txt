@@ -1,0 +1,5 @@
+owner = ANC
+controller = ANC
+add_core = ANC
+trade_goods = fruit
+life_rating = 40

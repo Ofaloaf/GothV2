@@ -1,0 +1,5 @@
+owner = GTH
+controller = GTH
+add_core = GTH
+trade_goods = timber
+life_rating = 35

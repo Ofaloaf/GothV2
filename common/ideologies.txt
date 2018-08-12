@@ -1,0 +1,827 @@
+# If you add types, and use those tags, do not change them without changing everywhere they are used.
+
+
+fascist_group = {
+	fascist = {
+		uncivilized = no
+		color = { 123 91 68 } #{ 60 60 60 }
+		date = 1905.1.1
+	
+		
+		add_political_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = fascist }
+			}
+		}
+	
+		remove_political_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = fascist }
+			}
+		}
+	
+		add_social_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = fascist }
+			}
+		}
+	
+		remove_social_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = fascist }
+			}
+		}		
+	}
+}	
+
+conservative_group = {
+	reactionary = {
+		color = { 30 30 100 }
+		
+		add_political_reform = {
+			base = 0
+		}
+		remove_political_reform = {
+			base = 1
+		}
+		add_social_reform = {
+			base = 0
+		}
+		remove_social_reform = {
+			base = 1
+		}
+		
+		add_military_reform = {
+			base = -1
+		}
+		
+		add_economic_reform = {
+			base = -1
+		}
+	}
+	
+	conservative = {
+		color = { 10 10 250 }
+		
+		can_reduce_militancy = yes
+		
+		add_political_reform = {
+			base = 0
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { has_country_flag = may_reform }
+					NOT = { militancy = 8 }
+					OR = {
+						ruling_party_ideology = conservative
+						ruling_party_ideology = reactionary
+					}
+				}	
+			}
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { militancy = 5 }
+				}			
+			}
+			group = {	
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 1
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.05
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 2
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.1
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 3
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.15
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 4
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.20
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 5
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.25
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 6
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.3
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 7
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.35
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 8
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.40
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 9
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.45
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 10
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.50
+						}
+					}
+				}				
+			}
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { has_country_flag = may_reform }
+					NOT = { militancy = 8 }
+					OR = {
+						ruling_party_ideology = conservative
+						ruling_party_ideology = reactionary
+					}
+				}	
+			}
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { militancy = 5 }
+				}			
+			}			
+			group = {	
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 1
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.05
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 2
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.1
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 3
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.15
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 4
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.20
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 5
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.25
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 6
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.3
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 7
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.35
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 8
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.40
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 9
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.45
+						}
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						AND = {
+							militancy = 10
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.50
+						}
+					}
+				}				
+			}	
+		}
+		remove_social_reform = {
+			base = 0
+		}
+		
+		add_military_reform = {
+			base = 0.5
+		}
+		
+		add_economic_reform = {
+			base = -0.5
+		}
+	}
+}
+socialist_group = {
+	socialist = {
+		uncivilized = no
+		color = { 255 0 0 }
+		date = 1860.1.1
+		
+		add_political_reform = {
+			base = 0.5
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { has_country_flag = may_reform }
+					NOT = { militancy = 8 }
+					OR = {
+						ruling_party_ideology = conservative
+						ruling_party_ideology = reactionary
+					}
+				}	
+			}
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { militancy = 5 }
+				}			
+			}			
+			group = {	
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 1
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.05
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 2
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.1
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 3
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.15
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 4
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.20
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 5
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.25
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 6
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.3
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 7
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.35
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 8
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.40
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 9
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.45
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 10
+							ai = yes
+						}
+						AND = {
+							ai = no
+							political_movement_strength = 0.50
+						}
+					}
+				}				
+			}			
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 1
+		}
+		remove_social_reform = {
+			base = 0
+		}
+	}
+	
+	communist = {
+		uncivilized = no
+		color = { 150 10 10 }
+		date = 1865.1.1
+		
+		add_political_reform = {
+			base = 0
+		}
+		remove_political_reform = {
+			base = 1
+		}
+		add_social_reform = {
+			base = 1
+		}
+		remove_social_reform = {
+			base = 0
+		}	
+	}
+	
+	anarchist = {
+		uncivilized = no
+		color = { 40 40 40 }
+		date = 1860.1.1
+	
+		
+		add_political_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = anarchist }
+			}
+		}
+	
+		remove_political_reform = {
+			base = 0
+		}
+	
+		add_social_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = anarchist }
+			}
+		}
+	
+		remove_social_reform = {
+			base = 0
+		}
+	}
+}
+
+liberal_group = {
+	
+	liberal = {
+		color = { 255 255 0 }
+		
+		
+		add_political_reform = {
+			base = 1
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0.5
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { has_country_flag = may_reform }
+					NOT = { militancy = 8 }
+					OR = {
+						ruling_party_ideology = conservative
+						ruling_party_ideology = reactionary
+					}
+				}	
+			}
+			group = {
+				modifier = {	
+					factor = -1
+					ai = yes
+					NOT = { militancy = 5 }
+				}			
+			}		
+			group = {	
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 1
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.05
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 2
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.1
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 3
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.15
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 4
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.20
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 5
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.25
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 6
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.3
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 7
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.35
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 8
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.40
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 9
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.45
+						}
+					}
+				}
+				modifier = {
+					factor = 0.05
+					OR = { 
+						AND = {
+							militancy = 10
+							ai = yes
+						}
+						AND = {
+							ai = no
+							social_movement_strength = 0.50
+						}
+					}
+				}				
+			}
+		}
+		remove_social_reform = {
+			base = 0
+		}
+		
+		add_military_reform = {
+			base = 0.5
+		}
+		
+		add_economic_reform = {
+			base = 1
+		}
+	}
+	
+	anarcho_liberal = {
+		color = { 150 150 10 }
+		date = 1848.1.1
+		
+		add_political_reform = {
+			base = 0
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0
+		}
+		remove_social_reform = {
+			base = 1
+		}
+		
+		add_military_reform = {
+			base = -1
+		}
+		
+		add_economic_reform = {
+			base = -1
+		}
+	}
+}
+	

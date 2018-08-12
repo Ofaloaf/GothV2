@@ -1,0 +1,5 @@
+owner = GTH
+controller = GTH
+trade_goods = wool
+life_rating = 35
+colony = 2

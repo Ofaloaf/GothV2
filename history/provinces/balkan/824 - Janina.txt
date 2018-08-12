@@ -1,0 +1,7 @@
+owner = THR
+controller = THR
+add_core = MCD
+add_core = THR
+add_core = EPR
+trade_goods = wool
+life_rating = 35

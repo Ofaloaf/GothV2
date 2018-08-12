@@ -1,0 +1,6 @@
+owner = MIS
+controller = MIS
+add_core = MIS
+trade_goods = grain
+life_rating = 35
+colonial = 2

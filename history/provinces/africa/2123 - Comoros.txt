@@ -1,0 +1,5 @@
+owner = MTP
+controller = MTP
+add_core = MTP
+trade_goods = fish
+life_rating = 35

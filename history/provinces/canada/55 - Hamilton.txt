@@ -1,0 +1,7 @@
+owner = MIS
+controller = MIS
+add_core = MIS
+add_core = PEQ
+trade_goods = fish
+life_rating = 35
+colonial = 2

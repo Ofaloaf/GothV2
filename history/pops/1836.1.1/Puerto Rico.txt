@@ -1,0 +1,65 @@
+#Puerto Rico (356000)	
+#Ruled by Spain 1836 
+#Puerto Rico (356000/89000 POPS)
+2222 = {
+	aristocrats = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 1350
+	}
+
+	bureaucrats = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 100
+	}
+
+	clergymen = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 500
+	}
+
+	artisans = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 3800
+	}
+
+	soldiers = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 500
+	}
+	
+	farmers = {
+		culture = gothiolan
+		religion = conciliarist
+		size = 40850
+	}
+
+	artisans = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 1100
+	}
+
+	soldiers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 400
+	}
+
+	farmers = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 30600
+	}
+
+	slaves = {
+		culture = afro_antilhan
+		religion = conciliarist
+		size = 10000
+	}
+
+}

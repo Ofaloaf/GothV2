@@ -1,0 +1,159 @@
+# Gothia - Naua Flandès
+vassal = {
+	first = GTH
+	second = NFL
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Victoria
+vassal = {
+	first = GTH
+	second = VCT
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Gothiola
+vassal = {
+	first = GTH
+	second = GTO
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Jucatanha
+vassal = {
+	first = GTH
+	second = JCT
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Figuyeras
+vassal = {
+	first = GTH
+	second = FGY
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Charcas
+vassal = {
+	first = GTH
+	second = CHR
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Terra Equinoxialis
+vassal = {
+	first = GTH
+	second = ECU
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+# Gothia - Peru
+vassal = {
+	first = GTH
+	second = PEU
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+
+### BRITANNIA
+
+# Britannia - Iwerddon
+vassal = {
+	first = GBI
+	second = IWD
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+### NORWAY
+
+# Norway - Laurentia
+vassal = {
+	first = NOR
+	second = LRT
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+### TERNATE
+
+# Ternate - Tenggara
+vassal = {
+	first = TER
+	second = TGR
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+### GALLAECIA
+
+# Gallaecia - Bonaventura
+vassal = {
+	first = GAL
+	second = BVT
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+### JAPAN
+
+# JAPAN - KAIGAI
+vassal = {
+	first = JAP
+	second = KAI
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+}
+
+
+### CHINA
+
+substate = {
+	first = CHI
+	second = MGL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = CHI
+	second = MCK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = CHI
+	second = MNY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = CHI
+	second = SHU
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = CHI
+	second = MGH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = CHI
+	second = XIN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}

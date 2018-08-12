@@ -1,0 +1,162 @@
+leader = {
+	name = "Ba-Bakribin Modibo"
+	date = 1835.12.1
+	type = land
+	personality = active_p
+	background = school_of_offense
+	prestige = 0.1
+}
+
+
+army = {
+	name = "Royal Army of Mali"
+	location = 1794
+	regiment = {
+		name= "Malian Guards"
+		type = guard
+		home = 1794
+	}
+
+	regiment = {
+		name= "Royal Cuirassiers"
+		type = cuirassier
+		home = 1794
+	}
+
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 1805
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 1815
+	}
+
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 1901
+	}
+
+	regiment = {
+		name= "Royal Artillery"
+		type = artillery
+		home = 1794
+	}
+
+	regiment = {
+		name= "1. Auxiliaries"
+		type = irregular
+		home = 1948
+	}
+
+	regiment = {
+		name= "2. Auxiliaries"
+		type = irregular
+		home = 1947
+	}
+
+	regiment = {
+		name= "3. Auxiliaries"
+		type = irregular
+		home = 1946
+	}
+}
+	
+army = {
+	name = "Dakar Army"
+	location = 1783
+	
+
+	regiment = {
+		name= "4. Infantry"
+		type = infantry
+		home = 1945
+	}
+
+	regiment = {
+		name= "5. Infantry"
+		type = infantry
+		home = 1942
+	}
+
+	regiment = {
+		name= "6. Infantry"
+		type = infantry
+		home = 1939
+	}
+	
+	regiment = {
+		name= "Kwara Artillery"
+		type = artillery
+		home = 1927
+	}
+}
+
+navy = {
+	name = "Navy of Mali"
+	location = 1783
+	ship = {
+		name= "Cayor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ghana"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mali"
+		type = manowar
+	}
+
+	ship = {
+		name= "Quati Keita"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jenne"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bambuk"
+		type = frigate
+	}
+
+	ship = {
+		name= "Koumbi Saleh"
+		type = frigate
+	}
+
+	ship = {
+		name= "Kong"
+		type = frigate
+	}
+
+	ship = {
+		name= "Taudeni"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tadmekka"
+		type = frigate
+	}
+
+	ship = {
+		name= "Azawad"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+}
+

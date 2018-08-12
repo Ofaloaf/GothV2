@@ -1,0 +1,9 @@
+owner = BUL
+controller = BUL
+add_core = BUL
+add_core = OST
+add_core = NOR
+add_core = GTR
+trade_goods = fish
+life_rating = 35
+fort = 1

@@ -1,0 +1,159 @@
+leader = {
+	name = "Voteporig Geruasius"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = cartographer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Guidgen Possernin"
+	date = 1834.1.1
+	type = sea
+	personality = brash
+	background = drillmaster
+	prestige = 0.1
+}
+
+army = {
+	name = "I. Ysserchid"
+	location = 2428
+	regiment = {
+		name= "1. Iffandeir"
+		type = infantry
+		home = 2428
+	}
+
+	regiment = {
+		name= "2. Iffandeir"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "3. Iffandeir"
+		type = infantry
+		home = 2426
+	}
+
+	regiment = {
+		name= "1. Marchsollteir"
+		type = hussar
+		home = 2429
+	}
+}
+
+army = {
+	name = "II. Ysserchid"
+	location = 2439
+	regiment = {
+		name= "4. Iffandeir" #Diwuisiwn
+		type = infantry
+		home = 2432
+	}
+
+	regiment = {
+		name= "5. Iffandeir"
+		type = infantry
+		home = 2439
+	}
+
+	regiment = {
+		name= "2. Marchsollteir"
+		type = hussar
+		home = 2431
+	}
+}
+
+navy = {
+	name = "Eiscair di Dinorwig"
+	location = 2428
+	ship = {
+		name= "Artorius"
+		type = manowar
+	}
+	ship = {
+		name= "Seniciana"
+		type = manowar
+	}
+	ship = {
+		name= "Corineus"
+		type = manowar
+	}
+	ship = {
+		name= "Marcia"
+		type = manowar
+	}
+	ship = {
+		name= "Saeth Oudoceus"
+		type = manowar
+	}
+	ship = {
+		name= "Saeth Dubricius"
+		type = manowar
+	}
+	ship = {
+		name= "Saeth Vortimerus"
+		type = manowar
+	}
+	ship = {
+		name= "Claudia"
+		type = frigate
+	}
+	ship = {
+		name= "Prasutagus"
+		type = frigate
+	}
+	ship = {
+		name= "Ferrex"
+		type = frigate
+	}
+	ship = {
+		name= "Iudocus"
+		type = frigate
+	}
+	ship = {
+		name= "Saeth Canna"
+		type = frigate
+	}
+	ship = {
+		name= "Kinarius"
+		type = frigate
+	}
+	ship = {
+		name= "Ygerna"
+		type = frigate
+	}
+	ship = {
+		name= "Staterius"
+		type = frigate
+	}
+	ship = {
+		name= "Marganus"
+		type = frigate
+	}
+	ship = {
+		name= "Redechius"
+		type = frigate
+	}
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+}

@@ -1,0 +1,265 @@
+army = {
+	name = "Army of the Imperial Government"
+	
+	location = 1650
+	regiment = {
+		name= "1. Hohei"
+		type = infantry
+		home = 1650
+	}
+
+	regiment = {
+		name= "2. Hohei"
+		type = infantry
+		home = 1649
+	}
+
+	regiment = {
+		name= "3. Hohei"
+		type = infantry
+		home = 1652
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Mori"
+	location = 1640
+	regiment = {
+		name= "1.Choshu"
+		type = irregular
+		home = 1640
+	}
+
+	regiment = {
+		name= "2.Choshu"
+		type = irregular
+		home = 1638
+	}
+
+	regiment = {
+		name= "3.Choshu"
+		type = irregular
+		home = 1641
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Shimazu"
+	location = 1662
+	regiment = {
+		name= "1.1 Satsuma"
+		type = irregular
+		home = 1662
+	}
+
+	regiment = {
+		name= "2.1 Satsuma"
+		type = irregular
+		home = 1660
+	}
+
+	regiment = {
+		name= "3.1 Satsuma"
+		type = irregular
+		home = 1661
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Yamanuchi"
+	location = 1665
+	regiment = {
+		name= "1.Tosa"
+		type = irregular
+		home = 1665
+	}
+
+	regiment = {
+		name= "2.Tosa"
+		type = irregular
+		home = 1667
+	}
+
+	regiment = {
+		name= "3.Tosa"
+		type = irregular
+		home = 1666
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Date"
+	location = 1668
+	regiment = {
+		name= "1.Sendai"
+		type = irregular
+		home = 1668
+	}
+
+	regiment = {
+		name= "2.Sendai"
+		type = irregular
+		home = 1673
+	}
+
+	regiment = {
+		name= "3.Sendai"
+		type = irregular
+		home = 1669
+	}
+
+}
+
+army = {
+	name = "Army of Chugoku"
+	location = 1072
+	
+	leader = {
+		name = "Asahito Ichijo"
+		date = 1836.1.1
+		type = land
+		personality = disciplined
+		background = old_school
+		prestige = 0.1
+	
+	}
+	
+	regiment = {
+		name= "7. Hohei"
+		type = infantry
+		home = 1645
+	}
+	regiment = {
+		name= "8. Hohei"
+		type = infantry
+		home = 1675
+	}
+	regiment = {
+		name= "9. Hohei"
+		type = infatry
+		home = 1677
+	}
+	regiment = {
+		name= "4. Hohei"
+		type = infatry
+		home = 1655
+	}
+	regiment = {
+		name= "1. Kihei"
+		type = cavalry
+		home = 1675
+	}
+	regiment = {
+		name= "1. Taiho"
+		type = artillery
+		home = 1655
+	}
+}
+
+army = {
+	name = "Army of Sahakoku"
+	location = 1565
+	regiment = {
+		name= "5. Hohei"
+		type = infantry
+		home = 1651
+	}
+	regiment = {
+		name= "6. Hohei"
+		type = infantry
+		home = 1657
+	}
+	regiment = {
+		name= "2. Kihei"
+		type = cavalry
+		home = 1657
+	}
+	regiment = {
+		name= "3. Kihei"
+		type = cavalry
+		home = 1656
+	}
+	regiment = {
+		name= "2. Taiho"
+		type = artillery
+		home = 1659
+	}
+}
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1657
+	ship = {
+		name = "Numakaze"
+		type = manowar
+	}
+	ship = {
+		name = "Kashi"
+		type = manowar
+	}
+	ship = {
+		name = "Hatsuse"
+		type = manowar
+	}
+	ship = {
+		name = "Shimotsutki"
+		type = manowar
+	}
+	ship = {
+		name = "Futami"
+		type = manowar
+	}
+	ship = {
+		name = "Fushimi"
+		type = frigate
+	}
+	ship = {
+		name = "Kaiten"
+		type = frigate
+	}
+	ship = {
+		name = "Nokaze"
+		type = frigate
+	}
+	ship = {
+		name = "Kisaragi"
+		type = frigate
+	}
+	ship = {
+		name = "Kamoi"
+		type = frigate
+	}
+	ship = {
+		name = "Sumida"
+		type = frigate
+	}
+	ship = {
+		name = "Kawachi"
+		type = frigate
+	}
+	ship = {
+		name = "Kuroshiro"
+		type = frigate
+	}
+	ship = {
+		name= "1 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4 Yusosentai"
+		type = clipper_transport
+	}
+}
+

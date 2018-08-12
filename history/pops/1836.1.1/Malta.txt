@@ -1,0 +1,47 @@
+#Malta - 120000
+#Ruled by Britain 1836
+#Valetta (120000/30000 POPS)
+854 = {
+	soldiers = {
+		culture = neapolitan
+		religion = orthodox
+		size = 1050
+	}
+
+	aristocrats = {
+		culture = neapolitan
+		religion = orthodox
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = neapolitan
+		religion = orthodox
+		size = 60
+	}
+
+	clergymen = {
+		culture = neapolitan
+		religion = orthodox
+		size = 275
+	}
+
+	artisans = {
+		culture = neapolitan
+		religion = orthodox
+		size = 8150
+	}
+
+	soldiers = {
+		culture = neapolitan
+		religion = orthodox
+		size = 340
+	}
+
+	farmers = {
+		culture = neapolitan
+		religion = orthodox
+		size = 20475
+	}
+
+}

@@ -1,0 +1,7 @@
+owner = GAL
+controller = GAL
+add_core = SPA
+add_core = GAL
+trade_goods = fruit
+life_rating = 35
+naval_base = 1

@@ -1,0 +1,6 @@
+owner = GJT
+controller = GJT
+add_core = BER
+add_core = GJT
+trade_goods = tobacco
+life_rating = 32

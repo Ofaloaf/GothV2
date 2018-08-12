@@ -1,0 +1,93 @@
+leader = {
+	name = "Godesteo Arracartas"
+	date = 1836.1.1
+	type = land
+	personality = au_fait
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Agust Sala"
+	date = 1836.1.1
+	type = land
+	personality = wrathful
+	background = butcher
+	prestige = 0.1
+}
+
+army = {
+	name = "Armada Imperial"
+	location = 569
+	regiment = {
+		name= "1. Garda Imperial"
+		type = guard
+		home = 569
+	}
+
+	regiment = {
+		name= "2. Garda Imperial"
+		type = guard
+		home = 564
+	}
+
+	regiment = {
+		name= "3. Garda Imperial"
+		type = guard
+		home = 570
+	}
+}
+
+army = {
+	name = "1. Armada"
+	location = 591
+	regiment = {
+		name= "1. Infantariá"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "2. Infantariá"
+		type = infantry
+		home = 594
+	}
+
+	regiment = {
+		name= "3. Infantariá"
+		type = infantry
+		home = 593
+	}
+
+	regiment = {
+		name= "1. Artilhariá"
+		type = artillery
+		home = 587
+	}
+}
+	
+army = {
+	name = "Cavalariá Imperial"
+	location = 592 # Augusta
+
+
+	regiment = {
+		name= "1. Cavalariá"
+		type = dragoon
+		home = 592
+	}
+
+	regiment = {
+		name= "2. Cavalariá"
+		type = dragoon
+		home = 599
+	}
+
+	regiment = {
+		name= "3. Cavalariá"
+		type = dragoon
+		home = 593
+	}
+
+}
+

@@ -1,0 +1,6 @@
+owner = THR
+controller = THR
+add_core = THR
+add_core = ILY
+trade_goods = iron
+life_rating = 35

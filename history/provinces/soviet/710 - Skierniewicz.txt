@@ -1,0 +1,5 @@
+owner = SRB
+controller = SRB
+add_core = SRB
+trade_goods = fruit
+life_rating = 35

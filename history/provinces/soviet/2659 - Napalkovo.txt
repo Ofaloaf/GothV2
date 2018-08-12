@@ -1,0 +1,3 @@
+add_core = BUL
+trade_goods = timber
+life_rating = 15

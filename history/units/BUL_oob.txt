@@ -1,0 +1,199 @@
+army = {
+	name = "Army of the Volga"
+	location = 1032
+	
+	regiment = {
+		name= "Volga Guards"
+		type = guard
+		home = 1032
+	}
+	regiment = {
+		name= "1. Bolghar Infantry"
+		type = infantry
+		home = 1032
+	}
+	regiment = {
+		name= "2. Bolghar Infantry"
+		type = infantry
+		home = 1039
+	}
+	regiment = {
+		name= "3. Bolghar Infantry"
+		type = infantry
+		home = 1039
+	}
+	regiment = {
+		name= "Bulgarian State Cavalry"
+		type = hussar
+		home = 1040
+	}
+	regiment = {
+		name= "1. Bolghar Artillery"
+		type = artillery
+		home = 999
+	}
+	regiment = {
+		name= "1. Bolghar Artillery"
+		type = artillery
+		home = 999
+	}
+	regiment = {
+		name= "2. Bolghar Artillery"
+		type = artillery
+		home = 1034
+	}
+}
+
+army = {
+	name = "Army of the Mordvins"
+	location = 1008
+	
+	regiment = {
+		name= "Mordovian Guard"
+		type = guard
+		home = 1030
+	}
+	regiment = {
+		name= "4. Bolghar Infantry"
+		type = infantry
+		home = 1060
+	}
+	regiment = {
+		name= "1. Mordvin Auxiliaries"
+		type = irregular
+		home = 989
+	}
+	regiment = {
+		name= "2. Mordvin Auxiliaries"
+		type = irregular
+		home = 946
+	}
+	regiment = {
+		name= "3. Mordvin Auxiliaries"
+		type = irregular
+		home = 1001
+	}
+	regiment = {
+		name= "4. Mordvin Auxiliaries"
+		type = irregular
+		home = 998
+	}
+}
+
+army = {
+	name = "Army of the Baltic"
+	location = 350
+	
+	regiment = {
+		name= "5. Mordvin Auxiliaries"
+		type = irregular
+		home = 1003
+	}
+	regiment = {
+		name= "6. Mordvin Auxiliaries"
+		type = irregular
+		home = 1006
+	}
+	regiment = {
+		name= "7. Mordvin Auxiliaries"
+		type = irregular
+		home = 1008
+	}
+	regiment = {
+		name= "8. Mordvin Auxiliaries"
+		type = irregular
+		home = 1009
+	}
+	regiment = {
+		name= "Moshka Cavalry"
+		type = cavalry
+		home = 1009
+	}
+	regiment = {
+		name= "Bashkort Cannoneers"
+		type = artillery
+		home = 1042
+	}
+}
+
+army = {
+	name = "Army of Turkestan"
+	location = 1211
+	
+	regiment = {
+		name= "Severian Infantry"
+		type = infantry
+		home = 977
+	}
+	regiment = {
+		name= "5. Bolghar Infantry"
+		type = infantry
+		home = 1022
+	}
+	regiment = {
+		name= "6. Bolghar Infantry"
+		type = infantry
+		home = 1013
+	}
+	regiment = {
+		name= "1. Afghan Irregulars"
+		type = irregular
+		home = 1209
+	}
+	regiment = {
+		name= "2. Afghan Irregulars"
+		type = irregular
+		home = 1209
+	}
+	regiment = {
+		name= "3. Afghan Irregulars"
+		type = irregular
+		home = 1209
+	}
+	regiment = {
+		name= "Kharka Cavalry"
+		type = cavalry
+		home = 978
+	}
+	regiment = {
+		name= "Bulghar Artillerists"
+		type = artillery
+		home = 991
+	}
+}
+
+army = {
+	name = "Eastern Army"
+	location = 1075
+	
+	
+	regiment = {
+		name= "1. Eastern Infantry"
+		type = infantry
+		home = 1075
+	}
+	
+	regiment = {
+		name= "2. Eastern Infantry"
+		type = infantry
+		home = 1064
+	}
+	
+	regiment = {
+		name= "Perm Cannoneers"
+		type = artillery
+		home = 1026
+	}
+	
+	regiment = {
+		name= "1. Eastern Cavalry"
+		type = cavalry
+		home = 1488
+	}
+	
+	regiment = {
+		name= "2. Eastern Cavalry"
+		type = cavalry
+		home = 1488
+	}
+}

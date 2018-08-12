@@ -1,0 +1,11 @@
+owner = GTY
+controller = GTY
+add_core = GTY
+trade_goods = cattle
+life_rating = 40
+fort = 1
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}

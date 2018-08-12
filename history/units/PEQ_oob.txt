@@ -1,0 +1,145 @@
+leader = {
+	name = "Sassacus Wyoming"
+	type = land
+	date="1833.1.1"
+	personality = wrathful
+	background = aristocrat
+	prestige = 0.5
+	picture = "civnativeamerican_general_0"
+}
+
+leader = {
+	name = "Canonchet Poquonock"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = warmonger
+	prestige = 0.1
+	picture = "civnativeamerican_general_3"
+}
+
+leader = {
+	name = "Tatobem Shenecosset"
+	type = land
+	date="1836.1.1"
+	personality = heroic
+	background = politician
+	picture = "civnativeamerican_general_2"
+}
+
+
+army = {
+	name = "Great Pequot Army"
+	location = 232
+	regiment = {
+		name= "1. Pequot Infantry"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "2. Pequot Infantry"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "3. Pequot Infantry"
+		type = infantry
+		home = 234
+	}
+	
+	regiment = {
+		name= "4. Pequot Infantry"
+		type = infantry
+		home = 241
+	}
+	
+	regiment = {
+		name= "Pequot Artillery"
+		type = artillery
+		home = 2703
+	}
+	
+	regiment = {
+		name= "Tuscarora Artillery"
+		type = artillery
+		home = 235
+	}
+
+	regiment = {
+		name= "Canarsee Irregulars"
+		type = irregular
+		home = 233
+	}
+}
+
+army = {
+	name = "Haudenosauneega Army"
+	location = 238
+	regiment = {
+		name= "1. Haudenosaunee Infantry"
+		type = irregular
+		home = 238
+	}
+
+	regiment = {
+		name= "2. Haudenosaunee Infantry"
+		type = irregular
+		home = 237
+	}
+
+	regiment = {
+		name= "3. Haudenosaunee Infantry"
+		type = irregular
+		home = 238
+	}
+
+}
+
+
+navy = {
+	name = "Pequot Navy"
+	location = 233
+	
+	ship = {
+		name = "Weinshauks"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Asupsuck"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Tatuppequauog"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Aushpook"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Paupttokshick"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Wunnashowatookoog"
+		type = frigate
+	}
+
+	ship = {
+		name= "Cuppunauginnit"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Patuxet"
+		type = clipper_transport
+	}
+}
+

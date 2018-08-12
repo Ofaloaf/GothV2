@@ -1,0 +1,6 @@
+owner = GBI
+controller = GBI
+add_core = GBI
+trade_goods = fish
+life_rating = 35
+naval_base = 2

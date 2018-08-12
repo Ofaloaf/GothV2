@@ -1,0 +1,6 @@
+owner = MTP
+controller = MTP
+add_core = MTP
+add_core = ZUL
+trade_goods = wool
+life_rating = 35

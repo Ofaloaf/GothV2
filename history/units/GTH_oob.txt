@@ -1,0 +1,485 @@
+GBI = {
+	value = 100
+}
+
+RIP = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+leader = {
+	name = "Hunila Figueira"
+	date = 1836.1.1
+	type = land
+	personality = skilled
+	background = artillerist
+	prestige = 0.1
+}
+
+leader = {
+	name = "Matias Sechaval"
+	date = 1836.1.1
+	type = land
+	personality = impetuous
+	background = womanizer
+	prestige = 0.0
+}
+
+leader = {
+	name = "Parsiprestre Dartes"
+	date = 1836.1.1
+	type = land
+	personality = gallant
+	background = generals_aide
+	prestige = 0.0
+}
+
+army = {
+	name = "1. Armada"
+	location = 438
+	regiment = {
+		name= "1. Infantariá"
+		type = infantry
+		home = 438
+	}
+
+	regiment = {
+		name= "2. Infantariá"
+		type = infantry
+		home = 400
+	}
+
+	regiment = {
+		name= "3. Infantariá"
+		type = infantry
+		home = 401
+	}
+
+	regiment = {
+		name= "4. Infantariá"
+		type = infantry
+		home = 441
+	}
+
+	regiment = {
+		name= "1. Artilhariá"
+		type = artillery
+		home = 399
+	}
+}
+	
+army = {
+	name = "Cavalariá de Gautya"
+	location = 468
+
+
+	regiment = {
+		name= "1. Cavalariá"
+		type = hussar
+		home = 458
+	}
+
+	regiment = {
+		name= "2. Cavalariá"
+		type = hussar
+		home = 420
+	}
+
+	regiment = {
+		name= "3. Cavalariá"
+		type = cuirassier
+		home = 418
+	}
+
+}
+
+army = {
+	name = "2. Armada"
+	location = 458
+	regiment = {
+		name= "5. Infantariá"
+		type = infantry
+		home = 455
+	}
+
+	regiment = {
+		name= "6. Infantariá"
+		type = infantry
+		home = 457
+	}
+
+	regiment = {
+		name= "7. Infantariá"
+		type = infantry
+		home = 473
+	}
+
+	regiment = {
+		name= "2. Artilhariá"
+		type = artillery
+		home = 470
+	}
+
+	regiment = {
+		name= "5. Cavalariá"
+		type = cuirassier
+		home = 462
+	}
+}
+
+navy = {
+	name = "Fluta du Nord"
+	location = 420
+	ship = {
+		name= "Armorica"
+		type = manowar
+	}
+
+	ship = {
+		name= "Lugdunensis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Belgica"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amalius"
+		type = manowar
+	}
+
+	ship = {
+		name= "Triarius"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jordanes"
+		type = manowar
+	}
+
+	ship = {
+		name= "Atila"
+		type = manowar
+	}
+
+	ship = {
+		name= "Superbus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Pèitre de Margens"
+		type = manowar
+	}
+
+	ship = {
+		name= "Alesia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Regis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Centurion"
+		type = manowar
+	}
+
+	ship = {
+		name= "Neptunus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Novus Mundus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nestor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Avaricum"
+		type = frigate
+	}
+
+	ship = {
+		name= "Thetis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Patrocle"
+		type = frigate
+	}
+
+	ship = {
+		name= "Amazonia"
+		type = frigate
+	}
+
+	ship = {
+		name= "Clorinda"
+		type = frigate
+	}
+
+	ship = {
+		name= "Maura"
+		type = frigate
+	}
+
+	ship = {
+		name= "Lanterlmus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Centaurus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Hethinsunus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Venus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Falgario"
+		type = frigate
+	}
+
+	ship = {
+		name= "Atalanta"
+		type = frigate
+	}
+
+	ship = {
+		name= "Lo Breu"
+		type = frigate
+	}
+
+	ship = {
+		name= "Àjax"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sansalas"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Fluta de Sud"
+	location = 470
+	ship = {
+		name= "Triton"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ulfilas"
+		type = manowar
+	}
+
+	ship = {
+		name= "Aquitània"
+		type = manowar
+	}
+
+	ship = {
+		name= "Narbonés"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nemausus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hercules"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jerusalèm"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sagittarius"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jupiter"
+		type = manowar
+	}
+
+	ship = {
+		name= "Salomon"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hercules"
+		type = manowar
+	}
+
+	ship = {
+		name= "Andromeda"
+		type = manowar
+	}
+
+	ship = {
+		name= "Arius"
+		type = manowar
+	}
+
+	ship = {
+		name= "Penèlope"
+		type = manowar
+	}
+
+	ship = {
+		name= "Quataryna"
+		type = manowar
+	}
+
+	ship = {
+		name= "Saphrax"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ouim"
+		type = manowar
+	}
+
+	ship = {
+		name= "Potestas"
+		type = manowar
+	}
+
+	ship = {
+		name= "Pistoleta"
+		type = frigate
+	}
+
+	ship = {
+		name= "Judèa"
+		type = frigate
+	}
+
+	ship = {
+		name= "Peitieus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Didon"
+		type = frigate
+	}
+
+	ship = {
+		name= "Lunna"
+		type = frigate
+	}
+
+	ship = {
+		name= "Postumus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tetricus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gaatha"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tomasa"
+		type = frigate
+	}
+
+	ship = {
+		name= "Jehanet"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nireu"
+		type = frigate
+	}
+
+	ship = {
+		name= "Octavus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Talleburgi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Telègon"
+		type = frigate
+	}
+
+	ship = {
+		name= "4. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6. Flutilla de Traspòrt"
+		type = clipper_transport
+	}
+
+}
+

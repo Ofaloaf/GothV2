@@ -1,0 +1,6 @@
+owner = CAG
+controller = CAG
+add_core = CAG
+add_core = SPA
+trade_goods = grain
+life_rating = 35

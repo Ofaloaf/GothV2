@@ -1,0 +1,5 @@
+owner = VER
+controller = VER
+add_core = VER
+trade_goods = grain
+life_rating = 35

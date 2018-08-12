@@ -1,0 +1,7 @@
+owner = KOJ
+controller = KOJ
+add_core = YEM
+add_core = ARA
+add_core = ETH
+trade_goods = opium
+life_rating = 35
