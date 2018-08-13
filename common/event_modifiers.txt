@@ -194,6 +194,13 @@ female_suffrage = {
 	icon = 7
 }
 
+gothic_female_suffrage = {
+	poor_vote = 0.02
+	middle_vote = 0.01
+	core_pop_militancy_modifier = -0.01
+	icon = 7
+}
+
 ##### SOCIALISM AND FACISM #####
 
 labor_union = {
