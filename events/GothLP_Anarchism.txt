@@ -401,38 +401,38 @@ country_event = {
 ### ELECTION EVENTS
 
 # Radical Unions Demand Self-Management
-country_event = {
-	id = 123005
-	title = "EVTNAME123005"
-	desc = "EVTDESC123005"
-	
-	election = yes
-	issue_group = economic_policy
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA123005"
-		any_pop = {
-			dominant_issue = {
-				factor = 0.1
-				value = autogestion
-			}
-		}
-		any_pop = {
-			limit = { strata = rich }
-			scaled_militancy = {
-				factor = 0.2
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB123005"
-		any_pop = {
-			scaled_militancy = {
-				factor = 0.2
-				ideology = anarchist
-			}
-		}
-	}
-}
+#country_event = {
+#	id = 123005
+#	title = "EVTNAME123005"
+#	desc = "EVTDESC123005"
+#	
+#	#election = yes
+#	#issue_group = economic_policy
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "EVTOPTA123005"
+#		any_pop = {
+#			dominant_issue = {
+#				factor = 0.1
+#				value = autogestion
+#			}
+#		}
+#		any_pop = {
+#			limit = { strata = rich }
+#			scaled_militancy = {
+#				factor = 0.2
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTB123005"
+#		any_pop = {
+#			scaled_militancy = {
+#				factor = 0.2
+#				ideology = anarchist
+#			}
+#		}
+#	}
+#}

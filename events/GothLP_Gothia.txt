@@ -34,10 +34,11 @@ country_event = {
 		# Onecca at the end of EU4 is 31 years old, born in 1805. By 1840 she'll be 35.
 		# Onecca has the 'free thinker' trait.
 		any_pop = {
-			scaled_consciousness = {
-				factor = 1
-				ideology = liberal
+			ideology = {
+				value = liberal
+				factor = 0.05
 			}
+			consciousness = 1
 		}
 	}	
 }
@@ -485,7 +486,10 @@ country_event = {
 			political_reform = harassment
 		}
 		any_pop = {
-			limit = { ideology = liberal }
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
 			militancy = 5
 			consciousness = 1
 		}
@@ -521,7 +525,10 @@ country_event = {
 			political_reform = gerrymandering
 		}
 		any_pop = {
-			limit = { ideology = reactionary }
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
 			militancy = 5
 			consciousness = 1
 		}

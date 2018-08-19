@@ -38,6 +38,7 @@ upper_house = {
 	anarcho_liberal = 5
 	socialist = 0
 	communist = 0
+	anarchist = 0
 }
 
 

@@ -1,5 +1,6 @@
 owner = GTH
 controller = GTH
 add_core = GTH
+add_core = SPT
 trade_goods = grain
 life_rating = 31

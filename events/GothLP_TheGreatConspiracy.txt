@@ -240,7 +240,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 120
+		months = 60
 		modifier = {
 			factor = 2
 			year = 1845
@@ -270,12 +270,323 @@ country_event = {
 	}
 }
 
-# 510007 # ECU: Approach Gothiola/GTO about the Conspiracy. Triggers 510012 for the recipient.
-# 510008 # ECU: Approach Charcas/CHR about the Conspiracy. Triggers 510012 for the recipient.
-# 510009 # ECU: Approach Jucatanha/JCT about the Conspiracy. Triggers 510012 for the recipient.
-# 510010 # ECU: Approach Naua Flandés/NFL about the Conspiracy. Triggers 510012 for the recipient.
-# 510011 # ECU: Approach Figuyeras/FGY about the Conspiracy. Triggers 510012 for the recipient.
-# 510012 # ECU: Approach Victoria/VCT about the Conspiracy. Triggers 510012 for the recipient.
+# 510007 # ECU: Approach Gothiola/GTO about the Conspiracy. Triggers 510013 for the recipient.
+country_event = {
+	id = 510007
+	title = "EVTNAME510007"
+	desc = "EVTDESC510007"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_gto }
+		exists = GTO
+		GTO = { 
+			vassal_of = GTH 
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510007" # Make an offer to Gothiola.
+		GTO = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_gto
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB510007" # Our struggle is ours alone.
+		set_country_flag = talked_to_gto
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 510008 # ECU: Approach Charcas/CHR about the Conspiracy. Triggers 510013 for the recipient.
+country_event = {
+	id = 510008
+	title = "EVTNAME510008"
+	desc = "EVTDESC510008"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_chr }
+		exists = CHR
+		CHR = { 
+			vassal_of = GTH 
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510008" # Make an offer to Charcas.
+		CHR = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_chr
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB510008" # Our struggle is ours alone.
+		set_country_flag = talked_to_chr
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 510009 # ECU: Approach Jucatanha/JCT about the Conspiracy. Triggers 510013 for the recipient.
+country_event = {
+	id = 510009
+	title = "EVTNAME510009"
+	desc = "EVTDESC510009"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_jct }
+		exists = JCT
+		JCT = { 
+			vassal_of = GTH 
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510009" # Make an offer to Jucatanha.
+		JCT = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_jct
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB510009" # Our struggle is ours alone.
+		set_country_flag = talked_to_jct
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 510010 # ECU: Approach Naua Flandés/NFL about the Conspiracy. Triggers 510013 for the recipient.
+country_event = {
+	id = 510010
+	title = "EVTNAME510010"
+	desc = "EVTDESC510010"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_nfl }
+		exists = NFL
+		NFL = { 
+			vassal_of = GTH
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510010" # Make an offer to Charcas.
+		NFL = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_nfl
+		ai_chance = {
+			factor = 9
+		}
+	}
+	option = {
+		name = "EVTOPTB510010" # Our struggle is ours alone.
+		set_country_flag = talked_to_nfl
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 510011 # ECU: Approach Figuyeras/FGY about the Conspiracy. Triggers 510013 for the recipient.
+country_event = {
+	id = 510011
+	title = "EVTNAME510011"
+	desc = "EVTDESC510011"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_fgy }
+		exists = FGY
+		FGY = { 
+			vassal_of = GTH 
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510011" # Make an offer to Figuyeras.
+		FGY = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_fgy
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB510011" # Our struggle is ours alone.
+		set_country_flag = talked_to_fgy
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 510012 # ECU: Approach Victoria/VCT about the Conspiracy. Triggers 510013 for the recipient.
+country_event = {
+	id = 510012
+	title = "EVTNAME510012"
+	desc = "EVTDESC510012"
+	picture = "Oldsoldiers"
+	
+	trigger = {
+		tag = ECU
+		vassal_of = GTH
+		NOT = {
+			has_global_flag = great_conspiracy_fired
+		}
+		has_country_flag = ECU_agitating_for_liberty
+		NOT = { has_country_flag = talked_to_vct }
+		exists = VCT
+		VCT = { 
+			vassal_of = GTH 
+			NOT = { has_country_flag = conspiracy_offer }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			year = 1845
+		}
+		modifier = {
+			factor = 6
+			year = 1852
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA510012" # Make an offer to Victoria.
+		VCT = { 
+			country_event = { id = 510013 days = 1 } 
+		}
+		set_country_flag = talked_to_vct
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB510008" # Our struggle is ours alone.
+		set_country_flag = talked_to_vct
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
 
 # 510013 # Conspiracy offer. Accept, and get "great_conspirator" country flag, which 510005 will check for when firing, or refuse and get a minor malus of undetermined type.
 country_event = {

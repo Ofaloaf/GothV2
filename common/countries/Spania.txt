@@ -1,0 +1,216 @@
+color = { 231  181  12 }
+graphical_culture = SpanishGC
+
+party = {
+	name = "SPA_conservative"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "SPA_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = residency
+	war_policy = anti_military
+}
+
+party = {
+	name = "SPA_reactionary"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = pro_military
+}
+
+party = {
+	name = "SPA_socialist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "SPA_communist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	economic_policy = planned_economy
+	trade_policy = interventionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "SPA_anarcho_liberal"
+	start_date = 1830.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "SPA_fascist"
+	start_date = 1905.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "SPA_anarchist"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	economic_policy = autogestion
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+unit_names = {
+	battleship = {
+		Augustus
+		Caesar
+		Hispania
+		Imperator
+		Pelagius
+	}
+	cruiser = {
+		Asturicensis Astigitanus
+		Bardulia Ballearica Bracaraugustanorum
+		Cantabria Cordubensis Caesaraugustanus Carthaginensis Cluniensis
+		Emeritensis
+		Gaditanus Gallaecia
+		Hispalensis
+		Lusitania Lucensis
+		Pacensis
+		Scalabitanus
+		Tarraconensis
+		Vasconia
+	}
+	dreadnought = {
+		Augustus
+		Caesar
+		Hispania
+		Imperator
+		Pelagius
+	}
+	ironclad = {
+		Asturicensis Astigitanus
+		Bardulia Ballearica Bracaraugustanorum
+		Cantabria Cordubensis Caesaraugustanus Carthaginensis Cluniensis
+		Emeritensis
+		Gaditanus Gallaecia
+		Hispalensis
+		Lusitania Lucensis
+		Pacensis
+		Scalabitanus
+		Tarraconensis
+		Vasconia
+	}
+	monitor = {
+		Asturica Anastasia Athanasius Ajax
+		Bracara Barcino Beatrix Bona
+		Cornelia "Carthago Nova" Caesaraugustana
+		Gades
+		Hispalis Horatia Honesta Honoria
+		Italica Iberia
+		Legio
+		Modesta Mercuriana
+		Narses Narcissus
+		Osca Olisipo
+		Palma "Portus Cale"
+		"Sanctus Marcus" "Sancta Maria" "Sanctus Andreas" "Sanctus Iosephus" "Sanctus Paulus" "Sanctus Petrus" "Sanctus Thaddeus" "Sanctus Isidorus" "Sanctus Stephanus" "Sanctus Lucas" "Sanctus Benedictus" "Sanctus Anacletus" "Sanctus Leo" "Sancta Romula" "Sanctus Theodericus" "Sanctus Julius" "Sanctus Constantinus" "Sanctus Anastasius" "Sancta Anna" Saturnina
+		Traianus Tarraco Turris Toletum
+		Ulpia
+	}
+	commerce_raider = {
+		Asturica Anastasia Athanasius Ajax
+		Bracara Barcino Beatrix Bona
+		Cornelia "Carthago Nova" Caesaraugustana
+		Gades
+		Hispalis Horatia Honesta Honoria
+		Italica Iberia
+		Legio
+		Modesta Mercuriana
+		Narses Narcissus
+		Osca Olisipo
+		Palma "Portus Cale"
+		"Sanctus Marcus" "Sancta Maria" "Sanctus Andreas" "Sanctus Iosephus" "Sanctus Paulus" "Sanctus Petrus" "Sanctus Thaddeus" "Sanctus Isidorus" "Sanctus Stephanus" "Sanctus Lucas" "Sanctus Benedictus" "Sanctus Anacletus" "Sanctus Leo" "Sancta Romula" "Sanctus Theodericus" "Sanctus Julius" "Sanctus Constantinus" "Sanctus Anastasius" "Sancta Anna" Saturnina
+		Traianus Tarraco Turris Toletum
+		Ulpia
+	}
+	manowar = {
+		Augustus
+		Caesar
+		Hispania
+		Imperator
+		Pelagius
+	}
+	frigate = {
+		Asturica Anastasia Athanasius Ajax
+		Bracara Barcino Beatrix Bona
+		Cornelia "Carthago Nova" Caesaraugustana
+		Gades
+		Hispalis Horatia Honesta Honoria
+		Italica Iberia
+		Legio
+		Modesta Mercuriana
+		Narses Narcissus
+		Osca Olisipo
+		Palma "Portus Cale"
+		"Sanctus Marcus" "Sancta Maria" "Sanctus Andreas" "Sanctus Iosephus" "Sanctus Paulus" "Sanctus Petrus" "Sanctus Thaddeus" "Sanctus Isidorus" "Sanctus Stephanus" "Sanctus Lucas" "Sanctus Benedictus" "Sanctus Anacletus" "Sanctus Leo" "Sancta Romula" "Sanctus Theodericus" "Sanctus Julius" "Sanctus Constantinus" "Sanctus Anastasius" "Sancta Anna" Saturnina
+		Traianus Tarraco Turris Toletum
+		Ulpia
+	}
+	clipper_transport = { 
+	}
+	steam_transport = { 
+	}
+}

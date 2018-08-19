@@ -2530,12 +2530,12 @@
 
 }
 #Midi Region (1604000)
-#Toulouse (672000/168000 POPS)
+#Toulouse/Tolosa (672000/168000 POPS)
 455 = {
 	aristocrats = {
 		culture = gautes
 		religion = conciliarist
-		size = 1600
+		size = 1300
 	}
 
 	officers = {
@@ -2547,13 +2547,13 @@
 	bureaucrats = {
 		culture = gautes
 		religion = conciliarist
-		size = 800
+		size = 600
 	}
 
 	clergymen = {
 		culture = gautes
 		religion = conciliarist
-		size = 1700
+		size = 1400
 	}
 
 	artisans = {
@@ -2565,19 +2565,79 @@
 	artisans = {
 		culture = gautes
 		religion = conciliarist
-		size = 10000
+		size = 5000
 	}
 
 	soldiers = {
 		culture = gautes
 		religion = conciliarist
-		size = 1750
+		size = 1150
 	}
 
 	farmers = {
 		culture = gautes
 		religion = conciliarist
-		size = 141800
+		size = 101800
+	}
+	
+	aristocrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 300
+	}
+	
+	bureaucrats = {
+		culture = gallic
+		religion = conciliarist
+		size = 200
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = conciliarist
+		size = 200
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = conciliarist
+		size = 3000
+	}
+	
+	soldiers = {
+		culture = gallic
+		religion = conciliarist
+		size = 500
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = conciliarist
+		size = 15000
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = orthodox
+		size = 100
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = orthodox
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = gallic
+		religion = orthodox
+		size = 100
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 35000
 	}
 }
 #Montauban (584000/146000 POPS)
@@ -2629,19 +2689,19 @@
 	aristocrats = {
 		culture = gautes
 		religion = conciliarist
-		size = 800
+		size = 700
 	}
 
 	clergymen = {
 		culture = gautes
 		religion = conciliarist
-		size = 850
+		size = 700
 	}
 
 	artisans = {
 		culture = gautes
 		religion = conciliarist
-		size = 4000
+		size = 3100
 	}
 
 	soldiers = {
@@ -2653,9 +2713,32 @@
 	farmers = {
 		culture = gautes
 		religion = conciliarist
-		size = 80350
+		size = 47350
+	}
+	
+	aristocrats = {
+		culture = gallic
+		religion = orthodox
+		size = 100
 	}
 
+	clergymen = {
+		culture = gallic
+		religion = orthodox
+		size = 150
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = orthodox
+		size = 900
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 33000
+	}
 }
 #Aquitaine Region (1864000)
 #Bordeaux (632000/128000 POPS)
@@ -2889,31 +2972,61 @@
 	aristocrats = {
 		culture = gautes
 		religion = conciliarist
-		size = 1200
+		size = 650
 	}
 
 	clergymen = {
 		culture = gautes
 		religion = conciliarist
-		size = 1250
+		size = 750
 	}
 
 	artisans = {
 		culture = gautes
 		religion = conciliarist
-		size = 3500
+		size = 2700
 	}
 
 	soldiers = {
 		culture = gautes
 		religion = conciliarist
-		size = 1300
+		size = 300
 	}
 
 	farmers = {
 		culture = gautes
 		religion = conciliarist
-		size = 105750
+		size = 60750
+	}
+	
+	aristocrats = {
+		culture = gallic
+		religion = orthodox
+		size = 150
+	}
+	
+	clergymen = {
+		culture = gallic
+		religion = orthodox
+		size = 850
+	}
+	
+	artisans = {
+		culture = gallic
+		religion = orthodox
+		size = 800
+	}
+	
+	soldiers = {
+		culture = gallic
+		religion = orthodox
+		size = 1050
+	}
+	
+	farmers = {
+		culture = gallic
+		religion = orthodox
+		size = 30000
 	}
 }
 #Narbona (Carcassone) (276000/69000 POPS)
