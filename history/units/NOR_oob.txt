@@ -1,3 +1,15 @@
+VST = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+LRT = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
 leader = {
 	name = "Njord Torsson"
 	date = 1835.1.1

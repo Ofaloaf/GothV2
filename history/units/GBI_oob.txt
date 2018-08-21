@@ -10,6 +10,12 @@ IWD = {
 	influence_value = 25
 }
 
+YPN = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
 leader = {
 	name = "Iago Jaygo"
 	date = 1830.1.1

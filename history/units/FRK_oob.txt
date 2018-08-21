@@ -77,17 +77,17 @@ army = {
 
 army = {
 	name = "2e Divisie"
-	location = 381
+	location = 580
 	regiment = {
 		name = "4e Infanterie Brigade"
 		type = infantry
-		home = 378
+		home = 581
 	}
 
 	regiment = {
 		name = "5e Infanterie Brigade"
 		type = infantry
-		home = 379
+		home = 581
 	}
 
 	regiment = {

@@ -12,6 +12,55 @@ RIP = {
 	influence_value = 25
 }
 
+#Gothic colonies
+NFL = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+VCT = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+GTO = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+JCT = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+FGY = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+ECU = {
+	value = 50
+	level = 5
+	influence_value = 25
+}
+
+PEU = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+CHR = {
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
 leader = {
 	name = "Hunila Figueira"
 	date = 1836.1.1
