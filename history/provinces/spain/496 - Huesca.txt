@@ -1,6 +1,6 @@
 owner = MOR
 controller = MOR
-add_core = SPA
+add_core = SPN
 add_core = MOR
 trade_goods = wool
 life_rating = 35

@@ -1,5 +1,6 @@
 owner = PCN
 controller = PCN
 add_core = PCN
+add_core = SPN
 trade_goods = fruit
 life_rating = 35

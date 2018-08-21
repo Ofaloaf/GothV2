@@ -1,6 +1,7 @@
 owner = PCN
 controller = PCN
 add_core = PCN
+add_core = SPN
 trade_goods = iron
 life_rating = 35	
 naval_base = 1

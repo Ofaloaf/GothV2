@@ -140,12 +140,12 @@ army = {
 	}
 	regiment = {
 		name= "9. Hohei"
-		type = infatry
+		type = infantry
 		home = 1677
 	}
 	regiment = {
 		name= "4. Hohei"
-		type = infatry
+		type = infantry
 		home = 1655
 	}
 	regiment = {

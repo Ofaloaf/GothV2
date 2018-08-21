@@ -1,6 +1,6 @@
 owner = CAG
 controller = CAG
-add_core = SPA
+add_core = SPN
 add_core = CAG
 trade_goods = iron
 life_rating = 35

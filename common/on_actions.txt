@@ -100,11 +100,11 @@ on_election_tick = {
 # for each acquired state.
 on_colony_to_state = 
 {
-	100 = 70000
-	100 = 70001
+	#100 = 70000
+	#100 = 70001
 }
 on_state_conquest = {
-	100 = 70000
+	#100 = 70000
 }
 
 on_colony_to_state_free_slaves =

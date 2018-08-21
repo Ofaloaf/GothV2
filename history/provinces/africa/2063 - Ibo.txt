@@ -1,3 +1,3 @@
-add_core = MBA
+#add_core = MBA
 trade_goods = grain
 life_rating = 15

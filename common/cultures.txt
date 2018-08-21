@@ -143,8 +143,6 @@ germanic = {
 		last_names = { Abramovitch Ashkenazi Bernstein Birnbaum Bloch Cantor Cohen Frank Friedländer Ginsberg Goldstein Horowitz Israel Jacobsohn Kagan Kaplan Klein
 		Levin Luria Morgenstern Nathan Oren Rosenthal Sachs Schapiro Schwartz Weinstein Weiss }
 	}
-	
-	union = GER
 }
 
 beneluxian = {
@@ -1334,7 +1332,7 @@ south_asian = {
                
 		}
 	}
-	union = HND
+	#union = HND
 }
 
 southeast_asian = {
@@ -2857,29 +2855,29 @@ gothic_group = {
 			Suneario Simo Sans Savarics Simaun Sidauni Sever
 			Tibaud Tumas Turismau Tiuderic Tiudemir Teia Tiudor Tièrri Tiudat Tiudòsi Tacite
 			Ubald Ubert Uc Úlfila
-			Vézian Vicenç Videre Vitimir Viteges Veremundo
+			Vézian Vicenç Videre Vitimir Viteges
 			Wifredo Walia
 		}
 		last_names = {
-			Amalius Aranyo Avinardut Alaus "de Amiliavo" Albusquia "d'Arcolio" "d'Argentolio" "d'Anet" Alavivus Aedotheus Apilingus Aurtia Asans Asneis Ablabis Ambaur Ayceli "del Abatut" Acio
-			Balthus Barbut Baldovi Boniuha Bugatell Bodere Blaquerie "de Breconas" "de Balneolis" Barbeleva Bise Bonin Brito Borderius "de Boissiaco" "de Bercheriis" Brano Bolas Bournazels Boysonnada Bozesa
+			Amalius Aranyo Avinardut Alaus "de Amiliavo" Albusquia "d'Arcolio" "d'Argentolio" "d'Anet" Alavivus Aedotheus Apilingus Aurtia Asans Asneis Ablabis Ambaur Ayceli "del Abatut" Acio Armengalt
+			Balthus Barbut Baldovi Boniuha Bugatell Bodere Blaquerie "de Breconas" "de Balneolis" Barbeleva Bise Bonin Brito Borderius "de Boissiaco" "de Bercheriis" Brano Bolas Bournazels Boysonnada Bozesa Blatin
 			Casals Cerces Civada Codina Coll Calmetas Cabironis Cambo Casalis "de Chailliaco" "de Caroloco" Claudus "de Cocigniaco" "de Civilliaco" "de Combellis" "de Cristolio" Custurarius "lo Cler" Cyrassa Cannabaudius Candacingi Cadraut Cabillate Cumosices "de Cambes" Cabrespinas Campanhac Calsutras Camboulas "del Cros"
-			Dapifer "de Duaco" "de Dumo" Drautine "de Dubis"
+			Dapifer "de Duaco" "de Dumo" Drautine "de Dubis" Desaix Dufal Dantec Dréjac
 			Eriulphingianus
-			Floyrac "des Feu" "de Fornells" "de Funda" Forratus "de Fresnis" Furnerius Frode Floretas Formis 
+			Floyrac "des Feu" "de Fornells" "de Funda" Forratus "de Fresnis" Furnerius Frode Floretas Formis Folgerat
 			Fonfregga Fromenta "de Fulhonibus"
 			Gili Granella Gualbes Gualter Galterii Galzin "de Guella" "de Giffo" "la Gajant" Greuthungius Gastigodis Gabic Gilus Gricleis Gaill Gabriac Galvahn Guirlarda Grefolieyra Guisardo "de Guimballo"
 			Houlier Hails Hais Hardus Harpo Hariggs Haurnia Hethinsunus Hunilasunus
 			Igils "de Ivriaco"
 			Joris Jolia Jalenca Jusclamundus Justrillanh
 			Llaupart Llavança "de Lluna" "de Lauras" "de Loranazes" "de Laiaco" Lathoma "de Laya" "de Liricantu" Lubains Laiggaiu Leuge Lagomia
-			Mauri Mir "de Margens" Moragues Mas Mala Mareschaldus "de Monterel" Munerius Modags Mascetis "de Monmato" "de Moreriis" Mellenus 
+			Mauri Mir "de Margens" Moragues Mas Mala Mareschaldus "de Monterel" Munerius Modags Mascetis "de Monmato" "de Moreriis" Mellenus Malrin Matagrin
 			Natas "de Noa" "de Nemosio" "de Namaria" Nedran
 			Oromir "d'Orta" Orcuelli "d'Olmieyras" "de Origniaco" "de Orliaco" Oppasunus Oulphsunus
 			Palomer Patro Paulega "des Puig" "de Pratis" "de Puechmeja" Picarel "de Pirregort" "de Porta" Palmerius Pilleates "de Papa" "de Pissiaco" "de Porresio" Palhargues Pilas
 			Quidilasunus
 			Rovira "de Reaxac" Raedor Riba Rotgerii Riquas Redondelas Rohes "de Ruella" Respa Rossinhol Rostanh Regaulfus
-			Sabater Salort Sentbres Sobremut Silaret Spadics Suerita Soasunus Sibiasunus Sisigisunus Sballes Seyrac
+			Sabater Salort Sentbres Sobremut Silaret Spadics Suerita Soasunus Sibiasunus Sisigisunus Sballes Seyrac Scarron
 			Triarius Testurç "de Trileis" Tutxo Trenquerii "de Terrone" Testart "lo Tirent" Thiudreiscunu Tirvingus Thunds Tiudisunus Tuluinsunus Teteli Terissa "del Troc" Tiudégut
 			Unonslags Ufardgudia Uiltes
 			Vilardell Virenca "de Valentienes" "de Vilanis" "de Vitriaco" Veducus Vinices Vintrus Varimudi Valrum Veirbigin "de Vaurmacio" "del Verdier" Visandus Vetisclus
@@ -3912,7 +3910,7 @@ hispanian_group = {
 			Tongoenabiago Treborunnis Taporo
 		}
 	}
-	union = SPA
+	union = SPN
 }
 
 britto_american_cultures = {

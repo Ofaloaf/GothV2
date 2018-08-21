@@ -1,6 +1,6 @@
 owner = GAL
 controller = GAL
-add_core = SPA
+add_core = SPN
 add_core = GAL
 add_core = PCN
 trade_goods = wool

@@ -25,7 +25,7 @@ army = {
 	}
 	regiment = {
 		name = "1. Kaweleria"
-		type = draggon
+		type = dragoon
 		home = 691
 	}
 	regiment = {

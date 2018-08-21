@@ -43,6 +43,7 @@ country_event = {
 	}	
 }
 
+# Panama Canal reopens
 country_event = {
 	news = yes
 	id = 500001
@@ -205,6 +206,7 @@ country_event = {
 		tag = GTH
 		NOT = { has_country_flag = onecca_dead }
 		year = 1870
+		NOT = { year = 1894 }
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
@@ -277,6 +279,7 @@ country_event = {
 		tag = GTH
 		NOT = { has_country_flag = onecca_dead }
 		year = 1870
+		NOT = { year = 1894 }
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
@@ -348,6 +351,7 @@ country_event = {
 		tag = GTH
 		NOT = { has_country_flag = onecca_dead }
 		year = 1870
+		NOT = { year = 1894 }
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
@@ -410,12 +414,8 @@ country_event = {
 
 # The Death of Queen Onecca, no heir. CHAOS
 country_event = {
-	news = yes
 	id = 500007
-
-	news_desc_long = "EVTNAME500007_NEWS_LONG"
-	news_desc_medium = "EVTNAME500007_NEWS_MEDIUM"
-	news_desc_short = "EVTNAME500007_NEWS_SHORT"
+	
 	title = "EVTNAME500007"
 	desc = "EVTDESC500007"
 	picture = "funeral"
@@ -424,6 +424,7 @@ country_event = {
 		tag = GTH
 		NOT = { has_country_flag = onecca_dead }
 		year = 1870
+		NOT = { year = 1894 }
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism

@@ -2,7 +2,7 @@ color = { 231  181  12 }
 graphical_culture = SpanishGC
 
 party = {
-	name = "SPA_conservative"
+	name = "SPN_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "SPA_liberal"
+	name = "SPN_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "SPA_reactionary"
+	name = "SPN_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "SPA_socialist"
+	name = "SPN_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "SPA_communist"
+	name = "SPN_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "SPA_anarcho_liberal"
+	name = "SPN_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "SPA_fascist"
+	name = "SPN_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 
@@ -100,7 +100,7 @@ party = {
 }
 
 party = {
-	name = "SPA_anarchist"
+	name = "SPN_anarchist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 

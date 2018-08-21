@@ -1,4 +1,7 @@
-color = { 70 143 141 }
+color = { 201 153 109 }
+absolute_monarchy = { 70 143 141 }
+prussian_constitutionalism = { 70 143 141 }
+hms_government = { 70 143 141 }
 graphical_culture = SouthAmericanGC
 
 party = {

@@ -1,6 +1,7 @@
-#color = { 70 125 130 }
-#color = { 190  186  202 }
-color = { 130 155 166 }
+color = { 190 186 202 }
+absolute_monarchy = { 130 155 166 }
+prussian_constitutionalism = { 130 155 166 }
+hms_government = { 130 155 166 }
 graphical_culture = ConfederateGC
 
 party = {

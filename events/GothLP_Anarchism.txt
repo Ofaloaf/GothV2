@@ -35,6 +35,20 @@ country_event = {
 		}
 		clr_country_flag = thats_capitalism
 		set_country_flag = self_management
+		any_country = {
+			limit = {
+				tag = THIS
+				NOT = { government = proletarian_republic }
+			}
+			government = proletarian_republic
+		}
+		any_country = {
+			limit = {
+				tag = THIS
+				NOT = { vote_franschise = commune_voting }
+			}
+			political_reform = commune_voting
+		}
 	}
 }
 
