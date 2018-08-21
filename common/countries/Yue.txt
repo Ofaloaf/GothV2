@@ -1,6 +1,6 @@
 color = { 146 90 56 }
 #color = { 89  113  223 }
-graphical_culture = Generic
+graphical_culture = AsianGC
 
 party = {
 	name = "YUE_reactionary"

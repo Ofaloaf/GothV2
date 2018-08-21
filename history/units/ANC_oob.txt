@@ -1,0 +1,92 @@
+MIS = {
+	value = 100
+}
+
+PEQ = {
+	value = -20
+}
+
+army = {
+	name = "Armada del Nord"
+	location = 2146
+	regiment = {
+		name= "1. Enfantariá"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "2. Enfantariá"
+		type = infantry
+		home = 2174
+	}
+
+	regiment = {
+		name= "3. Enfantariá"
+		type = infantry
+		home = 2174
+	}
+
+}
+
+army = {
+	name = "Armada dels Auxiliars"
+	location = 2177
+	regiment = {
+		name= "1. Auxiliars"
+		type = irregular
+		home = 2177
+	}
+
+	regiment = {
+		name= "2. Auxiliars"
+		type = irregular
+		home = 2177
+	}
+
+	regiment = {
+		name= "3. Auxiliars"
+		type = irregular
+		home = 2177
+	}
+
+}
+
+army = {
+	name = "Ejército del Ciudad Mejico"
+	location = 2172
+	regiment = {
+		name= "4. Enfantariá"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "5. Enfantariá"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "6. Enfantariá"
+		type = infantry
+		home = 2176
+	}
+
+}
+
+navy = {
+	name = "Fluta d'Anahuac"
+	location = 2162
+	ship = {
+		name= "Venator"
+		type = frigate
+	}
+
+	ship = {
+		name= "Matilda"
+		type = clipper_transport
+	}
+
+}
+

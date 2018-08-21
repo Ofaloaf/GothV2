@@ -1,0 +1,140 @@
+army = {
+	name = "Army of Yue"
+	location = 1493
+	regiment = {
+		name= "1. Yuyue Banner"
+		type = infantry
+		home = 1493
+	}
+
+	regiment = {
+		name= "2. Yuyue Banner"
+		type = infantry
+		home = 1493
+	}
+
+	regiment = {
+		name= "3. Yuyue Banner"
+		type = infantry
+		home = 1493
+	}
+	
+	regiment = {
+		name= "Guangzhou Artillery"
+		type = artillery
+		home = 1493
+	}
+}
+
+army = {
+	name = "Yue Red Standard Army"
+	location = 1505
+	
+	regiment = {
+		name= "1st Red Standard"
+		type = irregular
+		home = 1523
+	}
+	regiment = {
+		name= "2nd Red Standard"
+		type = irregular
+		home = 1577
+	}
+	regiment = {
+		name= "3rd Red Standard"
+		type = irregular
+		home = 1529
+	}
+	regiment = {
+		name= "4th Red Standard"
+		type = irregular
+		home = 1529
+	}
+	regiment = {
+		name= "5th Red Standard"
+		type = irregular
+		home = 152
+	}
+}
+
+army = {
+	name = "Yue Cavalry"
+	location = 1483
+	
+	regiment = {
+		name= "1. Tingzhou Cavalry"
+		type = cavalry
+		home = 1483
+	}
+
+	regiment = {
+		name= "2. Tingzhou Cavalry"
+		type = cavalry
+		home = 1483
+	}
+
+	regiment = {
+		name= "3. Quanzhou Cavalry"
+		type = cavalry
+		home = 1484
+	}
+}
+
+army = {
+	name = "Yue Yellow Standard Army"
+	location = 1523
+	regiment = {
+		name= "1st Yellow Standard"
+		type = irregular
+		home = 1483
+	}
+
+	regiment = {
+		name= "2nd Yellow Standard"
+		type = irregular
+		home = 1577
+	}
+
+	regiment = {
+		name= "3rd Yellow Standard"
+		type = irregular
+		home = 1577
+	}
+	
+	regiment = {
+		name= "4th Yellow Standard"
+		type = irregular
+		home = 1504
+	}
+
+	regiment = {
+		name= "5th Yellow Standard"
+		type = irregular
+		home = 1601
+	}
+
+	regiment = {
+		name= "6th Yellow Standard"
+		type = irregular
+		home = 1601
+	}
+	
+		regiment = {
+		name= "7th Yellow Standard"
+		type = irregular
+		home = 1506
+	}
+
+	regiment = {
+		name= "8th Yellow Standard"
+		type = irregular
+		home = 1601
+	}
+
+	regiment = {
+		name= "9th Yellow Standard"
+		type = irregular
+		home = 1506
+	}
+}
+

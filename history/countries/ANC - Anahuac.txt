@@ -64,4 +64,4 @@ publishing_industry = 1
 consciousness = 2
 nonstate_consciousness = 0
 
-#oob = "MEX_oob.txt"
+oob = "ANC_oob.txt"

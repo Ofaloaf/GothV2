@@ -1,7 +1,3 @@
-POR = {
-	value = 125		#relation
-}
-
 army = {
 	name = "Army of Forbidden Banners"
 	location = 1612

@@ -2,6 +2,10 @@ GBI = {
 	value = 100
 }
 
+PEQ = {
+	value = 100
+}
+
 RIP = {
 	value = 100
 	level = 5

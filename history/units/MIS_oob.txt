@@ -1,3 +1,7 @@
+ANC = {
+	value = 100
+}
+
 leader = {
 	name = "Audoacre de Pratis"
 	date = 1807.1.1

@@ -4,6 +4,10 @@ name = "Korean conquest of Manchuria"
 	add_attacker = KOR
 	add_defender = CHI
 	add_defender = MCK
+	add_defender = MGL
+	add_defender = MNY
+	add_defender = SHU
+	add_defender = XIN
 	
 	# actor
 	# receiver
@@ -21,4 +25,8 @@ name = "Korean conquest of Manchuria"
 	rem_attacker = KOR
 	rem_defender = CHI
 	rem_defender = MCK
+	rem_defender = MGL
+	rem_defender = MNY
+	rem_defender = SHU
+	rem_defender = XIN
 }

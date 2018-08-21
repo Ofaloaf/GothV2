@@ -1,3 +1,11 @@
+ANC = {
+	value = -20
+}
+
+GTH = {
+	value = 100
+}
+
 leader = {
 	name = "Sassacus Wyoming"
 	type = land
