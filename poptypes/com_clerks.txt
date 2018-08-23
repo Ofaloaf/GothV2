@@ -1287,14 +1287,10 @@ ideologies = {
 		}
 	}
 	anarchist = {
-		factor = 0.8
+		factor = 0.85
 		modifier = {
 			factor = 0.1
 			NOT = { militancy = 6 }
-		}
-		modifier = {
-			factor = 0
-			NOT = { is_ideology_enabled = anarchist }
 		}
 		modifier = {
 			factor = 2

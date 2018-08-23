@@ -1615,31 +1615,31 @@
 #Villahermosa (60000/15000 POPS)
 2165 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 325
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 100
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 150
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 50
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 2375
 	}
@@ -2301,31 +2301,31 @@
 #Collataro (100000/25000 POPS)
 2178 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 525
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 150
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 250
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 50
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 4055
 	}
@@ -2485,43 +2485,43 @@
 #Tuxtla (84000/21000 POPS)
 2181 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 450
 	}
 
 	bureaucrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 25
 	}
 
 	officers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 25
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 150
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 200
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 50
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 3100
 	}
@@ -2553,31 +2553,31 @@
 #Tapachula (40000/10000 POPS)
 2182 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 225
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 50
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 200
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 50
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 3475
 	}
@@ -2611,43 +2611,43 @@
 #Merida (240000/60000 POPS)
 2183 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 1275
 	}
 
 	bureaucrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 100
 	}
 
 	officers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 150
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 475
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 1050
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 500
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 17450
 	}
@@ -2679,31 +2679,31 @@
 #Camnpeche (108000/27000 POPS)
 2184 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 550
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 175
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 400
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 100
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 6775
 	}
@@ -2735,31 +2735,31 @@
 #Bacalar (92000/23000 POPS)
 2185 = {
 	aristocrats = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 475
 	}
 
 	clergymen = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 150
 	}
 
 	artisans = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 50
 	}
 
 	soldiers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 10
 	}
 
 	farmers = {
-		culture = nauva_gautes
+		culture = centremerican
 		religion = conciliarist
 		size = 1175
 	}

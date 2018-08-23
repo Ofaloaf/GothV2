@@ -8,10 +8,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		OR = {
-			economic_policy = autogestion
-			government = proletarian_republic
-		}
+		government = proletarian_republic
 		NOT = { has_country_flag = self_management }
 	}
 	
@@ -35,20 +32,6 @@ country_event = {
 		}
 		clr_country_flag = thats_capitalism
 		set_country_flag = self_management
-		any_country = {
-			limit = {
-				tag = THIS
-				NOT = { government = proletarian_republic }
-			}
-			government = proletarian_republic
-		}
-		any_country = {
-			limit = {
-				tag = THIS
-				NOT = { vote_franschise = commune_voting }
-			}
-			political_reform = commune_voting
-		}
 	}
 }
 
@@ -64,7 +47,7 @@ country_event = {
 	trigger = {
 		NOT = { government = proletarian_republic }
 		NOT = { government = proletarian_dictatorship }
-		NOT = { economic_policy = autogestion }
+		#NOT = { economic_policy = autogestion }
 		has_country_flag = self_management
 		NOT = { has_country_flag = thats_capitalism }
 	}
