@@ -1,0 +1,191 @@
+political_decisions = {
+	end_the_merina_monarchy = {
+		potential = {
+			MAD = {
+				in_sphere = THIS
+				civilized = no
+			}
+			NOT = {
+				has_country_flag = merina_monarchy_is_over
+			}
+			exists = MAD
+			MAD = {AI = yes}
+			is_greater_power = yes
+		}
+		
+		allow = {
+			MAD = {
+				in_sphere = THIS
+				civilized = no
+				war = no
+			}
+			invention = mission_to_civilize
+			invention = expansionism
+			war = no
+		}
+		
+		effect = {
+			inherit = MAD
+			set_country_flag = merina_monarchy_is_over
+		}
+	}
+	
+	the_mutapan_protectorate = {
+		potential = {
+			MTP = {
+				in_sphere = THIS
+				civilized = no
+			}
+			NOT = {
+				has_country_flag = mutapa_kaput
+			}
+			exists = MTP
+			MTP = {AI = yes}
+			is_greater_power = yes
+		}
+		
+		allow = {
+			MTP = {
+				in_sphere = THIS
+				civilized = no
+				war = no
+			}
+			invention = mission_to_civilize
+			invention = expansionism
+			war = no
+		}
+		
+		effect = {
+			inherit = MTP
+			set_country_flag = mutapa_kaput
+		}
+	}
+	
+	sale_of_ceylon = {
+		potential = {
+			GJT = {
+				in_sphere = THIS
+				civilized = no
+			}
+			NOT = {
+				GJT = { has_country_flag = ceylon_sold }
+			}
+
+			1321 = { owner = GJT }
+			1322 = { owner = GJT }
+			1323 = { owner = GJT }
+			1324 = { owner = GJT }
+			1325 = { owner = GJT }
+			2128 = { owner = GJT }
+			exists = GJT
+			GJT = {AI = yes}
+			is_greater_power = yes
+		}
+		
+		allow = {
+			GJT = {
+				in_sphere = THIS
+				civilized = no
+				war = no
+			}
+			ENG_1321 = {
+				controlled_by = GJT
+			}
+			invention = expansionism
+			war = no
+		}
+		
+		effect = {
+			GJT = { set_country_flag = ceylon_sold }
+			1321 = { secede_province = THIS }
+			1322 = { secede_province = THIS }
+			1323 = { secede_province = THIS }
+			1324 = { secede_province = THIS }
+			1325 = { secede_province = THIS }
+			2128 = { secede_province = THIS }
+			THIS = {
+				diplomatic_influence = {
+					who = GJT
+					value = -200
+				}
+			}
+		}
+	}
+	
+	sale_of_maldives = {
+		potential = {
+			GJT = {
+				in_sphere = THIS
+				civilized = no
+			}
+			NOT = {
+				GJT = { has_country_flag = maldives_sold }
+			}
+			GJT = { owns = 1325 }
+			exists = GJT
+			GJT = {AI = yes}
+			is_greater_power = yes
+		}
+		
+		allow = {
+			GJT = {
+				in_sphere = THIS
+				civilized = no
+				war = no
+			}
+			GJT = { owns = 1325 }
+			invention = expansionism
+			war = no
+		}
+		
+		effect = {
+			GJT = { set_country_flag = maldives_sold }
+			1325 = {
+				secede_province = THIS
+			}
+			THIS = {
+				diplomatic_influence = {
+					who = GJT
+					value = -200
+				}
+			}
+		}
+	}
+	
+	bengal_protectorate = {
+		potential = {
+			BNG = {
+				in_sphere = THIS
+				civilized = no
+			}
+			NOT = {
+				has_country_flag = bengal_kaput
+			}
+			exists = BNG
+			BNG = {AI = yes}
+			is_greater_power = yes
+		}
+		
+		allow = {
+			BNG = {
+				in_sphere = THIS
+				civilized = no
+				war = no
+			}
+			invention = mission_to_civilize
+			invention = expansionism
+			war = no
+		}
+		
+		effect = {
+			BNG = {
+				release = TIB
+				release = NEP
+				release = SIK
+				release = BHU
+			}
+			inherit = BNG
+			set_country_flag = bengal_kaput
+		}
+	}
+}

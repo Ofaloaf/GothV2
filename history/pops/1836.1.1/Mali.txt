@@ -225,7 +225,7 @@
 	artisans = {
 		culture = bambara
 		religion = animist
-		size = 250
+		size = 200
 	}
 
 	soldiers = {
@@ -243,7 +243,7 @@
 	aristocrats = {
 		culture = fulbe
 		religion = orthodox
-		size = 100
+		size = 50
 	}
 
 	clergymen = {
@@ -255,49 +255,49 @@
 	artisans = {
 		culture = fulbe
 		religion = orthodox
-		size = 300
-	}
-
-	soldiers = {
-		culture = fulbe
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = fulbe
-		religion = orthodox
-		size = 5475
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = animist
+		culture = fulbe
+		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = animist
-		size = 3625
+		culture = fulbe
+		religion = orthodox
+		size = 3475
+	}
+
+	aristocrats = {
+		culture = mande
+		religion = orthodox
+		size = 125
+	}
+
+	clergymen = {
+		culture = mande
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = mande
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = mande
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = mande
+		religion = orthodox
+		size = 5625
 	}
 
 	slaves = {
@@ -312,7 +312,7 @@
 	aristocrats = {
 		culture = bambara
 		religion = animist
-		size = 425
+		size = 125
 	}
 
 	clergymen = {
@@ -324,19 +324,13 @@
 	artisans = {
 		culture = bambara
 		religion = animist
-		size = 1100
-	}
-
-	soldiers = {
-		culture = bambara
-		religion = animist
-		size = 225
+		size = 100
 	}
 
 	farmers = {
 		culture = bambara
 		religion = animist
-		size = 20025
+		size = 11025
 	}
 
 	aristocrats = {
@@ -370,33 +364,33 @@
 	}
 
 	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 150
+		culture = mande
+		religion = orthodox
+		size = 450
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = animist
-		size = 500
+		culture = mande
+		religion = orthodox
+		size = 1500
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = animist
-		size = 100
+		culture = mande
+		religion = orthodox
+		size = 325
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = animist
-		size = 9150
+		culture = mande
+		religion = orthodox
+		size = 18150
 	}
 
 	slaves = {
@@ -776,32 +770,32 @@
 	}
 
 	aristocrats = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 425
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 225
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 925
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 225
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 13200
 	}
 
@@ -916,7 +910,7 @@
 	aristocrats = {
 		culture = fulbe
 		religion = orthodox
-		size = 225
+		size = 125
 	}
 
 	bureaucrats = {
@@ -952,37 +946,37 @@
 	farmers = {
 		culture = fulbe
 		religion = orthodox
-		size = 7775
+		size = 6775
 	}
 
 	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 325
+		culture = mande
+		religion = orthodox
+		size = 425
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 175
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 850
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = animist
+		culture = mande
+		religion = orthodox
 		size = 175
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = animist
-		size = 15475
+		culture = mande
+		religion = orthodox
+		size = 16475
 	}
 
 	slaves = {

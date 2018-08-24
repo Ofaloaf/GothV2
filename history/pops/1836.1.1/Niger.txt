@@ -223,63 +223,33 @@
 	aristocrats = {
 		culture = songhai
 		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = orthodox
 		size = 100
 	}
 
-	clergymen = {
-		culture = songhai
-		religion = orthodox
-		size = 50
-	}
-
 	artisans = {
 		culture = songhai
 		religion = orthodox
-		size = 300
+		size = 500
 	}
 
 	soldiers = {
 		culture = songhai
 		religion = orthodox
-		size = 75
+		size = 125
 	}
 
 	farmers = {
 		culture = songhai
 		religion = orthodox
-		size = 4475
+		size = 8700
 	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = animist
-		size = 200
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = animist
-		size = 50
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = animist
-		size = 3625
-	}
-
+	
 	slaves = {
 		culture = african_minor
 		religion = animist
@@ -321,61 +291,61 @@
 	aristocrats = {
 		culture = hausa
 		religion = orthodox
-		size = 350
+		size = 200
 	}
 
 	clergymen = {
 		culture = hausa
 		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = hausa
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = hausa
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = hausa
-		religion = orthodox
-		size = 16250
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = animist
 		size = 100
 	}
 
+	artisans = {
+		culture = hausa
+		religion = orthodox
+		size = 300
+	}
+
 	soldiers = {
-		culture = african_minor
-		religion = animist
-		size = 25
+		culture = hausa
+		religion = orthodox
+		size = 100
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = animist
-		size = 1800
+		culture = hausa
+		religion = orthodox
+		size = 8250
+	}
+
+	aristocrats = {
+		culture = songhai
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = songhai
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = songhai
+		religion = orthodox
+		size = 900
+	}
+
+	soldiers = {
+		culture = songhai
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = songhai
+		religion = orthodox
+		size = 9800
 	}
 
 	slaves = {

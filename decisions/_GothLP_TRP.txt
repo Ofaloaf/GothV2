@@ -1,0 +1,33 @@
+political_decisions = {
+	secure_tripolitanian_interior = {
+		potential = {
+			tag = TRI
+			state_n_government = 1
+			war = no
+		}
+	
+		allow = {
+			1741 = { empty = yes } # Murzuk
+			1739 = { empty = yes }
+			2585 = { empty = yes }
+			1738 = { empty = yes }
+			1740 = { empty = yes }
+			nationalism_n_imperialism = 1		
+		}
+
+		effect = {
+			prestige = 25
+			1741 = {
+				add_core = TRI
+				change_controller = TRI
+			}
+			TRI_1739 = {
+				add_core = TRI
+				change_controller = TRI
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

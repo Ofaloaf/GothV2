@@ -1,0 +1,74 @@
+political_decisions = {
+	claim_roman_italy = {
+		potential = {
+			tag = LRM
+			state_n_government = 1
+			war = no
+		}
+	
+		allow = {
+			nationalism_n_imperialism = 1
+			is_greater_power = yes
+		}
+
+		effect = {
+			prestige = 10
+			230 = {
+				add_core = LRM
+			}
+			732 = {
+				add_core = LRM
+			}
+			733 = {
+				add_core = LRM
+			}
+			735 = {
+				add_core = LRM
+			}
+			736 = {
+				add_core = LRM
+			}
+			737 = {
+				add_core = LRM
+			}
+			738 = {
+				add_core = LRM
+			}
+			738 = {
+				add_core = LRM
+			}
+			741 = {
+				add_core = LRM
+			}
+			743 = {
+				add_core = LRM
+			}
+			769 = {
+				add_core = LRM
+			}
+			770 = {
+				add_core = LRM
+			}
+			778 = {
+				add_core = LRM
+			}
+			any_pop = {
+				limit = {
+						has_pop_culture = taurinjeis
+				}
+				consciousness = -2
+				militancy = -3
+			}
+			any_pop = {
+				limit = {
+						has_pop_culture = romandeis
+				}
+				consciousness = -2
+				militancy = -3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
