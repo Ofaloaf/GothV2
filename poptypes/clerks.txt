@@ -1302,29 +1302,33 @@ ideologies = {
 			}
 		}
 		modifier = {
+			factor = 2
+			trade_unions = all_trade_unions
+		}
+		modifier = {
 			factor = 1.25
 			state_scope = {
 				NOT = { middle_strata_everyday_needs = 0.25 }
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 2
 			social_reform_want = 0.1
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			social_reform_want = 0.2
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			social_reform_want = 0.3
 		}
 		modifier = {
-			factor = 2	
+			factor = 1.5	
 			social_reform_want = 0.4
 		}
 		modifier = {
-			factor = 3
+			factor = 2
 			social_reform_want = 0.5
 		}
 	}

@@ -1,7 +1,5 @@
 # Britannia
 color = { 135 63 87 }
-proletarian_dictatorship = { 193 26 4 }
-proletarian_republic = { 193 26 4 }
 fascist_dictatorship = { 121 93 88 }
 graphical_culture = BritishGC
 

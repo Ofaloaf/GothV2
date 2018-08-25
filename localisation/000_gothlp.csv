@@ -438,6 +438,7 @@ FLA_conservative_2;Partit Nacional;;;;;;;;;;x;;;;
 FLA_reactionary;Partit Flandés;;;;;;;;;;x;;;;
 FLA_socialist;Partit dels Trabalhardors;;;;;;;;;;x;;;;
 FLA_communist;Partit Comunista;;;;;;;;;;x;;;;
+FLA_fascist;Union Nacional de Flandés;;;;;;;;;;x;;;;
 FLA_anarchist;Lèga Anarquista;;;;;;;;;;x;;;;
 ;;;;;;;;;;;x;;;;
 FLO;Fulo;;;;;;;;;;x;;;;
@@ -1597,3 +1598,7 @@ sale_of_maldives_titles;The Sale Of The Maldives;;;;;;;;;;x;;;;
 sale_of_maldices_desc;The Maldives are a strategically valuable archipelago, not fully appreciated by Gujarat. In our hands, it could become the lynchpin of the Indian Ocean- if we could convince Gujarat to part with the islands.;;;;;;;;;;x;;;;
 claim_roman_italy_title;Claim Roman Italy;;;;;;;;;;x;;;;
 claim_roman_italy_desc;Romania foundation is based on Romanitas, its name proudly telling all that its land is the land of Romans. And yet, Romania doesn't even control the whole heartland of Ancient Rome, the Italian Peninsula. It is only right (and will help placate nationalists) to claim what the ancient Romans had as our own!;;;;;;;;;;x;;;;
+declaration_of_the_rights_of_man;Declaration of the Rights of Man;;;;;;;;;;;;x,,,,
+declaration_of_the_rights_of_man_desc;The Declaration of the Rights of Man and of the Citizen, a fundamental document of the Britannian Revolution, defined the individual and collective rights of all the estates of the realm as universal.;;;;;;;;;;;;x,,
+spirit_of_freedom;The Spirit of Freedom;;;;;;;;;;;;x,,,,
+spirit_of_freedom_desc;For some cultures, the notion of democracy and individual freedom is rooted in their very psyche.;;;;;;;;;;;;x,,,

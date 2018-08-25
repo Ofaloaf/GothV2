@@ -1,0 +1,60 @@
+declaration_of_the_rights_of_man = {
+	limit = { enlightenment_thought = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = -9
+			civilized = no
+		}
+	}
+	effect = {
+		rebel_org_gain = {
+			faction = liberal_rebels
+			value = 0.50
+		}
+		rebel_org_gain = {
+			faction = nationalist_rebels 
+			value = 0.50
+		}
+	}
+}
+
+spirit_of_freedom = {
+	limit = { ideological_thought = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 5
+			nationalvalue = nv_liberty
+		}
+		modifier = {
+			factor = 5
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 5
+			year = 1847
+		}
+		modifier = {
+			factor = -12
+			civilized = no
+		}
+	}
+	effect = {
+		rebel_org_gain = {
+			faction = liberal_rebels
+			value = 0.50
+		}
+	}
+}
+
