@@ -1,0 +1,763 @@
+country_event = {
+	id = 321001
+
+	title = EVTNAME321001 # Establishing Unions
+	desc = EVTDESC321001
+	picture = "Mining"
+	
+	
+	trigger = {
+		government = proletarian_republic
+		trade_unions = no_trade_unions
+		is_ideology_enabled = communist
+		is_ideology_enabled = anarchist
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA321001"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
+		}
+		political_reform = state_controlled
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				ruling_party_ideology = communist
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB321001"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+		}
+		political_reform = all_trade_unions
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 1.5
+				ruling_party_ideology = socialist
+			}
+			modifier = {
+				factor = 10
+				ruling_party_ideology = anarchist
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 321002
+
+	title = EVTNAME321002 # Unions and the Commune
+	desc = EVTDESC321002
+	picture = "Unite"
+	
+	
+	trigger = {
+		government = proletarian_republic
+		NOT = { trade_unions = no_trade_unions }
+		is_ideology_enabled = communist
+		is_ideology_enabled = anarchist
+	}
+	
+	mean_time_to_happen = {
+		months = 168
+		modifier = {
+			factor = 0.9
+			economic_policy = autogestion
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA321002"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = communist
+				factor = 0.05
+			}
+			dominant_issue = {
+				factor = 0.05
+				value = state_controlled
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB321002"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			dominant_issue = {
+				factor = 0.05
+				value = all_trade_unions
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 321003
+
+	title = EVTNAME321003 # Socialist Power Wanes
+	desc = EVTDESC321003
+	picture = "danishgovernment"
+	
+	
+	trigger = {
+		government = proletarian_republic
+		ruling_party_ideology = socialist
+		NOT = { socialist = 35 }
+		OR = {
+			anarchist = 35
+			communist = 35
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 2
+			NOT = { socialist = 30 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { socialist = 20 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA321003"
+		ruling_party_ideology = communist
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOT = { communist = 35 }
+			}
+			modifier = {
+				factor = 2
+				communist = 40
+			}
+			modifier = {
+				factor = 3
+				communist = 50
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB321003"
+		ruling_party_ideology = anarchist
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOT = { anarchist = 35 }
+			}
+			modifier = {
+				factor = 2
+				anarchist = 40
+			}
+			modifier = {
+				factor = 3
+				anarchist = 50
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 321004
+
+	title = EVTNAME321004 # Anarchist Power Wanes
+	desc = EVTDESC321004
+	picture = "danishgovernment"
+	
+	
+	trigger = {
+		government = proletarian_republic
+		ruling_party_ideology = anarchist
+		NOT = { anarchist = 35 }
+		OR = {
+			socialist = 35
+			communist = 35
+		}
+		is_ideology_enabled = communist
+		is_ideology_enabled = anarchist
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 2
+			NOT = { anarchist = 30 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { anarchist = 20 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA321004"
+		ruling_party_ideology = communist
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOT = { communist = 35 }
+			}
+			modifier = {
+				factor = 2
+				communist = 40
+			}
+			modifier = {
+				factor = 5
+				communist = 50
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB321004"
+		ruling_party_ideology = socialist
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOT = { socialist = 35 }
+			}
+			modifier = {
+				factor = 2
+				socialist = 40
+			}
+			modifier = {
+				factor = 5
+				socialist = 50
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 321005
+
+	title = EVTNAME321005 # Communist Power Wanes
+	desc = EVTDESC321005
+	picture = "danishgovernment"
+	
+	
+	trigger = {
+		government = proletarian_republic
+		ruling_party_ideology = communist
+		NOT = { communist = 35 }
+		OR = {
+			socialist = 35
+			anarchist = 35
+		}
+		is_ideology_enabled = communist
+		is_ideology_enabled = anarchist
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 2
+			NOT = { communist = 30 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { communist = 20 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA321005"
+		ruling_party_ideology = anarchist
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOT = { anarchist = 35 }
+			}
+			modifier = {
+				factor = 2
+				anarchist = 40
+			}
+			modifier = {
+				factor = 5
+				anarchist = 50
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB321005"
+		ruling_party_ideology = socialist
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				NOT = { socialist = 35 }
+			}
+			modifier = {
+				factor = 2
+				socialist = 40
+			}
+			modifier = {
+				factor = 5
+				socialist = 50
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 321006
+
+	title = EVTNAME321006 # Conservatism on the rise
+	desc = EVTDESC321006
+	picture = "crisis"
+	
+	
+	trigger = {
+		government = proletarian_republic
+		conservative = 35
+		is_ideology_enabled = communist
+		is_ideology_enabled = anarchist
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.3
+			conservative = 50
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA321006"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = -0.05
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "EVTOPTB321006"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = -0.10
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 5
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 4
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				ruling_party_ideology = communist
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC321002"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.02
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				ruling_party_ideology = anarchist
+			}
+		}
+	}
+}
+
+province_event = {
+	title = "EVTNAME321007" # Anarchist victory in provincial elections
+	desc = "EVTDESC321007"
+	id = 321007
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			government = proletarian_republic
+		}
+		is_colonial = no
+		is_ideology_enabled = anarchist
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.9
+			owner = {
+				nationalvalue = nv_liberty
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA321007"
+		any_pop = {
+			ideology = {
+				value = anarchist
+				factor = 0.10
+			}
+			consciousness = 0.5
+		}
+	}
+}
+
+province_event = {
+	title = "EVTNAME321008" # Socialist victory in provincial elections
+	desc = "EVTDESC321008"
+	id = 321008
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			government = proletarian_republic
+		}
+		is_colonial = no
+		is_ideology_enabled = socialist
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.9
+			owner = {
+				nationalvalue = nv_equality
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA321008"
+		any_pop = {
+			ideology = {
+				value = socialist
+				factor = 0.10
+			}
+			consciousness = 0.5
+		}
+	}
+}
+
+province_event = {
+	title = "EVTNAME321009" # Communist victory in provincial elections
+	desc = "EVTDESC321009"
+	id = 321009
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			government = proletarian_republic
+		}
+		is_colonial = no
+		is_ideology_enabled = communist
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.9
+			owner = {
+				nationalvalue = nv_order
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA321009"
+		any_pop = {
+			ideology = {
+				value = communist
+				factor = 0.10
+			}
+			consciousness = 0.5
+		}
+	}
+}
+
+province_event = {
+	title = "EVTNAME321010" # Bourgeois Agitators
+	desc = "EVTDESC321010"
+	id = 321010
+	picture = "Revolution"
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			government = proletarian_republic
+		}
+		is_colonial = no
+		is_ideology_enabled = communist
+	}
+	mean_time_to_happen = {
+		months = 160
+		modifier = {
+			factor = 0.9
+			owner = {
+				political_reform_want = 0.05
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { socialist = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { anarchist = 20 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { communist = 20 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				nationalvalue = nv_liberty
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA321010"
+		owner = {
+			any_pop = {
+				limit = {
+					location = { is_colonial = no }
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = 2
+				}
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 2
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB321010"
+		any_pop = {
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+			consciousness = 0.5
+			militancy = 0.5
+		}
+	}
+}

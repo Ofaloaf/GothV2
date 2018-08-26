@@ -20,9 +20,8 @@ proletarian_republic =
 	communist = yes
 	anarchist = yes
 	
-	duration = 48
-	election = yes
-	appoint_ruling_party = no
+	election = no
+	appoint_ruling_party = yes
 	flagType = communist
 }
 
@@ -110,6 +109,7 @@ democracy = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
+	flagType = republic
 }
  
 

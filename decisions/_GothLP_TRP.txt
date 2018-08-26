@@ -21,11 +21,23 @@ political_decisions = {
 			prestige = 25
 			1741 = {
 				add_core = TRI
-				change_controller = TRI
+				secede_province = TRI
 			}
-			TRI_1739 = {
+			1739 = {
 				add_core = TRI
-				change_controller = TRI
+				secede_province = TRI
+			}
+			2585 = {
+				add_core = TRI
+				secede_province = TRI
+			}
+			1738 = {
+				add_core = TRI
+				secede_province = TRI
+			}
+			1740 = {
+				add_core = TRI
+				secede_province = TRI
 			}
 			set_country_flag = TRI_interior_claimed
 		}

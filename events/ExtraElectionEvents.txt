@@ -841,6 +841,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -1032,6 +1033,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -1225,6 +1227,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -1421,6 +1424,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -1617,6 +1621,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -1801,6 +1806,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -1997,6 +2003,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -7339,8 +7346,8 @@ country_event = {
 #Anarchist Victory
 country_event = {
 	id = 11380025
-	title = "EVTNAME98310"
-	desc = "EVTDESC98310"
+	title = "EVTNAME11380025"
+	desc = "EVTDESC11380025"
 	picture = "election_win"
 	
 	trigger = {
@@ -7370,6 +7377,7 @@ country_event = {
 		clr_country_flag = anarcho_liberal_surge
 		clr_country_flag = reactionary_surge
 		clr_country_flag = conservative_surge
+		clr_country_flag = anarchist_surge
 		clr_country_flag = election_political_parties
 		clr_country_flag = election_unemployment
 		clr_country_flag = election_child_labor
@@ -7453,6 +7461,110 @@ country_event = {
 		any_owned = {
 			remove_province_modifier = loss_of_support
 			remove_province_modifier = support_the_government
+		}
+	}
+}
+
+# 11380026 - Surge Of Anarchist
+country_event = {
+	id = 11380026
+	title = "EVTNAME11380026"
+	desc = "EVTDESC11380026"
+	picture = "anarchism"
+	
+	trigger = {
+		has_country_flag = election_initialized
+		election = yes
+		OR = {
+			anarchist = 5
+			socialist = 30
+		}
+		literacy = 0.5
+		NOT = { ruling_party_ideology = anarchist }
+		NOT = { has_country_modifier = election_cooldown }
+		NOT = { has_country_flag = anarchist_surge }
+		is_ideology_enabled = anarchist
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+		modifier = {
+			factor = 0.8
+			has_country_modifier = wartime_elections
+		}
+		modifier = {
+			factor = 0.8
+			has_country_modifier = violent_elections
+		}
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 1 }
+		}
+		
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 0.5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			not = { average_consciousness = 5 }
+		}
+		
+		modifier = {
+			factor = 1.1
+			not = { unemployment = 0.05 }
+		}
+		
+		modifier = {
+			factor = 0.9
+			nationalvalue = nv_equality
+		}
+		
+		modifier = {
+			factor = 0.9
+			invention = social_conscience
+		}
+		
+		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+		}
+		
+		modifier = {
+			factor = 1.2
+			unemployment = 0.3
+		}
+				
+		modifier = {
+			factor = 0.9
+			invention = dogma_of_mass_action
+		}
+	}
+	
+	immediate = {
+		set_country_flag = anarchist_surge 
+	}
+	
+	option = {
+		name = "EVTOPTA11380026"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		}
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+				literacy = 0.5
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 3
+			}
 		}
 	}
 }

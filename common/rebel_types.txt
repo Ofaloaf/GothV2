@@ -978,7 +978,7 @@ socialist_rebels = {
 			owner = { ruling_party_ideology = socialist }
 		}
 		political_reform = commune_voting
-		political_reform = party_appointed
+		political_reform = population_equal_weight
 		political_reform = yes_meeting
 		political_reform = state_press
 		political_reform = all_trade_unions

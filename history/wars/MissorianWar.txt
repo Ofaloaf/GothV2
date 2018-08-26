@@ -15,7 +15,7 @@ name = "Great Allegheny War"
 		casus_belli = acquire_state
 		actor = PEQ
 		receiver = UDN
-		state_province_id = 243
+		state_province_id = 58
 	}
 	war_goal = {
 		casus_belli = acquire_state
