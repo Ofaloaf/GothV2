@@ -1,0 +1,89 @@
+# Naua Flandés proposes a union
+country_event = {
+	id = 1932001
+	title = "EVTNAME1932001"
+	desc = "EVTDESC1932001"
+	picture = "genevaconvention"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA1932001"
+		NFL = { country_event = { id=1932002 days=0 } }
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "EVTOPTA1932001"
+		NFL = { country_event = { id=1932003 days=0 } }
+		prestige = 1
+		relation = {
+			who = FROM
+			value = -100
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}	
+}
+
+country_event = {
+	id = 1932002
+	title = "EVTNAME1932002"
+	desc = "EVTDESC1932002"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA1932002"
+		change_tag = SEC
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = VCT
+					is_core = NFL
+				}
+			}
+			add_core = SEC
+		}
+		any_neighbor_province ={
+			limit = {
+				OR = {
+					is_core = VCT
+					is_core = NFL
+				}
+			}
+			add_core = SEC
+		}
+		any_pop = {
+			militancy = -2
+		}
+		prestige = 10
+	}
+}
+
+country_event = {
+	id = 1932003
+	title = "EVTNAME1932003"
+	desc = "EVTDESC1932003"
+	picture = "Bonaparte"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA1932002"
+		any_pop = {
+			militancy = 2
+		}
+		prestige = -5
+	}
+}

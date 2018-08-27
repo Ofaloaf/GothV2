@@ -1,6 +1,6 @@
 color = { 70 125 130 }
-proletarian_dictatorship = { 200 10 10 }
-proletarian_republic = { 200 10 10 }
+proletarian_dictatorship = { 189 0 0 }
+proletarian_republic = { 189 0 0 }
 fascist_dictatorship = { 87 114 117 }
 graphical_culture = EuropeanGC
 

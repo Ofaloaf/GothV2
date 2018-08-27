@@ -97,3 +97,7 @@ schools = naval_tech_school
 #}
 
 oob = "GBI_oob.txt"
+
+1835.1.1 = {
+	decision = enact_female_suffrage
+}

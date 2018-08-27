@@ -1,0 +1,70 @@
+political_decisions = {
+	southeastern_conference = {
+		potential = {
+			AND = {
+				tag = NFL
+				exists = VCT
+			}
+			NOT = { has_global_flag = southeastern_conference_held }
+		}
+	
+		allow = {
+			VCT = { is_independant = yes }
+			NFL = { is_independant = yes }
+			OR = {
+				AND = {
+					OR = {
+						NFL = { government = prussian_constitutionalism }
+						NFL = { government = hms_government }
+					}
+					OR = {
+						VCT = { government = prussian_constitutionalism }
+						VCT = { government = hms_government }
+					}
+				}
+				AND = {
+					NFL = { government = democracy }
+					VCT = { government = democracy }
+				}
+				AND = {
+					OR = {
+						NFL = { government = proletarian_dictatorship }
+						NFL = { government = proletarian_republic }
+						NFL = {
+							government = democracy
+							ruling_party_ideology = socialist
+						}
+						NFL = {
+							government = democracy
+							ruling_party_ideology = communist
+						}
+					}
+					OR = {
+						VCT = { government = proletarian_dictatorship }
+						VCT = { government = proletarian_republic }
+						VCT = {
+							government = democracy
+							ruling_party_ideology = socialist
+						}
+						VCT = {
+							government = democracy
+							ruling_party_ideology = communist
+						}
+					}
+				}
+			}
+			VCT = { war = no }
+			NFL = { war = no }
+		}
+
+		effect = {
+			prestige = 25
+			VCT = { country_event = { id=1932001 days=0 } }
+			
+			set_global_flag = southeastern_conference_held
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

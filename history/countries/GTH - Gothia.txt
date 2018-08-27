@@ -95,3 +95,7 @@ upper_house = {
 schools = culture_tech_school
 
 oob = "GTH_oob.txt"
+
+1835.1.1 = {
+	decision = enact_female_suffrage
+}

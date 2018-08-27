@@ -537,11 +537,11 @@ GTH_conservative_2;Partit Conservador;;;;;;;;;;x;;;;
 GTH_reactionary;Lèga Imperial;;;;;;;;;;x;;;;
 GTH_liberal;Union Liberal;;;;;;;;;;x;;;;
 GTH_liberal_2;Union Republican;;;;;;;;;;x;;;;
-GTH_anarcho_liberal;Movement Nacional Gautès;;;;;;;;;;x;;;;
+GTH_anarcho_liberal;Movement Nacional Republican;;;;;;;;;;x;;;;
 GTH_socialist;Partit Socialista;;;;;;;;;;x;;;;
 GTH_communist;Partit Comunista de Gautya;;;;;;;;;;x;;;;
 GTH_anarchist;Confederacion Anarquista de Gautya;;;;;;;;;;x;;;;
-GTH_fascist;Partit Faissista;;;;;;;;;;x;;;;
+GTH_fascist;Partit Nacional Faissista;;;;;;;;;;x;;;;
 ;;;;;;;;;;;x;;;;
 GTO;Gothiola;;;;;;;;;;x;;;;
 GTO_ADJ;Gothiolan;;;;;;;;;;x;;;;
@@ -1146,6 +1146,25 @@ SBY_socialist;Sibylline Socialist Party;;;;;;;;;;x;;;;
 SBY_communist;Sibylline Communist Party;;;;;;;;;;x;;;;
 SBY_fascist;Black Sun Society;;;;;;;;;;x;;;;
 SBY_anarchist;People's Liberation League;;;;;;;;;;x;;;;
+;;;;;;;;;;x;;;;
+SEC;Sud-Èst Confederation;;;;;;;;;;x;;;;
+SEC_ADJ;Sud-Èst;;;;;;;;;;x;;;;
+SEC_absolute_monarchy;Sud-Èst Kingdom;;;;;;;;;;x;;;;
+SEC_absolute_monarchy_ADJ;Sud-Èst;;;;;;;;;;x;;;;
+SEC_prussian_constitutionalism;Sud-Èst Kingdom;;;;;;;;;;x;;;;
+SEC_prussian_constitutionalism_ADJ;Sud-Èst;;;;;;;;;;x;;;;
+SEC_hms_government;Sud-Èst Kingdom;;;;;;;;;;x;;;;
+SEC_hms_government_ADJ;Sud-Èst;;;;;;;;;;x;;;;
+SEC_fascist_dictatorship;Sud-Èst Union;;;;;;;;;;x;;;;
+SEC_fascist_dictatorship_ADJ;Sud-Èst;;;;;;;;;;x;;;;
+SEC_liberal;Partit Liberal;;;;;;;;;;x;;;;
+SEC_anarcho_liberal;Partit Radical;;;;;;;;;;x;;;;
+SEC_conservative;Partit Conservador;;;;;;;;;;x;;;;
+SEC_reactionary;Partit Nacional;;;;;;;;;;x;;;;
+SEC_socialist;Partit Socialista;;;;;;;;;;x;;;;
+SEC_anarchist;Federacion Anarquista;;;;;;;;;;x;;;;
+SEC_communist;Partit Comunista;;;;;;;;;;x;;;;
+SEC_fascist;Partit Faissista;;;;;;;;;;x;;;;
 ;;;;;;;;;;;x;;;;
 SHK;Sahakoku;;;;;;;;;;x;;;;
 SHK_ADJ;Saha;;;;;;;;;;x;;;;
@@ -1602,3 +1621,4 @@ declaration_of_the_rights_of_man;Declaration of the Rights of Man;;;;;;;;;;;;x,,
 declaration_of_the_rights_of_man_desc;The Declaration of the Rights of Man and of the Citizen, a fundamental document of the Britannian Revolution, defined the individual and collective rights of all the estates of the realm as universal.;;;;;;;;;;;;x,,
 spirit_of_freedom;The Spirit of Freedom;;;;;;;;;;;;x,,,,
 spirit_of_freedom_desc;For some cultures, the notion of democracy and individual freedom is rooted in their very psyche.;;;;;;;;;;;;x,,,
+early_female_suffrage;Early Female Suffrage;;;;;;;;;;x;;;;
