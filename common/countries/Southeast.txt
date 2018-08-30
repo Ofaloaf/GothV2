@@ -1,5 +1,5 @@
 color = { 151 143 119 }
-graphical_culture = SouthAmericanGC
+graphical_culture = ConfederateGC
 
 party = {
 	name = "SEC_conservative"

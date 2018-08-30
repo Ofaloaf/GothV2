@@ -2838,7 +2838,7 @@ gothic_group = {
 			Antemi Albert Alias Aldebert Aimeric Ancelmes Arnaut Atila Artau Audoïn Aymar Aram Avit Aloita
 			Antunin Albilas Alico Ara Ardor Ariver Asbad
 			Bartoumiéu Berenguié Bérard Bertrant Boson Belisari Barral Borel Baudoïn Benexet Blasi Benno
-			Clamenç Cunstantin Centolh Caraules Claudi Cunstanci
+			Clamenç Cunstantin Centolh Carles Claudi Cunstanci
 			Dàvi Duran Diaco Dat Dodon Doumenge
 			Evaric Ervige Eraric Estilicó Encius Ermengau Engenalco
 			Filip Froila Frederi Ferrand Flaurènç Fulquet Francés

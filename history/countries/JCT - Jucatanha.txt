@@ -1,4 +1,4 @@
-capital = 2183
+capital = 2165
 primary_culture = centremerican
 religion = conciliarist
 government = hms_government

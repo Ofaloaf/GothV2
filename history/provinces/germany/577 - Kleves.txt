@@ -2,5 +2,6 @@ owner = GTH
 controller = GTH
 add_core = GTH
 add_core = FLA
+add_core = FRK
 trade_goods = coal
 life_rating = 40

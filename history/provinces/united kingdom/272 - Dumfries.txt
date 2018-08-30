@@ -1,5 +1,6 @@
 owner = GBI
 controller = GBI
 add_core = GBI
+add_core = SCO
 trade_goods = coal
 life_rating = 35

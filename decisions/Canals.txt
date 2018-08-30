@@ -52,11 +52,13 @@ political_decisions = {
 			iron_steamers = 1
 		}
 		effect = {
-			1755 = { secede_province = THIS }
+			#1755 = { secede_province = THIS }
 			enable_canal = 2
 			1755 = { set_province_flag = suez_canal }
 			prestige = 10
 			set_global_flag = suez_canal_built
+			set_country_flag = suez_builder
+			1755 = { owner = { set_country_flag = suez_country }
 		}
 		ai_will_do = {
 			factor = 1

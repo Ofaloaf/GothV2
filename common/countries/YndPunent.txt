@@ -1,7 +1,7 @@
 # Britannia
 
 color = { 188 78 118 }
-graphical_culture = BritishGC
+graphical_culture = Generic
 
 
 party = {

@@ -1,5 +1,5 @@
 color = { 176  0  0 }
-graphical_culture = ItalianGC
+graphical_culture = Generic
 
 party = {
 	name = "MLT_conservative"

@@ -2916,7 +2916,7 @@
 		size = 565
 	}
 }
-#Aachen (400000/100000 POPS)
+#Aachen /Aquisgran (400000/100000 POPS)
 576 = {
 	aristocrats = {
 		culture = gautes
@@ -2963,7 +2963,7 @@
 	farmers = {
 		culture = gothi
 		religion = orthodox
-		size = 57150
+		size = 37150
 	}
 
 	clergymen = {
@@ -2975,7 +2975,7 @@
 	farmers = {
 		culture = gothi
 		religion = conciliarist
-		size = 20990 
+		size = 20090 
 	}
 }
 #Kleves (356000/89000 POPS)

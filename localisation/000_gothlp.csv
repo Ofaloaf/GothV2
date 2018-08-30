@@ -356,6 +356,17 @@ CIR_communist;Communist Party;;;;;;;;;;;;;x
 CIR_fascist;Fascist Party;;;;;;;;;;;;;x
 CIR_anarchist;Revolutionary Anarchists;;;;;;;;;;;;;x
 ;;;;;;;;;;;x;;;;
+SCO;Caledonia;;;;;;;;;;x;;;;
+SCO_ADJ;Caledonian;;;;;;;;;;x;;;;
+SCO_conservative;Llo Conserfatiw;;;;;;;;;;x;;;;
+SCO_liberal;Llo Lliferthuil;;;;;;;;;;x;;;;
+SCO_socialist;Llo Socialist;;;;;;;;;;x;;;;
+SCO_reactionary;Llo Calediwnig;;;;;;;;;;x;;;;
+SCO_anarcho_liberal;Lla Radicuil;;;;;;;;;;x;;;;
+SCO_communist;Lla Comiwnist;;;;;;;;;;x;;;;
+SCO_fascist;Ill Front Nediwnal;;;;;;;;;;x;;;;
+SCO_anarchist;Party Anarcist Calediwnig;;;;;;;;;;x;;;;
+;;;;;;;;;;;x;;;;
 CPT;Carpathia;;;;;;;;;;x;;;;
 CPT_ADJ;Carpathian;;;;;;;;;;x;;;;
 CPT_conservative;Conservatives;;;;;;;;;;x;;;;
