@@ -464,6 +464,7 @@ country_event = {
 		NOT = {
 			tag = GTH
 			tag = THR
+			tag = FRK
 			tag = JAP
 		}
 		OR = {
@@ -3600,7 +3601,7 @@ country_event = {
 	}
 }
 
-# Dismantling Austria
+# Dismantling Frankia
 country_event = {
 
 	id = 96056
@@ -3623,11 +3624,7 @@ country_event = {
 			has_country_flag = ultimatum_accepted
 			has_country_flag = dismantling_treaty
 		}
-		OR = {
-			tag = AUS
-			tag = KUK
-			tag = DNB
-		}
+		tag = FRK
 		OR = {
 			has_country_flag = ultimatum_accepted
 			has_country_flag = dismantling_treaty
@@ -3635,7 +3632,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 10
+		days = 1
 	}
 
 	option = {
@@ -3643,7 +3640,6 @@ country_event = {
 		clr_country_flag = dismantle_declared
 		clr_country_flag = dismantling_treaty
 		clr_country_flag = in_great_war
-		clr_country_flag = calling_all_allies
 		clr_country_flag = enemy_of_my_enemy
 		clr_country_flag = total_collapse
 		clr_country_flag = ultimatum_accepted
@@ -3683,6 +3679,33 @@ country_event = {
 
 		#prestige hit
 		prestige_factor = -0.5
+		
+		# add Frisian cores
+		FRK_375 = { add_core = FRI } # Batavia
+		NET_385 = { add_core = FRI } # Frisia
+		FRK_540 = { add_core = FRI } # Visurgis
+		
+		# Ripuaria gets Koblenz
+		random_country = {
+			limit = {
+				tag = RIP
+				war = no
+			}
+			579 = { 
+				add_core = RIP
+				remove_core = FRK
+				secede_province = RIP
+			}
+		}
+		
+		#remove cores on overseas provinces
+		any_owned = {
+			limit = {
+				is_overseas = yes
+				is_core = THIS
+			}
+			remove_core = THIS
+		}
 
 		#normalize relations with treaty members
 		any_country = {
@@ -3697,14 +3720,13 @@ country_event = {
 				}
 			}
 			relation = { who = THIS value = 200 }
-		}
+		}	
 
 		#release all cores to anyone with a truce
 		any_country = {
 			limit = {
 				exists = yes
 				any_core = { owned_by = THIS }
-				NOT = { this_culture_union = THIS }
 				OR = {
 					truce_with = THIS
 					AND = {
@@ -3713,25 +3735,36 @@ country_event = {
 					}
 				}
 			}
+			all_core = {
+				limit = {
+					is_core = THIS
+					state_scope = {
+						NOT = { any_owned_province = { is_capital = yes } }
+					}
+				}
+				remove_core = THIS
+			}
 			country_event = 96014
 		}
 
-		#release non-existing countries			
+		#release all vassals
+		any_country = {
+			limit = { vassal_of = THIS }
+			leave_alliance = THIS
+			country_event = 96015
+		}
+
+		#release non-existing countries		
 		any_country = {
 			limit = {
 				OR = {
 					civilized = yes
 					tag = JAP
-					tag = KOR
-					tag = SIA
-					tag = MOR
-					tag = EGY
 				}
 				any_core = { owned_by = THIS }
 				exists = no
 				is_cultural_union = no
-				NOT = { is_culture_group = germanic }
-				NOT = { has_country_flag = post_colonial_country }
+				NOT = { is_culture_group = gothic_group }
 			}
 			all_core = {
 				limit = {
@@ -3745,13 +3778,13 @@ country_event = {
 			country_event = 96012
 		}
 
-		#give cores back to neighboring, non-allied countries
-		any_neighbor_country = {
+		#give cores to any non-allied country
+		any_country = {
 			limit = {
+				exists = yes
 				any_core = { owned_by = THIS }
 				NOT = { alliance_with = THIS }
 				NOT = { truce_with = THIS }
-				NOT = { this_culture_union = THIS }
 			}
 			country_event = 96013
 		}

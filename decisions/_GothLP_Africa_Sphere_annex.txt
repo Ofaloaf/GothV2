@@ -188,4 +188,33 @@ political_decisions = {
 			set_country_flag = bengal_kaput
 		}
 	}
+	
+	japanese_chukchi = {
+		potential = {
+			tag = JAP
+			CHK = {
+				civilized = no
+			}
+			NOT = {
+				has_country_flag = chukchi_kaput
+			}
+			exists = CHK
+			CHK = {AI = yes}
+		}
+		
+		allow = {
+			CHK = {
+				in_sphere = THIS
+				civilized = no
+				war = no
+			}
+			war = no
+			is_greater_power = yes
+		}
+		
+		effect = {
+			inherit = CHK
+			set_country_flag = chukchi_kaput
+		}
+	}
 }

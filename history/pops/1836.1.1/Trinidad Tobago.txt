@@ -1,0 +1,115 @@
+#Trinidad & Tobago Region (69000/14750 POPS)
+#ruled by Britain 1836
+#Trinidad (44000/11000 POPS)
+2237 = {
+	aristocrats = {
+		culture = valentinian
+		religion = reformed
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = valentinian
+		religion = reformed
+		size = 15
+	}
+
+	clergymen = {
+		culture = valentinian
+		religion = reformed
+		size = 25
+	}
+
+	artisans = {
+		culture = valentinian
+		religion = reformed
+		size = 500
+	}
+
+	soldiers = {
+		culture = valentinian
+		religion = reformed
+		size = 25
+	}
+
+	farmers = {
+		culture = valentinian
+		religion = reformed
+		size = 410
+	}
+
+	clergymen = {
+		culture = kilombuis
+		religion = reformed
+		size = 75
+	}
+
+	artisans = {
+		culture = kilombuis
+		religion = reformed
+		size = 750
+	}
+
+	soldiers = {
+		culture = kilombuis
+		religion = reformed
+		size = 100
+	}
+
+	farmers = {
+		culture = kilombuis
+		religion = reformed
+		size = 9075
+	}
+}
+#Tobago (15000/3750 POPS)
+2238 = {
+	aristocrats = {
+		culture = valentinian
+		religion = reformed
+		size = 10
+	}
+
+	clergymen = {
+		culture = valentinian
+		religion = reformed
+		size = 5
+	}
+
+	artisans = {
+		culture = valentinian
+		religion = reformed
+		size = 25
+	}
+
+	farmers = {
+		culture = valentinian
+		religion = reformed
+		size = 60
+	}
+
+	clergymen = {
+		culture = kilombuis
+		religion = reformed
+		size = 50
+	}
+
+	artisans = {
+		culture = kilombuis
+		religion = reformed
+		size = 150
+	}
+
+	soldiers = {
+		culture = kilombuis
+		religion = reformed
+		size = 50
+	}
+
+	farmers = {
+		culture = kilombuis
+		religion = reformed
+		size = 3400
+	}
+
+}

@@ -384,7 +384,7 @@ ideologies = {
 		 	revanchism = 0.04
 		}
 		modifier = {
-			factor = 5
+			factor = 3
 		 	revanchism = 0.05
 		}
 		modifier = {

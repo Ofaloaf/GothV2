@@ -1,0 +1,34 @@
+political_decisions = {
+	enact_the_homestead_act = {
+		potential = {
+			OR = {
+				tag = MIS # Missori
+				tag = ANC # Anahuac
+				tag = AVL # Avallonia
+				tag = BVT # Bonaventura
+				tag = CUA # Charrua (they got the Pampas and Patagonia ffs)
+				tag = KAI # Kaigai # poor kaigai
+			}
+			NOT = {
+				has_country_modifier = the_homestead_act
+			}
+			year = 1860
+		}
+		
+		allow = {
+			OR = {
+				government = democracy
+				government = hms_government
+				government = proletarian_republic
+			}
+			prestige = 40
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = the_homestead_act
+				duration = -1
+			}
+		}
+	}
+}

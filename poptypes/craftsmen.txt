@@ -1076,7 +1076,7 @@ ideologies = {
 		 	revanchism = 0.04
 		}
 		modifier = {
-			factor = 5
+			factor = 3
 		 	revanchism = 0.05
 		}
 		modifier = {
@@ -1092,7 +1092,7 @@ ideologies = {
 			NOT = { political_reform_want = 0.10 }
 		}	
 		modifier = {
-			factor = 5
+			factor = 3
 			ruling_party_ideology = fascist
 		}
 		modifier = {
@@ -1404,7 +1404,7 @@ ideologies = {
 			social_reform_want = 0.5
 		}
 		modifier = {
-			factor = 3
+			factor = 3.5
 			ruling_party_ideology = communist 
 		}	
 		modifier = {
