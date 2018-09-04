@@ -1594,6 +1594,8 @@ D49_ADJ;Mandatory;;;;;;;;;;x;;;;
 D50;The Territory of $REGION$;;;;;;;;;;x;;;;
 D50_ADJ;Territorial;;;;;;;;;;x;;;;
 ;;;;;;;;;;;x;;;;
+part_of_WRE;State of the Western Roman Empire;;;;;;;;;;x;;;;
+part_of_WRE_desc;This country is part of the venerable Western Roman Empire.;;;;;;;;;;x;;;;
 liberal_group;Liberal & Radical parties;;;;;;;;;;x;;;;
 anarcho_liberal;Radical;;;;;;;;;;x;;;;
 anarcho_liberal_uh;Radicals want to strengthen the bourgeoisie at the expense of the aristocracy, but care little for the proletariat.;;;;;;;;;;x;;;;
@@ -1637,7 +1639,7 @@ the_mutapan_protectorate_title;Establish A Mutapan Protectorate;;;;;;;;;;x;;;;
 the_mutapan_protectorate_desc;Mutapa sits in a key and vulnerable corner of Africa. If we do not move to secure its loyalties now, another Power may do so.;;;;;;;;;;x;;;;
 sale_of_ceylon_title;The Sale Of Ceylon;;;;;;;;;;x;;;;
 sale_of_ceylon_desc;Ceylon is a valuable island, one underutilized by its Gujarati lords. Our expertise and technology could open up a world of wonders there- if we had control of the place.;;;;;;;;;;x;;;;
-sale_of_maldives_titles;The Sale Of The Maldives;;;;;;;;;;x;;;;
+sale_of_maldives_title;The Sale Of The Maldives;;;;;;;;;;x;;;;
 sale_of_maldices_desc;The Maldives are a strategically valuable archipelago, not fully appreciated by Gujarat. In our hands, it could become the lynchpin of the Indian Ocean- if we could convince Gujarat to part with the islands.;;;;;;;;;;x;;;;
 claim_roman_italy_title;Claim Roman Italy;;;;;;;;;;x;;;;
 claim_roman_italy_desc;Romania foundation is based on Romanitas, its name proudly telling all that its land is the land of Romans. And yet, Romania doesn't even control the whole heartland of Ancient Rome, the Italian Peninsula. It is only right (and will help placate nationalists) to claim what the ancient Romans had as our own!;;;;;;;;;;x;;;;
@@ -1646,3 +1648,5 @@ declaration_of_the_rights_of_man_desc;The Declaration of the Rights of Man and o
 spirit_of_freedom;The Spirit of Freedom;;;;;;;;;;;;x,,,,
 spirit_of_freedom_desc;For some cultures, the notion of democracy and individual freedom is rooted in their very psyche.;;;;;;;;;;;;x,,,
 early_female_suffrage;Early Female Suffrage;;;;;;;;;;x;;;;
+bengal_protectorate_title;Establish The Bengal Protectorate;;;;;;;;;;x;;;;
+bengal_protectorate_desc;Bengal is a very precarious country, straddling the Himalayas yet lacking the industrial capacity to build the infrastructure necessary to tie its Himalayan and Indian provinces together into a single, cohesive whole. Moving in to, ahem, assist the Bengali king may help stabilize the Indian provinces, but the kingdom's Himalayan provinces will likely take advantage of the unrest to assert their independence.;;;;;;;;;;x;;;;

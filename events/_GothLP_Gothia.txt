@@ -535,3 +535,48 @@ country_event = {
 		}
 	}	
 }
+
+# End of the Western Roman Empire
+country_event = {
+	news = yes
+	id = 500008
+
+	news_desc_long = "EVTNAME500008_NEWS_LONG"
+	news_desc_medium = "EVTNAME500008_NEWS_MEDIUM"
+	news_desc_short = "EVTNAME500008_NEWS_SHORT"
+	title = "EVTNAME500008"
+	desc = "EVTDESC500008"
+	
+	major = yes
+	
+	trigger = {
+		tag = GTY
+		NOT = { has_global_flag = fall_of_rome }
+		NOT = {
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_rome
+	}
+
+	option = {
+		name = "EVTOPTA500008"
+		any_country = {
+			limit = {
+				has_country_modifier = part_of_WRE
+			}
+			remove_country_modifier = part_of_WRE
+		}
+	}	
+}
+

@@ -117,6 +117,12 @@ EVTDESC500007;Queen Onecca's death, although long and anxiously anticipated, sti
 EVTOPTA500007;Give the crown to the pretender.;;;;;;;;;;x;;;;
 EVTOPTB500007;Proclaim a regency council and shut down all opposition!;;;;;;;;;;x;;;;
 EVTOPTC500007;End the monarchy and let the Senate rule!;;;;;;;;;;x;;;;
+EVTNAME500008;Fall of the Western Roman Empire!;;;;;;;;;;x;;;;
+EVTDESC500008;As the Gothonian monarchy crumbled into nothing, the last act of its crowned sovereign was to abdicate the title of Western Roman Emperor and release all imperial states from their obligations to the Empire. Whether this was an act of spite, to prevent any other monarch from claiming the venerable title, or an act of charity to protect the imperial states from being legally obligated to supporting a malign claimant to the imperial purple, the Western Roman Empire as an international institution has formally ceased to be.;;;;;;;;;;x;;;;
+EVTOPTA500008;Sic transit gloria mundi.;;;;;;;;;;x;;;;
+EVTNAME500008_NEWS_LONG;The Western Roman Empire has been dissolved in a last gesture by the Gothonian monarchy! This marks the end of an august, millennia-old institution.;;;;;;;;;;x;;;;
+EVTNAME500008_NEWS_MEDIUM;The Western Roman Empire has been dissolved in a last gesture by the Gothonian monarchy! This marks the end of an august, millennia-old institution.;;;;;;;;;;x;;;;
+EVTNAME500008_NEWS_SHORT;The Western Roman Empire has been dissolved! This marks the end of an august, millennia-old institution.;;;;;;;;;;x;;;;
 EVTNAME11380025;Anarchists Declare Victory!;;;;;;;;;;x;;;;
 EVTDESC11380025;The $COUNTRY_ADJ$ election has ended, with the Anarchists declaring victory in $CAPITAL$.;;;;;;;;;;x;;;;
 EVTNAME11380026;Anarchist Surge;;;;;;;;;;x;;;;

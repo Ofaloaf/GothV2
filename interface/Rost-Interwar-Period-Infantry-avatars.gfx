@@ -58,8 +58,8 @@ objectTypes = {
 
 	EMFXActorType = {
 		name = "BritishGCInfantry3"
-		actorfile = "gfx\anims\BritishInf_Interwar.xac"
-		
+		actorfile = "gfx\anims\FrenchInf_Interwar.xac"
+
 		idle   = "gfx\anims\InterwarInfantryIdle.xsm"
 		move   = "gfx\anims\InterwarInfantryMove.xsm"
 		attack = "gfx\anims\InterwarInfantryAttack.xsm"
@@ -166,7 +166,7 @@ objectTypes = {
 
 	EMFXActorType = {
 		name = "FrenchGCInfantry3"
-		actorfile = "gfx\anims\FrenchInf_Interwar.xac"
+		actorfile = "gfx\anims\GermanInf_Interwar.xac"
 		
 		idle   = "gfx\anims\InterwarInfantryIdle.xsm"
 		move   = "gfx\anims\InterwarInfantryMove.xsm"

@@ -59,3 +59,7 @@ late_enlightenment_philosophy = 1
 enlightenment_thought = 1
 water_wheel_power = 1
 publishing_industry = 1
+
+1835.1.1 = {
+	decision = join_WRE
+}

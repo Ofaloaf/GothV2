@@ -73,3 +73,6 @@ nonstate_consciousness = 1
 
 oob = "PAR_oob.txt"
 
+1835.1.1 = {
+	decision = join_WRE
+}

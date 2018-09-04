@@ -71,3 +71,7 @@ consciousness = 3
 nonstate_consciousness = 1
 
 #oob = "PAP_oob.txt"
+
+1835.1.1 = {
+	decision = join_WRE
+}

@@ -15,6 +15,13 @@ early_female_suffrage = {
 	icon = 7
 }
 
+part_of_WRE = {
+	diplomatic_points_modifier = 0.25
+	cb_generation_speed_modifier = -0.25
+	prestige = 0.01
+	icon = 5
+}
+
 ### NEW NATIONS MOD Total War System ###
 great_war = {
 	war_exhaustion = -3.0

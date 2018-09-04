@@ -58,7 +58,7 @@ objectTypes = {
 
 	EMFXActorType = {
 		name = "BritishGCArtillery3"
-		actorfile = "gfx\anims\BritishInf_Interwar.xac"
+		actorfile = "gfx\anims\FrenchInf_Interwar.xac"
 		
 		idle   = "gfx\anims\InterwarArtilleryIdle.xsm"
 		move   = "gfx\anims\InterwarArtilleryMove.xsm"

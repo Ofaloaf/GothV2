@@ -70,3 +70,7 @@ basic_chemistry = 1
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1
+
+1835.1.1 = {
+	decision = join_WRE
+}

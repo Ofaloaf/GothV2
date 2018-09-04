@@ -1,0 +1,52 @@
+political_decisions = {
+	join_WRE = {
+		potential = {
+			NOT = { has_country_flag = joined_the_WRE }
+			OR = {
+				tag = GTH # Gothia
+				tag = GTY # Gothonia
+				tag = LRM # (Latin) Romania
+				tag = VER # Verona
+				tag = RMD # Liguria-Romaniola
+				tag = PAR # Parma
+				tag = RIP # Ripuaria
+				tag = MOR # Mauretania
+				tag = SAR # Sardinia
+				tag = PCN # Pacensis
+				tag = GAL # Gallaecia
+				tag = CAG # Caesaraugustanus
+				tag = MLT # Melita
+				tag = BYC # Byzacena
+			}
+		}
+		
+		allow = {
+			OR = {
+				tag = GTH # Gothia
+				tag = GTY # Gothonia
+				tag = LRM # (Latin) Romania
+				tag = VER # Verona
+				tag = RMD # Liguria-Romaniola
+				tag = PAR # Parma
+				tag = RIP # Ripuaria
+				tag = MOR # Mauretania
+				tag = SAR # Sardinia
+				tag = PCN # Pacensis
+				tag = GAL # Gallaecia
+				tag = CAG # Caesaraugustanus
+				tag = MLT # Melita
+				tag = BYC # Byzacena
+			}
+			NOT_has_country_flag = joined_the_WRE
+			NOT = { year = 1837 }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = part_of_WRE
+				duration = -1
+			}
+			set_country_flag = joined_the_WRE
+		}
+	}
+}

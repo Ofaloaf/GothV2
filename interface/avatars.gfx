@@ -238,7 +238,8 @@ objectTypes = {
 	
 	EMFXActorType = {
 		name = "UsGCHelmet2"
-		actorfile = "gfx\anims\Us_Helmet21.xac"
+		actorfile = "gfx\anims\British_Helmet1.xac"
+		#actorfile = "gfx\anims\Us_Helmet21.xac"
 		scale = 1.00
 	}
 	
