@@ -4,6 +4,7 @@ political_decisions = {
 			tag = LRM
 			state_n_government = 1
 			war = no
+			NOT = { has_country_flag = roman_italy_claimed }
 		}
 	
 		allow = {
@@ -66,6 +67,7 @@ political_decisions = {
 				consciousness = -2
 				militancy = -3
 			}
+			set_country_flag = roman_italy_claimed
 		}
 		ai_will_do = {
 			factor = 1

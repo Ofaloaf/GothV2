@@ -1,8 +1,8 @@
 # Britannia
 color = { 135 63 87 }
 fascist_dictatorship = { 121 93 88 }
-proletarian_dictatorship = { 169 61 18 }
-proletarian_republic = { 169 61 18 }
+proletarian_dictatorship = { 152 62 53 }#{ 169 61 18 }
+proletarian_republic = { 152 62 53 }
 graphical_culture = ItalianGC
 
 
