@@ -341,6 +341,14 @@ national_confusion = {
 	icon = 4
 }
 
+power_vacuum = {
+	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = 0.05
+	factory_throughput = -0.1
+	RGO_throughput = -0.1
+	icon = 6
+}
+
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
 	population_growth = 0.005

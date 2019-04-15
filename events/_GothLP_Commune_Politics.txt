@@ -599,7 +599,7 @@ province_event = {
 		is_ideology_enabled = anarchist
 	}
 	mean_time_to_happen = {
-		months = 120
+		months = 600
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -634,7 +634,7 @@ province_event = {
 		is_ideology_enabled = socialist
 	}
 	mean_time_to_happen = {
-		months = 120
+		months = 600
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -669,7 +669,7 @@ province_event = {
 		is_ideology_enabled = communist
 	}
 	mean_time_to_happen = {
-		months = 120
+		months = 600
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -705,7 +705,7 @@ province_event = {
 		is_ideology_enabled = communist
 	}
 	mean_time_to_happen = {
-		months = 160
+		months = 1200
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -758,6 +758,51 @@ province_event = {
 			}
 			consciousness = 0.5
 			militancy = 0.5
+		}
+	}
+}
+
+# Fascist takeover
+country_event = {
+	id = 321011
+
+	title = EVTNAME321011
+	desc = EVTDESC321011
+	picture = "Fascist"
+	
+	trigger = {
+		government = proletarian_republic
+		ruling_party_ideology = fascist
+		NOT = { has_country_flag = fascist_advances_rejected }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA321011"
+		government = fascist_dictatorship
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+	}
+	
+	option = {
+		name = "EVTOPTB321011"
+		ai_chance = {
+			factor = 0
+		}
+		set_country_flag = fascist_advances_rejected
+		any_pop = {
+			ideology = {
+				value = fascist
+				factor = -0.05
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = 6
+			}
 		}
 	}
 }

@@ -95,7 +95,7 @@ party = {
 
 	ideology = socialist
 
-	economic_policy = planned_economy
+	economic_policy = state_capitalism #planned_economy
 	trade_policy = protectionism
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
@@ -164,24 +164,11 @@ unit_names = {
 	cruiser = {
 		# geography, toponyms. Some in Gautés/Occitan, some in Latin, I don't care, fight me irl
 
-		Autafòrt Avinho Aquitania Armorica Anjau Angeius
-		Beneharnum Becha Bergonha Botenan Branditz Bretanha Burdelh
-		Cambrais Caerci Cabrera Cajarc Can Carladés Carais Chalés Campanha Charanta Carnutum Colombier Castrodunum Comborn "Crespí el Valei" Cevenas Caleeis Clarasvals 
-		Digum Doais Dordonha
-		Esparron Essaudun
-		Fanjau "Finibus-Terra" Flandès Florís Fois Fontebrau
-		Gothonia Gan Gisòrtz Gordon Granhòl Guian Guissan
-		Helvetia
-		Ingolesma "Isla-Bochart"
-		Lugdunensis Legionensis
-		Massalia "Mons Clarus"
-		Narbona
-		Provincia Paris Peiteus
-		Redonia
-		Suessionha
-		Triariacum Theiphalia
-		Vithericopolis
-		Wasconha
+		Fois Carladés "Isla-Bochart" Comborn Caleeis Gisòrtz Florís Peiteus Becha Dordonha Gothonia Beneharnum "Finibus-Terra" Granhòl Paris Carnutum 
+		Guissan Carais Angeius Anjau Cajarc Suessionha "Crespí el Valei" Bretanha Lobaton Bergonha Digum Clarasvals Columbaria Armorica Chalés Flandès 
+		Campanha Triariacum Caerci Legionensis Autafòrt Charanta Guian Branditz Theiphalia Cevenas Doais Castrodunum Burdelh Wasconha Gan Can Ingolesma 
+		Essaudun Lugdunensis Fontebrau "Mons Clarus" Helvetia Berna Aquitania Vithericopolis Gordon Avinho Botenan Cabrera Redonia Massalia Baiocassinus
+		Fanjau Narbona Esparron Cambrais Colombier Provincia Biturigia
 	}
 	dreadnought = {
 		# National names, historical names. With all the Gallo-Roman principalities gobbled up, the Goths can appropriate Gallic history.
@@ -221,30 +208,17 @@ unit_names = {
 	monitor = {
 		# I will avoid building these
 
-		Arius Auzelhon Ausonia Argentia
-		Defensalha Desplaser Devedar
-		Ferris Franc
-		Gal
-		Nemesis
-		Senatus
-		Ulfilas 
+		Gal Ausonia Arius Nemesis Senatus Auzelhon Ferris Ulfilas Devedar Argentia Defensalha Franc Desplaser Porcelana Victòria 
 	}
 	commerce_raider = {
 		# People's names, plus a few misc. terms. I tried to keep a record of minister names during EU4, but did a very poor job of it.
 
-		"Andrai Guisardo" Artuset Andrieva Asteria
-		"Bon Arabit" "Barral de Fulhonibus" "Bertran de Born" "Berlais de Mosteròl" Bernardon "Bernart Aton"
-		Cembelís Charetier "Comtat Ainric" "Comtat Conrat" "Comtat Centol" Carolus Carmena "Comtat Frederi" "Comtat Gasto" "Comtat Jaufré"
-		Domidieu Dompnejar
-		Esfotanz "Evaric Massot" "Egides de Glanum"
-		Faidida "Folcau d'Archiac" Folheta
-		"Governor Falgario" "Gabrieu Airus" "Garsia Ramitz" "Golfier de la Tor" "Gueric li Sor" "Guilhèm lo Pros"
-		Hannibal
-		"Jehan Cena" "Jehan-sens-Tèrra"
-		"Mundus de Dibio"
-		Octavia
-		Puella Patricia Petrulus
-		"Suneario Vinhal" Sibilla Septimus "Sidoni Apollinar"
+		Asteria Puella "Barral de Fulhonibus" "Sidoni Apollinar" Dompnejar Cembelís "Jehan-sens-Tèrra" "Gueric li Sor" "Bertran de Born" "Suneario Vinhal" 
+		"Comtat Ainric" "Comtat Conrat" "Comtat Centol" "Comtat Frederi" "Comtat Gasto" "Comtat Jaufré"
+		"Jehan Cena" Esfotanz "Bernart Aton" "Golfier de la Tor" Faidida "Andrai Guisardo" "Garsia Ramitz" "Egides de Glanum" Andrieva Artuset
+		Septimus "Folcau d'Archiac" "Governor Falgario" Sibilla 
+		"Berlais de Mosteròl" Petrulus Carolus "Bon Arabit" Domidieu "Evaric Massot" Octavia Hannibal "Guilhèm lo Pros" "Mundus de Dibio" Carmena
+		"Gabrieu Airus" Bernardon Folheta Charetier Lobaton
 	}
 	manowar = {
 		# just some shit. Partially EU4 ship names.

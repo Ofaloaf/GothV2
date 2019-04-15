@@ -9,11 +9,7 @@ fascist_group = {
 	
 		
 		add_political_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
-			}
+			base = 0
 		}
 	
 		remove_political_reform = {

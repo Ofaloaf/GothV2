@@ -1775,7 +1775,7 @@ native_american = {
 			Gall
 			Julianus Julius
 			Metacom Miantonomo Massasoit Magnus
-			Nnigret
+			Ninigret
 			Occom Ousamequin Othin
 			Pessicus
 			Quequegunent Quinnapin Quissucquansh
@@ -1787,7 +1787,7 @@ native_american = {
 		}
 		last_names = {
 			Asupsuck Aukumbumsk Aushpook Assonet Assawomsett Acoaxet Apponagansett Aquidneck
-			Cosattuck Cuppunauginnit  Cohannet Chippascutt Cheeschumuck
+			Cosattuck Cuppunauginnit Cohannet Chippascutt Cheeschumuck
 			Iacoomes
 			Metoac Manchaug Massomuck Menunkantuck Monashackotoog Mangunckakuck Mashantucket Mohungannuck Mashpee
 			Niantic Nameauag Natchaug Noank Nonaquaket Nobnocket Nunnepog
@@ -2491,7 +2491,7 @@ central_african = {
 		}
 	}
 	african_minor = {
-		color = {74 155 164}
+		color = { 176 176 176 } #{74 155 164}
 		first_names = { Andikan Amadi Aren Bahari Averey Bakari Bash Bayode Bitalo Chane Chata Dakarai Davu Dume Fabunni Gamba Genet Guban Hajari Haruni Ife Ilo Issay Jabari Jabilo Jaguan Kabili Kamwimbile Kasim Kenyi Khairi Makalo Mansa Morathi Musawenkosi Raimi Razi Reth
 		}
 
@@ -2840,7 +2840,7 @@ gothic_group = {
 			Bartoumiéu Berenguié Bérard Bertrant Boson Belisari Barral Borel Baudoïn Benexet Blasi Benno
 			Clamenç Cunstantin Centolh Carles Claudi Cunstanci
 			Dàvi Duran Diaco Dat Dodon Doumenge
-			Evaric Ervige Eraric Estilicó Encius Ermengau Engenalco
+			Evaric Ervige Eraric Estilicó Encius Ermengau Engenalco Eubarc
 			Filip Froila Frederi Ferrand Flaurènç Fulquet Francés
 			Guttier Gudafres Guigues Guitart Gauteric Gonçalo Garçi Gausbert Gilbèrt Guillemó Guiraud
 			Irmanric Ildebad Ives Immanuèl Istève
@@ -2851,7 +2851,7 @@ gothic_group = {
 			Olban Ordonno
 			Pradas Pèitre Palis Pol Pons
 			Quintil
-			Raimond Rainer Rainal Raolf Ricard Raugier Remistau Rodericho Ranimiro Romà Rugo
+			Raimond Rainer Rainal Raolf Ricard Raugier Remistau Roderic Ranimir Romà Rugo
 			Suneario Simo Sans Savarics Simaun Sidauni Sever
 			Tibaud Tumas Turismau Tiuderic Tiudemir Teia Tiudor Tièrri Tiudat Tiudòsi Tacite
 			Ubald Ubert Uc Úlfila
@@ -4322,20 +4322,26 @@ piedmontese_italian = {
 		}
 		
 		last_names = { 
-			Acton Anxionnaz "d'Àich" "d'Alba" "d'Aquablanca" Ainardi Ayres Adalart
-			Biancaman Borgèis Becut Bagnyun Bisilliat Brossa Brambilla Brocardus Bertea "ëd Boxonis"
-			Calcahn Calcagn Costerg Canaveris Cardis Colombaris Cusa "ëd Challant"
-			Déprimoz
-			Gerdil "de Grandson" Gex Germonius
-			"ëd Lissandria"
-			Mardiyun "dël Mondvì" Minjoz
-			Oggeri
-			Priora Prina Pollonera Pittara Pochintesta Pastoris Porro Poblilius
-			Quadrone
-			Ricca Reycend
-			Salesius "ëd Salusse" Santamans Spalla Seras Stratta Serra Sacerdote
-			Tovo "ëd Tarantasia"
-			Vergano Valfrè Vighi Verdura "ëd Vapeleunna"
+			Acton Anxionnaz "d'Àich" "d'Alba" "d'Aquablanca" Ainardi Ayres Adalart Amularius "d'Ais"
+			Biancaman Borgèis Becut Bagnyun Bisilliat Brossa Brambilla Brocardus Bertea "ëd Boxonis" Bergera Bechis
+			Calcahn Calcagn Costerg Canaveris Cardis Colombaris Cusa "ëd Challant" Cybo "ëd Compuys" Casana Coggiola
+			Déprimoz Dulbecco Dabormida Duprà
+			Etna Elia
+			Ferraris Frola Fabroa Faenza Fano Fea Fénéon Foa Frua Fumia
+			Gerdil "de Grandson" Gex Germonius Gamba Gandolfus Gallea Gachet Geda Ghia Ghigo Ghione Gonin Gulotta
+			Imoda Imparatus
+			Jona
+			Lancius "ëd Lissandria" Luria
+			Mardiyun "dël Mondvì" Minjoz Mainardus Marcellinus Martin Mastrocola Minà Murialt
+			Oggeri Oneglia
+			Priora Prina Pollonera Pittara Pochintesta Pastoris Porro Poblilius Provana Pinchia Pajetta Perucca Pininfarina Ponsat Pons
+			Quadrone Quarata
+			Ricca Reycend Ricolfus Rignun Roveda Rama Rol Rua Ruscalla
+			Salesius "ëd Salusse" Santamans Spalla Seras Stratta Serra Sacerdote Sialoja "ëd Seyssel" "dël Sabbione" Satirana Savina Serafinus Sraffa Sola
+			Tovo "ëd Tarantasia" Tigridius Testa Terzanus Thermignon Toniol Turolla
+			Vergano Valfrè Vighi Verdura "ëd Vapeleunna" Vibò Viarisius
+			Witgerius
+			Zanon Zegna Zolla
 		}
 	}
 	romandeis  = {

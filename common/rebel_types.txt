@@ -642,7 +642,7 @@ socialist_rebels = {
 	}
 	
 	
-	defection = ideology				# Will defect to countries with proletarian dictatorships
+	defection = ideology				# Will defect to countries with proletarian republics
 	independence = none				# Does not strive for independence
 	defect_delay = 18
 	
@@ -955,23 +955,30 @@ socialist_rebels = {
 	demands_enforced_effect = {
 		random_owned = {
 			limit = {
-				owner = { 
-					OR = { 
-						ruling_party_ideology = socialist
-						ruling_party_ideology = communist
-					}
+				OR = { 
+					owner = { ruling_party_ideology = socialist }
+					owner = { ruling_party_ideology = communist }
 				}
+				is_ideology_enabled = anarchist
 			}
 			owner = { ruling_party_ideology = anarchist }
 		}
 		random_owned = {
 			limit = {
-				owner = { 
-					NOT = {
-						OR = { 
-							ruling_party_ideology = socialist
-							ruling_party_ideology = communist
-						}
+				OR = { 
+					owner = { ruling_party_ideology = socialist }
+					owner = { ruling_party_ideology = communist }
+				}
+				NOT = { is_ideology_enabled = anarchist }
+			}
+			owner = { ruling_party_ideology = socialist }
+		}
+		random_owned = {
+			limit = {
+				NOT = {
+					OR = { 
+						owner = { ruling_party_ideology = socialist }
+						owner = { ruling_party_ideology = communist }
 					}
 				}
 			}

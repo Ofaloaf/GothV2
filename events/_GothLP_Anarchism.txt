@@ -765,3 +765,279 @@ country_event = {
 		}
 	}
 }
+
+# 123007 - Conservatives boycott government
+country_event = {
+	id = 123007
+	title = "EVTNAME123007"
+	desc = "EVTDESC123007"
+	picture = "Bankruptcy"
+	
+	trigger = {
+		government = proletarian_republic
+		has_country_flag = self_management
+		NOT = { has_country_flag = conservative_boycott }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 1 }
+		}
+		
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 0.5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			not = { average_consciousness = 5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			or = {
+				is_ideology_enabled = anarchist
+				is_ideology_enabled = communist
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = conservatives_return }
+			clr_country_flag = conservatives_return
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA123007"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = -0.33
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -2
+			}
+		}
+		set_country_flag = conservative_boycott
+	}
+}
+
+# 123008 - Conservatives return to society
+country_event = {
+	id = 123008
+	title = "EVTNAME123008"
+	desc = "EVTDESC123008"
+	picture = "Crisis"
+	
+	trigger = {
+		has_country_flag = thats_capitalism
+		NOT = { has_country_flag = conservatives_return }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 1 }
+		}
+		
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 0.5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			not = { average_consciousness = 5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			NOT = { ruling_party_ideology = socialist }
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = conservative_boycott }
+			clr_country_flag = conservative_boycott
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA123008"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = conservative
+				factor = 0.33
+			}
+			ideology = {
+				value = reactionary
+				factor = -0.2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -3
+			}
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+		set_country_flag = conservatives_return
+	}
+}
+
+# 123009 - Liberal Schism
+country_event = {
+	id = 123009
+	title = "EVTNAME123009"
+	desc = "EVTDESC123009"
+	picture = "Harassment"
+	
+	trigger = {
+		government = proletarian_republic
+		has_country_flag = self_management
+		NOT = { has_country_flag = liberal_schism }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 1 }
+		}
+		
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 0.5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			not = { average_consciousness = 5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			or = {
+				is_ideology_enabled = anarchist
+				is_ideology_enabled = communist
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = liberals_reconciled }
+			clr_country_flag = liberals_reconciled
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA123009"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = -0.33
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = 0.2
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = -3
+			}
+		}
+		set_country_flag = liberal_schism
+	}
+}
+
+# 123010 - Liberals Reconciled
+country_event = {
+	id = 123010
+	title = "EVTNAME123010"
+	desc = "EVTDESC123010"
+	picture = "danishgovernment"
+	
+	trigger = {
+		has_country_flag = thats_capitalism
+		NOT = { has_country_flag = liberal_schism }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 1 }
+		}
+		
+		modifier = {
+			factor = 1.2
+			not = { average_militancy = 0.5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			not = { average_consciousness = 5 }
+		}
+				
+		modifier = {
+			factor = 1.5
+			NOT = { ruling_party_ideology = socialist }
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = liberal_schism }
+			clr_country_flag = liberal_schism
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA123010"
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = liberal
+				factor = 0.33
+			}
+			ideology = {
+				value = anarcho_liberal
+				factor = -0.2
+			}
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 3
+			}
+		}
+		set_country_flag = liberals_reconciled
+	}
+}

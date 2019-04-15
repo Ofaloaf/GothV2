@@ -4635,6 +4635,7 @@ country_event = {
 		literacy = 0.3
 		NOT = { ruling_party_ideology = liberal }
 		NOT = { has_country_modifier = election_cooldown }
+		NOT = { government = proletarian_republic }
 	}
 	
 	mean_time_to_happen = {
@@ -4972,6 +4973,7 @@ country_event = {
 		conservative = 5
 		NOT = { ruling_party_ideology = conservative }
 		NOT = { has_country_modifier = election_cooldown }
+		NOT = { government = commune_republic }
 	}
 	
 	mean_time_to_happen = {
