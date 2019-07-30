@@ -591,9 +591,24 @@ socialist_group = {
 		
 		add_political_reform = {
 			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = anarchist }
+			group = {
+				modifier = {
+					factor = -1
+					NOT = {
+						OR = {
+							ruling_party_ideology = anarchist
+							ruling_party_ideology = socialist
+							ruling_party_ideology = communist
+						}
+					}
+				}
+				modifier = {
+					factor = -0.5
+					OR = {
+						ruling_party_ideology = socialist
+						ruling_party_ideology = communist
+					}
+				}
 			}
 		}
 	
@@ -603,9 +618,24 @@ socialist_group = {
 	
 		add_social_reform = {
 			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = anarchist }
+			group = {
+				modifier = {
+					factor = -1
+					NOT = {
+						OR = {
+							ruling_party_ideology = anarchist
+							ruling_party_ideology = socialist
+							ruling_party_ideology = communist
+						}
+					}
+				}
+				modifier = {
+					factor = -0.5
+					OR = {
+						ruling_party_ideology = socialist
+						ruling_party_ideology = communist
+					}
+				}
 			}
 		}
 	

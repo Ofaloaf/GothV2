@@ -1116,6 +1116,10 @@ communist_rebels = {
 			government = proletarian_dictatorship
 		}
 		modifier = {
+			factor = 0.5
+			government = proletarian_republic
+		}
+		modifier = {
 			factor = 0
 			country = { civilized = no }
 		}

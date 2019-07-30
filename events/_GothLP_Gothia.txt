@@ -580,3 +580,263 @@ country_event = {
 	}	
 }
 
+
+### Josép Heuvel
+
+country_event = {
+
+	id = 500009
+	news = yes
+	news_desc_long = "EVTDESC500009_NEWS_LONG"
+	news_desc_medium = "EVTDESC500009_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC500009_NEWS_SHORT"
+
+	trigger = {
+		tag = GTH
+		exists = FRK
+		is_ideology_enabled = anarchist
+		NOT = { 
+			government = proletarian_republic
+			war_with = FRK
+		}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1885
+		}
+	}
+
+	title = "EVTNAME500009"
+	desc = "EVTDESC500009"
+	picture = "Dreyfus"
+
+	option = {
+		name = "EVTOPTA500009" 
+		prestige = 5
+		dominant_issue = { factor = 0.1 value = full_citizenship }
+		dominant_issue = { factor = 0.1 value = all_trade_unions }
+		dominant_issue = { factor = 0.1 value = no_trade_unions }
+		set_country_flag = HeuvelTrial
+	}
+
+
+	option = {
+		name = "EVTOPTB500009" 
+		prestige = -5
+		officers = {
+			militancy = 2 
+		}
+		soldiers = {
+			militancy = 1 
+		}
+		set_country_flag = HeuvelInnocent
+		dominant_issue = { factor = 0.1 value = full_citizenship }
+		dominant_issue = { factor = 0.1 value = all_trade_unions }
+		dominant_issue = { factor = 0.1 value = no_trade_unions }
+	}
+}
+
+country_event = {
+
+	id = 500010
+	news = yes
+	news_desc_long = "EVTDESC500010_NEWS_LONG"
+	news_desc_medium = "EVTDESC500010_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC500010_NEWS_SHORT"
+
+	trigger = {
+		tag = GTH
+		exists = FRK
+		has_country_flag = HeuvelTrial
+		NOT = {
+			war_with = FRK
+			has_country_flag = HeuvelInnocent
+			has_country_flag = HeuvelGuilty
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1880
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1890
+		}
+	}
+
+	title = "EVTNAME500010"
+	desc = "EVTDESC500010"
+	picture = "Dreyfus"
+
+	option = {
+		name = "EVTOPTA500010" 
+		set_country_flag = HeuvelGuilty
+		any_pop = { 
+			scaled_consciousness = {
+                               factor = 3
+			       ideology = socialist
+			}
+			scaled_consciousness = {
+                               factor = 3
+			       ideology = anarchist
+			}
+			scaled_militancy = {
+				factor = 1
+				ideology = anarchist
+			}
+			dominant_issue = { factor = 0.1 value = full_citizenship }
+			dominant_issue = { factor = 0.1 value = all_trade_unions }
+			dominant_issue = { factor = 0.1 value = no_trade_unions }
+		}
+	}
+}
+
+
+country_event = {
+
+	id = 500011
+	news = yes
+	news_desc_long = "EVTDESC500011_NEWS_LONG"
+	news_desc_medium = "EVTDESC500011_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC500011_NEWS_SHORT"
+
+	trigger = {
+		tag = GTH
+		exists = FRK
+		has_country_flag = HeuvelGuilty
+		NOT = {
+			war_with = FRK
+			has_country_flag = JAccuse
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1900
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME500011"
+	desc = "EVTDESC500011"
+	picture = "Dreyfus"
+
+	option = {
+		name = "EVTOPTA500011" 
+		prestige = -15
+		plurality = 5
+		set_country_flag = JAccuse
+		any_pop = {
+			consciousness = 1 
+			dominant_issue = { factor = 0.2 value = full_citizenship }
+			dominant_issue = { factor = 0.2 value = all_trade_unions }
+			dominant_issue = { factor = 0.2 value = no_trade_unions }
+		}
+	}
+}
+
+country_event = {
+	id = 500012
+
+	title = "EVTNAME500012"
+	desc = "EVTDESC500012"
+	picture = "Revolution"
+	
+	trigger = {
+		#ai = yes
+		tag = LRM
+		NOT = { has_country_flag = juvav_question }
+		owns = 613
+		exists = RNT
+		war = no
+		RNT = { war = no }
+		OR = {
+			AND = {
+				government = proletarian_republic
+				RNT = { government = proletarian_republic }
+			}
+			AND = {
+				government = democracy
+				RNT = { government = democracy }
+			}
+			AND = {
+				government = hms_government
+				RNT = { government = hms_government }
+			}
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 2
+	}
+	
+	immediate = {
+		set_country_flag = juvav_question
+	}
+
+	option = {
+		name = "EVTOPTA500012"
+		ai_chance = {
+			factor = 100
+		}
+		613 = {
+			secede_province = RNT
+			remove_core = LRM
+		}
+		RNT = { country_event = { id = 500013 days = 1 } } # TODO
+	}	
+	option = {
+		name = "EVTOPTA500012"
+		ai_chance = {
+			factor = 0
+		}
+	}	
+}
+
+country_event = {
+	id = 500013
+	title = "EVTNAME500013"
+	desc = "EVTDESC500013"
+	picture = "alaska"
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = "EVTOPTA500013"
+	}
+}

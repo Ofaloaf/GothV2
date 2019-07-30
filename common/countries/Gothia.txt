@@ -21,7 +21,7 @@ party = {
 party = {
 	name = "GTH_conservative"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 1911.1.1
 
 	ideology = conservative
 

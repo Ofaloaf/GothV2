@@ -2844,8 +2844,8 @@ gothic_group = {
 			Filip Froila Frederi Ferrand Flaurènç Fulquet Francés
 			Guttier Gudafres Guigues Guitart Gauteric Gonçalo Garçi Gausbert Gilbèrt Guillemó Guiraud
 			Irmanric Ildebad Ives Immanuèl Istève
-			Joan Jorge Juli Jehanel Jacme Jaufret Jordan Julian Justi
-			Liun Lup Lodoycus Laurènç Luc Loïs Loui Lixandre
+			Jehan Jorge Juli Jehanel Jacme Jaufret Jordan Julian Justi
+			Liun Lup Lodoycus Laurènç Luc Lozoïc Loui Lixandre
 			Martin Matfrei Matias Miquel Magne Marc Marçau Milau Maurici Milric
 			Nicaulas Narseis
 			Olban Ordonno
@@ -4212,7 +4212,7 @@ africanu = {
 			Laurentzi Lattantzi Lorentzi Luca Luciu
 			Magrinu Magrovi Marceh Marcellu Marcu Mariu Marianu Masceddelu Masguinu Massuna Mauru Maxsimu
 			Mazeu Mazighu Merkuriu Metaxsu Micheli Migali Mugedi Mertinu
-			Micola Mubelu Martzalu
+			Nicola Nubelu Martzalu
 			Pascale Paulu Peregrinu Petru Pirillu Pontzi Porcellu Pompeju Possidzi Pretu Pupa
 			Rafiele
 			Salomon Salvettor Samaritanu Samueli Sarafinu Saraginu Saturnu Sauina Serafinu Sergiu Simion Sisinni
@@ -4261,7 +4261,7 @@ africanu = {
 			Laurentzi Lattantzi Lorentzi Luca Luciu
 			Magrinu Magrovi Marceh Marcellu Marcu Mariu Marianu Masceddelu Masguinu Massuna Mauru Maxsimu Maxsimillu
 			Mazeu Mazighu Merkuriu Metaxsu Micheli Migali Mugedi Murtina
-			Micola Mubelu Martzalu
+			Nicola Nubelu Martzalu
 			Pascale Paulu Peregrinu Petru Pirillu Pontzi Porcellu Pompeju Possidzi Pretu Pupa
 			Quodvultdeus
 			Rafiele Revocatus
@@ -4307,7 +4307,7 @@ piedmontese_italian = {
 			Bennàit Batista
 			Carl Çesare Costans
 			Desiderius
-			Emanuel Emilian Evarigh
+			Emanuel Emilian Evarigh Erarigh
 			Felis
 			Giouan Gliçeio
 			Lançerotto Lissànder Lugh
@@ -4378,7 +4378,7 @@ piedmontese_italian = {
 			Priora Prina Pollonera Pittara Pochintesta Pastoris
 			Quadrone
 			Ricca Reycend
-			Salesius "ëd Salusse" Santamans Spalla Seras Stratta Serra Sacerdote SEnatore
+			Salesius "ëd Salusse" Santamans Spalla Seras Stratta Serra Sacerdote Senatore
 			Tovo Tatulan
 			Vergano Valfrè Vighi Verdura "ëd Vapeleunna"
 			Zunica
@@ -4589,7 +4589,7 @@ sklavenoi = {
 			Nicolaus Ninoslav
 			Pribislav Pribina Petar Pavao
 			Rudbert Radigoj Radus Radovan Ratimir Ruodo
-			Svatobor Semika Stojmir  Svetopolk Svobodin Stanko Stjepan
+			Svatobor Semika Stojmir Svetopolk Svobodin Stanko Stjepan
 			Tomislav
 			Ulfo
 			Valuk Valtunk Vran Vitomir Vitan Vojnomir Viseslav Valhun Valentin

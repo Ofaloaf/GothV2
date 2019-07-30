@@ -599,7 +599,7 @@ province_event = {
 		is_ideology_enabled = anarchist
 	}
 	mean_time_to_happen = {
-		months = 600
+		months = 1200
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -634,7 +634,7 @@ province_event = {
 		is_ideology_enabled = socialist
 	}
 	mean_time_to_happen = {
-		months = 600
+		months = 1200
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -669,7 +669,7 @@ province_event = {
 		is_ideology_enabled = communist
 	}
 	mean_time_to_happen = {
-		months = 600
+		months = 1200
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -705,7 +705,7 @@ province_event = {
 		is_ideology_enabled = communist
 	}
 	mean_time_to_happen = {
-		months = 1200
+		months = 1800
 		modifier = {
 			factor = 0.9
 			owner = {
